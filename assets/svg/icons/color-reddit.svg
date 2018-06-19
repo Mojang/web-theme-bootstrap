@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <rect fill="#fff" x="2" y="6" width="1" height="1"/>
+    <rect fill="#fff" x="12" y="2" width="1" height="1"/>
+    <path fill="#fff" d="M14,6V7H12V6H5V7H3V8H2v4H3v1H5v1h7V13h2V12h1V8H14V7h1V6ZM5,9V8H7v2H5Zm7,3H11v1H6V12H5V11H6v1h5V11h1Zm0-3v1H10V8h2Z"/>
+    <polygon fill="#e94d1c" points="11 8 10 8 10 9 10 10 11 10 12 10 12 9 12 8 11 8"/>
+    <polygon fill="#e94d1c" points="5 8 5 9 5 10 6 10 7 10 7 9 7 8 6 8 5 8"/>
+    <rect fill="#000" x="11" y="11" width="1" height="1"/>
+    <polygon fill="#000" points="9 12 8 12 7 12 6 12 6 13 7 13 8 13 9 13 10 13 11 13 11 12 10 12 9 12"/>
+    <rect fill="#000" x="5" y="11" width="1" height="1"/>
+    <path fill="#000" d="M7,6h5V5H9V3h2V4h3V1H11V2H8V5H5V6H7Zm5-4h1V3H12Z"/>
+    <polygon fill="#000" points="3 6 3 7 4 7 5 7 5 6 4 6 4 5 3 5 2 5 1 5 1 6 1 7 2 7 2 6 3 6"/>
+    <polygon fill="#000" points="15 5 14 5 13 5 13 6 12 6 12 7 13 7 14 7 14 6 15 6 15 7 16 7 16 6 16 5 15 5"/>
+    <rect fill="#000" x="2" y="7" width="1" height="1"/>
+    <polygon fill="#000" points="15 10 15 11 15 12 16 12 16 11 16 10 16 9 16 8 15 8 15 9 15 10"/>
+    <rect fill="#000" x="14" y="12" width="1" height="1"/>
+    <polygon fill="#000" points="12 13 12 14 13 14 14 14 14 13 13 13 12 13"/>
+    <polygon fill="#000" points="2 10 2 9 2 8 1 8 1 9 1 10 1 11 1 12 2 12 2 11 2 10"/>
+    <rect fill="#000" x="2" y="12" width="1" height="1"/>
+    <polygon fill="#000" points="4 13 3 13 3 14 4 14 5 14 5 13 4 13"/>
+    <rect fill="#000" x="14" y="7" width="1" height="1"/>
+    <polygon fill="#000" points="10 14 9 14 8 14 7 14 6 14 5 14 5 15 6 15 7 15 8 15 9 15 10 15 11 15 12 15 12 14 11 14 10 14"/>
+</svg>

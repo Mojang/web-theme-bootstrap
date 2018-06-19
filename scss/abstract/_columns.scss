@@ -1,0 +1,39 @@
+@mixin columns($columns, $min-size) {
+  $min-width: map_get($grid-breakpoints, $min-size);
+
+  @media screen and (min-width: $min-width) {
+    @for $i from 1 through $columns {
+      .columns-#{$min-size}-#{$i} {
+        column-count: $i;
+      }
+    }
+  }
+}
+
+@mixin column-gaps ($min, $max) {
+  @for $i from $min through $max {
+    .column-gap-#{$i}em {
+      column-gap: #{$i}em;
+    }
+  }
+}
+
+@include columns(6, xs);
+@include columns(6, sm);
+@include columns(6, md);
+@include columns(6, lg);
+@include columns(6, xl);
+@include column-gaps(3, 6);
+
+.break-inside-avoid {
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid; /* IE 10+ */
+
+  // Fix for aligning margins when using multi-columns
+  &::before {
+    content: '';
+    display: block;
+    height: 1px;
+  }
+}

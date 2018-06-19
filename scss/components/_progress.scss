@@ -1,0 +1,29 @@
+.progress {
+  height: 4px;
+  border-radius: 0;
+  background-color: $black;
+
+  &-container {
+    background-color: $senary;
+    color: $white;
+  }
+
+  //TODO: Move this into Progress markup
+
+  &-labels {
+    justify-content: center !important;
+
+    &__list-item {
+      flex: 0 0 25%;
+      max-width: 25%;
+
+      .glyphicon.glyphicon-stop {
+        background-color: $black;
+        display: inline-block;
+        height: 1em;
+        width: 1em;
+        transform: scale(0.8) translateY(3px);
+      }
+    }
+  }
+}

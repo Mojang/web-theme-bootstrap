@@ -1,0 +1,12 @@
+/* Webfont: MinecraftTen */@font-face {
+    font-family: 'MinecraftTen';
+    src: url('MinecraftTen.eot'); /* IE9 Compat Modes */
+    src: url('MinecraftTen.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('MinecraftTen.woff') format('woff'), /* Modern Browsers */
+         url('MinecraftTen.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('MinecraftTen.svg#MinecraftTen') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,40 @@
+@mixin bg-gradient-supportive($parent, $color, $color-supportive) {
+  #{$parent} {
+    background: $color linear-gradient(180deg, $color, $color-supportive) repeat-x !important;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  $key: "#{$color}-supportive";
+  $col-supportive: map-get($theme-colors-supportive, $key);
+
+  @if $col-supportive {
+    @include bg-gradient-supportive(".bg-gradient-#{$color}", $value, $col-supportive);
+
+    // Create a map of gradients for use in sass
+    $gradient: ($color: $value linear-gradient(180deg, $value, $col-supportive) repeat-x);
+    $gradients: map-merge($gradients, $gradient);
+  }
+}
+
+@each $color, $value in $all-colors {
+  @include bg-variant(".bg-#{$color}", $value);
+}
+
+.bg-wool-light {
+  background-image: url(#{$freyja-asset-path}/img/bg-wool-white.png);
+  background-color: $white;
+}
+.bg-wool-dark { background-image: url(#{$freyja-asset-path}/img/bg-wool-dark.png); }
+.bg-grass { background-image: url(#{$freyja-asset-path}/img/bg-grass.png); }
+.bg-snow { background-image: url(#{$freyja-asset-path}/img/bg-snow.png); }
+
+.bg-wool-dark,
+.bg-grass,
+.bg-snow {
+  background-color: $senary;
+}
+
+.bg-overlay {
+  background-blend-mode: overlay;
+}

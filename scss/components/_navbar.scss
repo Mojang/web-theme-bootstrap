@@ -1,0 +1,115 @@
+.navbar {
+  @include box-shadow(none);
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar-inverse {
+  margin-bottom: 0;
+}
+
+@include media-breakpoint-down(sm) {
+  .navbar-collapse {
+    margin-top: 0;
+  }
+
+  .navbar-header__brand-img {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .navbar-inverse {
+    min-height: 50px;
+  }
+}
+
+.navbar-nav {
+  flex-wrap: wrap;
+}
+
+.navbar-light,
+.navbar-dark {
+  .navbar-nav {
+    .nav-link {
+      color: currentColor;
+
+      &:active,
+      &:focus,
+      &:hover {
+        color: currentColor;
+        background-color: transparent;
+      }
+
+      &.active {
+        color: $white;
+        background-color: $black;
+      }
+
+      &.disabled {
+        background: transparent;
+        color: $nav-link-disabled-color;
+
+        &:hover {
+          color: $nav-link-disabled-color !important;
+        }
+      }
+    }
+  }
+}
+
+.navbar-dark {
+  color: $white;
+}
+
+.nav-link {
+  padding: 0.5rem 0.75rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: $white;
+    background-color: $black;
+  }
+
+  &.disabled {
+    background: transparent;
+    cursor: default;
+
+    &:hover {
+      color: $nav-link-disabled-color !important;
+    }
+  }
+}
+
+.nav {
+  margin: 0 -2px;
+
+  &.flex-column {
+    &.align-items-start,
+    &.align-items-end {
+      .nav-link {
+        width: auto;
+      }
+    }
+
+    .nav-link {
+      width: 100%;
+    }
+  }
+}
+
+.nav-item {
+  margin: 0 2px;
+  display: flex;
+}
+
+.dropdown-menu {
+  font-size: inherit;
+  text-transform: uppercase;
+}

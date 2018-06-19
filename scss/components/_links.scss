@@ -1,0 +1,146 @@
+td,
+li,
+p {
+  a {
+    color: $primary-supportive;
+    transition: color 0.025s linear, background-color 0.025s linear;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $white;
+      background-color: $black;
+    }
+  }
+}
+
+p {
+  a {
+    text-decoration: underline;
+  }
+}
+
+.text-light {
+  td,
+  li,
+  p {
+    a {
+      color: $tertiary;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $white;
+      }
+    }
+  }
+}
+
+a,
+button {
+  &.inverted {
+    color: currentColor;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $primary-supportive;
+      background-color: transparent;
+
+      .text-light & {
+        color: $tertiary;
+      }
+    }
+  }
+}
+
+.arrow-link {
+  color: currentColor;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+  text-align: inherit;
+  margin-left: 1.5em;
+  display: block;
+
+  &:focus,
+  &:hover,
+  &:active {
+    color: currentColor;
+  }
+
+  .svg-icon {
+    position: absolute;
+    top: 2px;
+    left: -1.5em;
+  }
+}
+
+.hover-current {
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    color: currentColor !important;
+  }
+}
+
+a.hover-white {
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    color: $white !important;
+  }
+}
+
+a.hover-black {
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    color: $black !important;
+  }
+}
+
+.anchor-link {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  color: $black;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 0 0 rgba(255, 255, 255, 0.5);
+  transition: background-color 0.025s linear;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: $body-color;
+  }
+
+  .svg-icon {
+    transform: translateY(calc(3em / 16));
+    margin-right: 0.2rem;
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.text-light,
+.text-white {
+  .anchor-link {
+    color: $white;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.5);
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: rgba(0, 0, 0, 0.6);
+      color: $white;
+    }
+
+    .svg-icon {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}

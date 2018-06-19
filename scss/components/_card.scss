@@ -1,0 +1,66 @@
+.card {
+  background-color: transparent;
+}
+
+// Wrap cards at 768px instead of Bootstrap 576px default
+.card-group,
+.card-deck,
+.card-columns {
+  @include media-breakpoint-up(md) {
+    flex-flow: row wrap;
+  }
+
+  @include media-breakpoint-only(sm) {
+    flex-flow: column;
+  }
+}
+
+.card-deck {
+  .card {
+    margin-bottom: $card-deck-margin;
+    margin-top: $card-deck-margin;
+  }
+
+  .card-grow {
+    & > .grow {
+      background-color: $white;
+    }
+
+    &:hover {
+      & > .grow {
+        background-color: $ebb;
+      }
+    }
+  }
+}
+
+.card-grow {
+  z-index: 1;
+  cursor: pointer;
+
+  &:hover {
+    z-index: 2;
+  }
+}
+
+.card-group {
+  .card {
+    margin-bottom: 0;
+  }
+}
+
+.card-separator {
+  box-shadow: 0 1px 0 rgba(mix($white, $black), 0.5);
+
+  @include media-breakpoint-up(md) {
+    box-shadow: -1px 0 0 rgba(mix($white, $black), 0.5) inset;
+  }
+}
+
+.card-wrap {
+  .card {
+    @include media-breakpoint-between(md, lg) {
+      flex: 1 0 40%;
+    }
+  }
+}

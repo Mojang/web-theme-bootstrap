@@ -1,0 +1,150 @@
+.preloader {
+  text-align: center;
+
+  p {
+    font-size: 1.2em;
+    margin-top: 1.3rem;
+    margin-bottom: 0;
+  }
+}
+
+.area-overlay {
+  .preloader {
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba($black, 0.2) inset;
+
+    .text-light & {
+      background: #000;
+      box-shadow: 0 0 0 3px rgba($white, 0.35) inset;
+    }
+  }
+}
+
+/*
+Copyright (c) 2015 by Tashfeen Ahmad (http://codepen.io/tashfene/pen/medPdY)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+.bigsquare {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  -webkit-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+  -webkit-animation: bigSqrShrink 1s linear infinite;
+  animation: bigSqrShrink 1s linear infinite;
+
+  .square {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: $tertiary;
+  }
+
+  .first {
+    left: 0;
+    top: 20px;
+  }
+
+  .second {
+    left: 20px;
+    top: 20px;
+    animation: drop2 1s linear infinite;
+  }
+
+  .third {
+    left: 0;
+    top: 0;
+    animation: drop3 1s linear infinite;
+  }
+
+  .fourth {
+    left: 20px;
+    top: 0;
+    animation: drop4 1s linear infinite;
+  }
+}
+
+@keyframes bigSqrShrink {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  90% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+
+@keyframes drop2 {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+
+  25% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@keyframes drop3 {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+
+  50% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@keyframes drop4 {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+
+  75% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}

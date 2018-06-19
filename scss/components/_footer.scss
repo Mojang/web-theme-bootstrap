@@ -1,0 +1,165 @@
+$footer-menu-link-hover-color: darken($secondary, 10%);
+
+.mojang-footer {
+  background: $black;
+  color: $secondary;
+  padding: 27px 0 25px;
+
+  @include media-breakpoint-up(sm) {
+    padding: 2.2rem 0 2rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .nav {
+    a {
+      @include link($cloud, $footer-menu-link-hover-color, $cloud);
+
+      &:hover {
+        background-color: transparent;
+        text-shadow: none;
+      }
+    }
+  }
+
+  .nav-pills {
+    @include media-breakpoint-down(xs) {
+      margin-bottom: 6px;
+
+      li {
+        margin: 2px 0;
+      }
+    }
+  }
+
+  .with-divider {
+    padding-right: 0;
+    border-right: none;
+
+    li {
+      border-right: 1px solid $cloud;
+      padding: 0 0.5em;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  .icon-microsoft-studios {
+    width: 50px;
+    height: 25px;
+
+    @include media-breakpoint-up(md) {
+      width: 70px;
+      height: 40px;
+    }
+  }
+
+  .icon-esrb {
+    height: 55px;
+    width: 120px;
+  }
+
+  .icon-mojang {
+    width: 100px;
+    height: 15px;
+
+    @include media-breakpoint-up(md) {
+      width: 220px;
+      height: 35px;
+    }
+  }
+
+  .rating-container {
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+.ms-footer {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: $senary;
+  padding: 1.3rem 0;
+  -webkit-font-smoothing: antialiased;
+
+  @include media-breakpoint-up(lg) {
+    padding: 2rem 0;
+  }
+
+  a {
+    color: $white;
+  }
+
+  li {
+    position: static;
+    white-space: nowrap;
+  }
+
+  .ms-footer__language-selector {
+    .ms-footer__language-selector-link {
+      display: inline-block;
+      padding: 6px 0;
+
+      @include media-breakpoint-up(sm) {
+        padding: 1px 0;
+      }
+    }
+
+    .ms-footer__language-selector-list {
+      margin: 0;
+    }
+
+    .ms-footer__language-selector-form {
+      padding: 10px 0 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  .ms-links {
+    margin: 10px 0;
+
+    @include media-breakpoint-up(lg) {
+      margin: 0;
+    }
+
+    .ms-links__link {
+      margin-bottom: 4px;
+      margin-right: 20px;
+    }
+
+    .ms-links__links--locale {
+      .ms-links__links--locale-text {
+        position: relative;
+        top: -6px;
+        left: 6px;
+      }
+    }
+  }
+
+  .icon-microsoft {
+    width: 105px;
+    height: 25px;
+  }
+}
+
+#language-selector {
+  display: none;
+  position: relative;
+
+  &::after {
+    height: 20px;
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-image: linear-gradient(transparent, #2f2f2f);
+  }
+}

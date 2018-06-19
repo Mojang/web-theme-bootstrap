@@ -1,0 +1,106 @@
+// Colors are named by this site:
+// http://chir.ag/projects/name-that-color/
+
+// Colors
+$grass: #36b030; // Primary
+$spring-grass: #84c94c; // Tertiary
+$mud: #996a41; // Quaternary
+$dirt: #5a381e; // Quinary
+
+// Grays
+$shark: #1d1e1e;
+$soil: #313131; // Senary
+$tundora: #404040;
+$scorpion: #5a5a5a;
+$gravel: #757575; // Secondary
+$dusty-gray: #949494;
+
+// Supportive Colors
+$grass-supportive: darken($grass, 11.64%);
+$spring-grass-supportive: darken($spring-grass, 10%);
+
+$mud-supportive: darken($mud, 10%);
+$dirt-supportive: darken($dirt, 10%);
+
+$soil-supportive: darken($soil, 10%);
+$gravel-supportive: darken($gravel, 10%);
+
+// Grays
+$white: #fff;
+$hint-of-red: #f8f5f4;
+$ebb: #f1edec;
+$cloud: #d1cfce;
+$boulder: #777; // can use secondary instead
+$black: #000;
+
+// Secondary Colors
+
+// Beige
+$sandstone: #bcad69;
+
+// Browns
+$brown: #866136;
+
+// Red
+$red: #ac2015;
+
+// Yellow
+$yellow: #e6b40b;
+
+// Orange
+$orange: #d4441a;
+$brick: #be583f;
+
+// Greens
+$bright-green: #64fd1f;
+$harlequin: #47d009;
+$japanese-laurel: #1e8c03;
+$japanese-laurel-dark: #156c00;
+$green: $grass;
+
+$olive: #787a26;
+$forest-green: #5b813f;
+
+// Cyan
+$turquoise: #14837f;
+$cyan: #2ab8a6;
+
+// Light blue
+$light-blue: #5caee0;
+
+// Blue
+$blue : #1546c2;
+
+// Purples
+$purple: #7824c5;
+$daisy-bush: #5526ac;
+$jacarta: #3b2661;
+$meteorite: #35196b;
+
+// Magenta
+$magenta: #c93a9b;
+
+// Pink
+$pink: #ff51c9; //minecon pink
+
+$colors: (
+  "olive":        $olive,
+  "beige":        $sandstone,
+  "brown":        $brown,
+  "red":          $red,
+  "orange":       $orange,
+  "brick":        $brick,
+  "yellow":       $yellow,
+  "green":        $green,
+  "forest-green": $forest-green,
+  "turquoise":    $turquoise,
+  "cyan":         $cyan,
+  "light-blue":   $light-blue,
+  "blue":         $blue,
+  "purple":       $purple,
+  "magenta":      $magenta,
+  "pink":         $pink,
+  "white":        $white,
+  "gray":         $dusty-gray,
+  "gray-dark":    $tundora
+);

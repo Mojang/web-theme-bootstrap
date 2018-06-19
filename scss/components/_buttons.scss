@@ -1,0 +1,339 @@
+$btn-border-width: 4px;
+
+#btn-pseudo-element {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+  transition: 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+}
+
+#btn-border {
+  &::before,
+  &::after {
+    @extend #btn-pseudo-element;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none;
+    color: $white !important;
+
+    &::before,
+    .grow {
+      background-color: $primary-hover;
+      box-shadow:
+        0 (-$btn-border-width) rgba($black, 0.5) inset,
+        0 $btn-border-width rgba($white, 0.2) inset,
+        (-$btn-border-width) 0 rgba($white, 0.2) inset,
+        $btn-border-width 0 rgba($black, 0.5) inset;
+    }
+  }
+
+  &::before {
+    z-index: -1;
+    box-shadow:
+      0 (-$btn-border-width) rgba($black, 0.3) inset,
+      0 $btn-border-width rgba($white, 0.5) inset,
+      (-$btn-border-width) 0 rgba($white, 0.5) inset,
+      $btn-border-width 0 rgba($black, 0.3) inset;
+  }
+
+  &::after {
+    box-shadow: $default-box-shadow;
+  }
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 0;
+  z-index: 1;
+  user-select: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: unset;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+
+  .grow {
+    &::after {
+      @extend #btn-pseudo-element;
+
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  &:hover {
+    .grow::after {
+      box-shadow: $default-box-shadow;
+    }
+  }
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  font-size: 2.25rem;
+  line-height: 1.5;
+}
+
+.btn-lg {
+  padding: 1.35rem 3.1rem;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-danger,
+.btn-warning,
+.btn-info,
+.btn-hexagon {
+  @extend #btn-border;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-danger,
+.btn-hexagon {
+  text-shadow: $default-shadow;
+}
+
+.btn-primary {
+  &::before,
+  .grow {
+    background-color: $primary;
+    box-shadow:
+      0 (-$btn-border-width) rgba($primary-dark-2, 0.5) inset,
+      0 $btn-border-width rgba($primary-light-2, 0.99) inset,
+      (-$btn-border-width) 0 rgba($primary-light-2, 0.5) inset,
+      $btn-border-width 0 rgba($primary-dark-2, 0.5) inset;
+  }
+
+  &:hover,
+  &:focus {
+    &::before,
+    .grow {
+      background-color: $primary-hover;
+      box-shadow:
+        0 (-$btn-border-width) rgba($black, 0.5) inset,
+        0 $btn-border-width rgba($white, 0.2) inset,
+        (-$btn-border-width) 0 rgba($white, 0.2) inset,
+        $btn-border-width 0 rgba($black, 0.5) inset;
+    }
+  }
+}
+
+// To ensure that button text-colors are kept correct, we need to add an important flag
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    color: color-yiq($value) !important;
+  }
+}
+
+.btn-secondary {
+  &::before {
+    background-color: $secondary;
+  }
+}
+
+.btn-info {
+  &::before {
+    background-color: $info;
+  }
+}
+
+.btn-warning {
+  &::before {
+    background-color: $warning;
+  }
+}
+
+.btn-danger {
+  &::before {
+    background-color: $danger;
+  }
+}
+
+.btn-vertical-stack {
+  flex-direction: column;
+}
+
+.btn-link {
+  color: currentColor;
+
+  &:hover,
+  &:focus {
+    color: $primary;
+    text-decoration: underline;
+  }
+}
+
+.btn-square {
+  width: 3rem;
+  height: 3rem;
+  padding: unset;
+}
+
+.btn-ribbon {
+  padding-left: 80px;
+  min-height: 105px;
+}
+
+.btn-hexagon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 42px;
+  padding: unset;
+  transition: 0.625s cubic-bezier(0, 0.8, 0.25, 1);
+  box-sizing: content-box;
+  margin: 19px 0;
+  border-right: $btn-border-width solid;
+  border-left: $btn-border-width solid;
+
+  & > * {
+    z-index: 1;
+    position: relative;
+    transform: perspective(500000000000px) translateZ(32px); // To prevent safari from hiding content under hexagon edges
+  }
+
+  &::before,
+  &::after,
+  &:hover::before,
+  &:focus::before {
+    box-shadow: none;
+  }
+
+  &::before,
+  &::after {
+    transition: 0.625s cubic-bezier(0, 0.8, 0.25, 1);
+    width: 51.3px;
+    height: 51.3px;
+    left: 50%;
+  }
+
+  &::before {
+    transform: translateY(-26px) translateX(-50%) rotateX(58deg) rotate(45deg);
+    border-top: ($btn-border-width * 1.5) solid;
+    border-left: ($btn-border-width * 1.5) solid;
+    box-shadow: 2px 2px 0 transparent; // needed to remove a line that appears in chrome
+  }
+
+  &::after {
+    transform: translateY(26px) translateX(-50%) rotateX(-58deg) rotate(45deg);
+    top: auto;
+    bottom: 0;
+    border-bottom: ($btn-border-width * 1.5) solid;
+    border-right: ($btn-border-width * 1.5) solid;
+  }
+
+  &.btn-primary {
+    border-right-color: $primary-light-1;
+    border-left-color: $primary-dark-1;
+
+    &::before,
+    &::after {
+      background: $primary;
+    }
+
+    &::before {
+      border-top-color: $primary-light-2;
+      border-left-color: $primary-light-1;
+    }
+
+    &::after {
+      border-bottom-color: $primary-dark-2;
+      border-right-color: $primary-dark-1;
+    }
+  }
+
+  &.btn-secondary {
+    border-right-color: mix($secondary, $white, 75%);
+    border-left-color: mix($secondary, $black, 75%);
+
+    &,
+    &::after,
+    &::before {
+      background-color: $secondary;
+    }
+
+    &::before {
+      border-top-color: mix($secondary, $white);
+      border-left-color: mix($secondary, $white, 75%);
+    }
+
+    &::after {
+      border-bottom-color: mix($secondary, $black);
+      border-right-color: mix($secondary, $black, 75%);
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-right-color: mix($primary-hover, $white, 75%) !important;
+    border-left-color: mix($primary-hover, $black, 75%) !important;
+    box-shadow: none !important;
+
+    &,
+    &::after,
+    &::before {
+      background-color: $primary-hover !important;
+    }
+
+    &::before {
+      border-top-color: mix($primary-hover, $white);
+      border-left-color: mix($primary-hover, $white, 75%);
+      box-shadow: 2px 2px 0 transparent; // needed to remove a line that appears in chrome
+    }
+
+    &::after {
+      border-bottom-color: mix($primary-hover, $black);
+      border-right-color: mix($primary-hover, $black, 75%);
+    }
+  }
+}
+
+.btn[class*="btn-outline"] {
+  box-shadow: 0 0 0 4px currentColor inset;
+  transition: background-color 0.2s linear;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $secondary !important;
+    box-shadow: 0 0 0 4px $secondary inset;
+    color: #fff;
+  }
+
+  &.btn-hexagon {
+    box-shadow: none !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+      &,
+      &::after,
+      &::before {
+        background-color: $secondary !important;
+        border-color: $secondary !important;
+      }
+    }
+
+    &::after,
+    &::before {
+      transition: background-color 0.2s linear;
+      background-color: $black;
+      border-color: currentColor;
+    }
+  }
+}

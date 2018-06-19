@@ -1,0 +1,55 @@
+.countdown-wrapper {
+  overflow: hidden;
+  margin: 20px 0;
+
+  .countdown {
+    display: grid;
+    grid-template-rows: repeat(2, 130px);
+    grid-template-columns: repeat(2, 130px);
+    justify-items: center;
+    justify-content: center;
+
+    @include media-breakpoint-up(sm) {
+      display: flex;
+      justify-content: center;
+    }
+
+    .figures {
+      margin: 0.7rem;
+      width: 95px;
+      height: 95px;
+      background-image: url(#{$freyja-asset-path}/svg/shapes/square-like.svg);
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .title {
+        font-size: 14px;
+        font-family: "Noto Sans", sans-serif;
+        text-transform: uppercase;
+        color: $black;
+        font-weight: bold;
+        margin-top: 5px;
+      }
+    }
+
+    .figure {
+      position: relative;
+      float: left;
+      font-size: 40px;
+      line-height: 40px;
+      text-shadow: 0 3px 0 $white;
+      text-align: center;
+      margin-right: 2px;
+      background: transparent;
+      color: $black;
+      display: inline-block;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

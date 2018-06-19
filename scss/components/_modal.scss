@@ -1,0 +1,20 @@
+.modal-content {
+  padding: 0 15px;
+}
+
+.modal-header {
+  justify-content: center;
+
+  .close {
+    position: absolute;
+    right: 30px;
+  }
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-footer {
+  justify-content: center;
+}

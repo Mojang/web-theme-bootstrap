@@ -1,0 +1,109 @@
+// Flicker
+.animation-flicker {
+  animation: flicker-opacity 4s ease-in-out infinite;
+}
+
+// Floating
+.animation-floating--vertical {
+  animation: floating-vertical 8s ease-in-out infinite;
+
+  @extend %force-layer-creation;
+}
+
+.animation-floating--circular {
+  animation: floating-circular 12s linear infinite;
+
+  @extend %force-layer-creation;
+}
+
+// Bounce
+.animation-bounce--right {
+  animation: bounce-right 1.2s 2;
+}
+
+.animation-bounce--left {
+  animation: bounce-left 1.2s 2;
+}
+
+.animation-bounce--left-long {
+  animation: bounce-left 1.5s ease-in-out 0.5s 4;
+}
+
+.animation-bounce--down {
+  animation: bounce-down 1.2s 2;
+}
+
+.animation-bounce--up {
+  animation: bounce-up 1.2s 2;
+}
+
+// Drop series
+.animation-drop-2 {
+  animation: drop2 1s linear infinite;
+}
+
+.animation-drop-3 {
+  animation: drop3 1s linear infinite;
+}
+
+.animation-drop-4 {
+  animation: drop4 1s linear infinite;
+}
+
+.animation-scale--in-out {
+  animation: scale-in-out 0.4s infinite;
+}
+
+.animation-scale--0-to-1 {
+  animation: scale-0-to-1 0.5s;
+}
+
+.animation-pop {
+  animation: pop 1s linear infinite;
+}
+
+.animation-rotate--45 {
+  animation: rotate-45 0.5s 1 ease-in forwards;
+}
+
+@for $i from 1 through 8 {
+  .animation-run-#{$i}-times {
+    animation-iteration-count: $i;
+  }
+}
+
+.animation-run-infinite {
+  animation-iteration-count: infinite;
+}
+
+@for $i from 1 through 10 {
+  .animation-duration-#{$i} {
+    animation-duration: #{$i}s !important;
+  }
+
+  .animation-delay-#{$i} {
+    animation-delay: #{$i}s !important;
+  }
+}
+
+// Grow, used as a direct child of the element that will grow
+a,
+div,
+span,
+button {
+  > .grow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.625s cubic-bezier(0, 0.8, 0.25, 1);
+  }
+
+  &:hover {
+    > .grow {
+      transform: scale(1.1);
+    }
+  }
+}

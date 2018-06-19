@@ -1,0 +1,145 @@
+@mixin link($color, $hovercolor, $activecolor: '') {
+  color: $color;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $hovercolor;
+  }
+
+  @if ($activecolor) {
+    &:active {
+      color: $activecolor;
+    }
+  }
+}
+
+@mixin gradient-animation($start, $end, $start2, $end2, $transTime) {
+  background-size: 100%;
+  background-image: linear-gradient($start, $end);
+  position: relative;
+  z-index: 100;
+
+  &::before {
+    background-image: linear-gradient($start2, $end2);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: -100;
+    transition: opacity $transTime;
+  }
+
+  &:hover {
+    &::before {
+      opacity: 1;
+    }
+  }
+}
+
+@mixin header() {
+  position: relative;
+  margin-bottom: 30px;
+
+  .header__body {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+
+    .btn-lg {
+      letter-spacing: 0.15em;
+      padding: 22px 56px;
+      text-transform: uppercase;
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 0;
+
+      span {
+        display: block;
+        font-weight: normal;
+      }
+    }
+  }
+
+  img {
+    margin: 0 auto;
+  }
+}
+
+@mixin gradient($top-color, $bottom-color) {
+  background: $top-color; /* Old browsers */
+  background: -moz-linear-gradient(top, $top-color 0%, $bottom-color 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $top-color), color-stop(100%, $bottom-color)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, $top-color 0%, $bottom-color 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, $top-color 0%, $bottom-color 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, $top-color 0%, $bottom-color 100%); /* IE10+ */
+  background: linear-gradient(to bottom, $top-color 0%, $bottom-color 100%); /* W3C */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr=$top-color, endColorstr=$bottom-color, GradientType=0); /* IE6-9 */
+}
+
+@mixin horizontal-gradient($left-color, $right-color) {
+  background: $left-color; /* Old browsers */
+  background: -moz-linear-gradient(left, $left-color 0%, $right-color 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left, right, color-stop(0%, $left-color), color-stop(100%, $right-color)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, $left-color 0%, $right-color 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, $left-color 0%, $right-color 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, $left-color 0%, $right-color 100%); /* IE10+ */
+  background: linear-gradient(to right, $left-color 0%, $right-color 100%); /* W3C */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr=$left-color, endColorstr=$right-color, GradientType=1); /* IE6-9 */
+}
+
+@mixin default-outline() {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+@mixin grow-animation($background-color, $scaleX, $scaleY : $scaleX, $initial-background-color: $background-color, $initial-background-opacity: 0) {
+
+  // Force gpu rendering on Safari to prevent the font-smoothing antialised/subpixel-antialised switch
+  transform: translate3d(0, 0, 0);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $initial-background-color;
+    z-index: -100;
+    transition: opacity 0.1s ease-out, transform 0.625s cubic-bezier(0, 0.8, 0.31, 0.99) !important;
+    opacity: $initial-background-opacity;
+    display: block;
+    // Force animation to snap on subpixels
+    backface-visibility: hidden;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    &::before {
+      background-color: $background-color;
+      opacity: 1;
+      transform: scale3d($scaleX, $scaleY, 1);
+    }
+  }
+}
+
+@mixin tile-size($horizontal, $vertical) {
+  width: ($tile-base-size * $horizontal) + ($horizontal - 1) * $tile-gutter-size;
+  height: ($tile-base-size * $vertical) + ($vertical - 1) * $tile-gutter-size;
+
+  &:focus .tile__image,
+  &:hover .tile__image {
+    // Proportional zoom-in effect based on 10% for the 1x1 tile
+    transform: scale(1 + (0.1 / max($horizontal, $vertical)));
+  }
+
+  .video-tile__play-btn {
+    top: calc((-#{$tile-base-size} * #{$vertical}) / 2 + #{$btn-video-play-height} / 2);
+  }
+}

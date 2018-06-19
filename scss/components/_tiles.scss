@@ -1,0 +1,219 @@
+$tile-base-size: 276px;
+$tile-gutter-size: 12px;
+$tile-transition-time: 200ms;
+$btn-video-play-height: 80px;
+$tile-caption-height: 84px;
+
+.tile {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+
+  /*
+    Init and start is set as animation cues by Freewall when new tiles appear in the DOM.
+    The load state is set by the Tile component when the tile image has finished loading
+  */
+  &[data-state="init"],
+  &[data-state="start"] {
+    display: none;
+  }
+
+  &[data-state="load"] {
+    display: block;
+
+    @extend %animation-scale--0-to-1;
+  }
+
+  &[data-state="move"] {
+    transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
+  }
+}
+
+.tile-link {
+  &:focus,
+  &:hover {
+    .tile-caption__text {
+      opacity: 1;
+    }
+
+    .sliding-content__body {
+      transform: translate3d(0, -99%, 0);
+    }
+  }
+}
+
+.tile__image-container {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.5s ease-out;
+  background-color: rgba(0, 0, 0, 0);
+
+  &.tile__image-container--loading {
+    background-color: rgba(0, 0, 0, 0.1);
+
+    .tile__image {
+      opacity: 0;
+    }
+  }
+}
+
+.tile__image {
+  width: 100%;
+  transition: transform $tile-transition-time ease-in-out;
+
+  .tile__image--fade {
+    transition: opacity 0.5s ease-out;
+  }
+}
+
+.sliding-content {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 0;
+}
+
+.sliding-content__body {
+  transition: all $tile-transition-time ease-in-out;
+  // Default position of the slide-up tile caption
+  transform: translate3d(0, -$tile-caption-height, 0);
+}
+
+.tile-category {
+  position: absolute;
+  top: -14px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.tile-category__text {
+  display: inline-block;
+  font-size: $text-smallest;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: $white;
+  color: $shark;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+
+  @extend %force-layer-creation;
+}
+
+.tile-caption {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: $white;
+  padding: 0.875rem 1.2rem 1.2rem 1.2rem;
+  min-height: $tile-caption-height;
+  text-align: center;
+}
+
+.tile-caption__title {
+  margin: 0.8rem 0 1rem;
+  text-transform: uppercase;
+}
+
+.tile-caption__title--long {
+  margin: 1.2rem 0;
+}
+
+.tile-caption__text {
+  transition: opacity $tile-transition-time ease-in;
+  opacity: 0;
+  margin: 0;
+  font-size: $text-small;
+  line-height: 1.3;
+}
+
+/*
+  Possible tile sizes
+*/
+
+.tile--size-1x1 {
+  @include tile-size(1,1);
+
+  .tile-caption__title--long {
+    font-size: $text-small;
+  }
+}
+
+.tile--size-1x2 {
+  @include tile-size(1,2);
+}
+
+.tile--size-2x1 {
+  @include tile-size(2,1);
+}
+
+.tile--size-2x2 {
+  @include tile-size(2, 2);
+}
+
+.tile--size-2x2,
+.tile--size-2x1 {
+  .tile-caption__title:not(.tile-caption__title--long) {
+    margin: 0.625rem 0;
+    font-size: $h3-font-size * 1.25;
+  }
+
+  .tile-caption__text {
+    font-size: initial;
+  }
+}
+
+.tile--size-4x2 {
+  @include tile-size(4,2);
+
+  .sliding-content__body {
+    transform: translate3d(0, -($tile-caption-height * 1.2), 0);
+  }
+
+  .tile-caption__title {
+    margin: 1.4rem 0;
+    font-size: $h2-font-size;
+  }
+
+  .tile-caption__text {
+    font-size: $h2-font-size * 0.93;
+  }
+}
+
+/*
+    Image Loading Transitions
+*/
+.tweet-tile {
+  padding: 2rem;
+  color: $white;
+
+  a {
+    @include link($white, $white);
+  }
+}
+
+.tweet-tile__title {
+  font-size: initial;
+  text-transform: uppercase;
+}
+
+.tweet-tile-media {
+  margin-bottom: 0.5rem;
+}
+
+.tweet-tile-media__handle {
+  font-size: $text-smaller;
+}
+
+.tweet-tile__text {
+  line-height: 1.3em;
+}
+
+.video-tile__play-btn {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}

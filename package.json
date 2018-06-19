@@ -1,0 +1,25 @@
+{
+  "name": "@mojang/web-theme-bootstrap",
+  "version": "1.0.0",
+  "description": "Contains the theme used on minecraft.net based on Boostrap 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mojang/web-theme-bootstrap.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mojang/web-theme-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Mojang/web-theme-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9",
+    "svgstore": "^2.0.2"
+  }
+}

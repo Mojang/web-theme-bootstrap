@@ -1,0 +1,44 @@
+// Headings for larger alerts
+.alert-heading {
+  // Specified to prevent conflicts of changing $headings-color
+  color: inherit;
+}
+
+.alert {
+  color: currentColor;
+  box-shadow: $default-box-shadow;
+
+  .close {
+    transform: translateY(calc(3em / 16));
+    padding: ($alert-padding-y / 2) ($alert-padding-x / 2);
+    margin: ($alert-padding-y / 2) ($alert-padding-x / 2);
+  }
+}
+
+// Provide class for links that match alerts
+.alert-link {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+@each $color, $value in $theme-colors {
+  .alert-#{$color} {
+    background-color: $value;
+
+    a,
+    a:hover,
+    .alert-link {
+      color: currentColor;
+      text-decoration: underline;
+    }
+  }
+}
+
+.alert-primary,
+.alert-secondary,
+.alert-success,
+.alert-danger,
+.alert-dark {
+  color: $white;
+  text-shadow: $default-shadow;
+}

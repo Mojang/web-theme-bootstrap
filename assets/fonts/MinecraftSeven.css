@@ -1,0 +1,12 @@
+/* Webfont: MinecraftSeven */@font-face {
+    font-family: 'MinecraftSeven';
+    src: url('MinecraftSeven.eot'); /* IE9 Compat Modes */
+    src: url('MinecraftSeven.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('MinecraftSeven.woff') format('woff'), /* Modern Browsers */
+         url('MinecraftSeven.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('MinecraftSeven.svg#MinecraftSeven') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

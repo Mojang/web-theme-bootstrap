@@ -1,0 +1,31 @@
+%force-layer-creation {
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+%animation-scale--0-to-1 {
+  animation: scale-0-to-1 0.5s;
+}
+
+%attributed-quote-glyph {
+  $icon-width: 32px;
+  $icon-height: 32px;
+  $icon-spacing: 6px;
+
+  content: '';
+  display: block;
+  box-sizing: content-box;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: $body-bg;
+  background-size: $icon-width $icon-height, auto;
+  background-position: center;
+  width: $icon-width + $icon-spacing;
+  height: $icon-height + $icon-spacing;
+  padding: 0 4px;
+}
+
+%antialiasing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

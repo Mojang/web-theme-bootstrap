@@ -1,0 +1,97 @@
+// Bootstrap overrrides
+
+// Options
+$enable-rounded: false;
+
+// Body
+$body-bg: $ebb;
+$body-color: $senary;
+// $body-bg: $cod-gray; //?
+
+// Fonts
+$font-family-sans-serif: 'Noto Sans', sans-serif;
+
+$h1-font-size: $font-size-base * 2.25; // 36px
+$h2-font-size: $font-size-base * 1.75; // 28px
+$h3-font-size: $font-size-base * 1.2; // 19px
+$h4-font-size: $font-size-base;
+$h5-font-size: $font-size-base;
+$h6-font-size: $font-size-base * 0.75;
+$small-font-size: 88%; // 14px in body
+
+// Theme small font size vars
+$text-small: $font-size-base * 0.875; // 14px
+$text-smaller: $font-size-base * 0.75; // 12px
+$text-smallest: $font-size-base * 0.625; // 10px;
+
+$font-size-lg: $h3-font-size;
+$font-size-sm: $text-small;
+
+$headings-font-weight: $font-weight-bold;
+$headings-line-height: 1.4;
+$headings-margin-bottom: 0.8rem;
+
+$lead-font-size: $font-size-base * 1.13;
+
+// Alert
+$alert-border-width: 0;
+$alert-border-radius: 0;
+$alert-padding-y: 1rem;
+$alert-padding-x: 1rem;
+
+// Close
+$close-color: currentColor;
+
+// Cards
+$card-spacer-y: 1rem;
+$card-spacer-x: 0;
+$card-border-width: 0;
+$card-border-color: transparent;
+$card-bg: $white;
+$card-cap-bg: transparent;
+$card-group-margin: 1rem;
+
+// Modals
+$modal-header-border-color: transparent;
+$modal-footer-border-color: transparent;
+
+// Forms
+$input-box-shadow: none;
+$input-focus-box-shadow: none;
+$input-border-color: transparent;
+$input-focus-border-color: $senary-supportive;
+
+// Links
+$link-color: $primary-supportive;
+$link-hover-color: $primary-supportive;
+$link-hover-decoration: none;
+
+// Buttons
+$btn-font-weight: $font-weight-bold;
+
+// Custom
+$custom-bezier-1: cubic-bezier(0, 0.8, 0.2, 1);
+
+// Paragraphs
+$paragraph-margin-bottom: 1.3rem;
+
+// Navigation
+$dropdown-border-width: 0;
+$dropdown-padding-y: 0;
+
+$dropdown-item-padding-x: 0.75rem;
+$dropdown-item-padding-y: 0.5rem;
+
+$dropdown-bg: $tertiary;
+$dropdown-link-color: $white;
+$dropdown-link-hover-color: $tertiary;
+$dropdown-link-hover-bg: $black;
+
+// Path to Freyja assets, to be used from the consumer
+$freyja-asset-path: "" !default;
+
+$max-resolution-height: 1800px;
+$max-resolution-width: 2880px;
+
+$max-text-width: 540px; //For better readability
+

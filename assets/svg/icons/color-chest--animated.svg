@@ -1,0 +1,349 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        @keyframes frame1 {
+          0% {
+            opacity: 1;
+          }
+          14.27% {
+            opacity: 1;
+          }
+          14.28% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+        @keyframes frame2 {
+          14.27% {
+            opacity: 0;
+          }
+          14.28% {
+            opacity: 1;
+          }
+          28.56% {
+            opacity: 1;
+          }
+          28.57% {
+            opacity: 0;
+          } 
+        }
+        @keyframes frame3 {
+          28.56% {
+            opacity: 0;
+          }
+          28.57% {
+            opacity: 1;
+          }
+          42.84% {
+            opacity: 1;
+          }
+          42.85% {
+            opacity: 0;
+          } 
+        }
+        @keyframes frame4 {
+          42.84% {
+            opacity: 0;
+          }
+          42.85% {
+            opacity: 1;
+          }
+          57.13% {
+            opacity: 1;
+          }
+          57.14% {
+            opacity: 0;
+          } 
+        }
+        @keyframes frame5 {
+          57.13% {
+            opacity: 0;
+          }
+          57.14% {
+            opacity: 1;
+          }
+          71.41% {
+            opacity: 1;
+          }
+          71.42% {
+            opacity: 0;
+          } 
+        }
+        @keyframes frame6 {
+          71.41% {
+            opacity: 0;
+          }
+          71.42% {
+            opacity: 1;
+          } 
+          85.70% {
+            opacity: 1;
+          }
+          85.71% {
+            opacity: 0;
+          } 
+        }
+        @keyframes frame7 {
+          85.70% {
+            opacity: 0;
+          }
+          85.71% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        .frame {
+          opacity: 0;
+          animation-fill-mode: var(--animation-fill-mode, forwards);;
+          animation-timing-function: linear;
+          animation-duration: var(--animation-duration, 0.5s);
+          animation-iteration-count: var(--animation-iteration-count, infinite);
+          animation-direction: var(--animation-direction, normal);
+        }
+        #Frame1 {
+          animation-name: frame1;
+        }
+        #Frame2 {
+          animation-name: frame2;
+        }
+        #Frame3 {
+          animation-name: frame3;
+        }
+        #Frame4 {
+          animation-name: frame4;
+        }
+        #Frame5 {
+          animation-name: frame5;
+        }
+        #Frame6 {
+          animation-name: frame6;
+        }
+        #Frame7 {
+          animation-name: frame7;
+        }
+      ]]>
+    </style>
+  </defs>
+  <g>
+    <g id="Frame1" class="frame">
+      <g>
+        <path d="M13,13H11.58V12.3h.71v-5h-.71V6.58H13Z" fill="#2f261c"/>
+        <path d="M5.85,6.58H3V13h7.87V6.58Zm4.3,5.72H3.7v-5h6.45Z" fill="#463a2d"/>
+        <path d="M10.86,6.58h.72V13h-.72Z" fill="#30281f"/>
+        <polygon points="8 7.29 3.7 7.29 3.7 8.01 8 8.01 10.15 8.01 10.15 7.29 8 7.29" fill="#9f641c"/>
+        <path d="M3.7,8h.72V12.3H3.7Z" fill="#b4701f"/>
+        <path d="M4.42,8h5.73V12.3H4.42Z" fill="#d08324"/>
+        <path d="M11.58,11.59h.71v.71h-.71Z" fill="#663e11"/>
+        <path d="M11.58,8h.71v3.58h-.71Z" fill="#714413"/>
+        <path d="M11.58,7.29h.71V8h-.71Z" fill="#663e11"/>
+      </g>
+      <g>
+        <path d="M3,3V6.58h7.87V3Zm7.16,2.86H3.7V3.71h6.45Z" fill="#5a4b3a"/>
+        <path d="M3.7,3.71h6.45v.72H3.7Z" fill="#9f641c"/>
+        <path d="M3.7,4.43h.72V5.86H3.7Z" fill="#b4701f"/>
+        <path d="M4.42,4.43h5.73V5.86H4.42Z" fill="#d08324"/>
+        <g>
+          <path d="M10.86,3h.72V6.58h-.72Z" fill="#3c3226"/>
+          <polygon points="11.58 5.86 11.58 6.58 13.01 6.58 13.01 3 11.58 3 11.58 3.71 12.29 3.71 12.29 5.86 11.58 5.86" fill="#2f261c"/>
+          <path d="M11.58,3.71h.71v.72h-.71Z" fill="#663e11"/>
+          <path d="M11.58,4.43h.71V5.86h-.71Z" fill="#714413"/>
+        </g>
+      </g>
+      <g>
+        <path d="M5.85,5.14H7.28V6.58H6.57V5.86H5.85Z" fill="#dfdedb"/>
+        <path d="M7.28,5.14H8v.72H7.28Z" fill="#767676"/>
+        <path d="M5.85,5.86h.72v.72h.71V8H5.85Z" fill="#c2c2c2"/>
+        <path d="M7.28,5.86H8V8H7.28Z" fill="#606475"/>
+        <polygon points="8 5.14 8 8.01 5.85 8.01 5.85 8.72 8 8.72 8.71 8.72 8.71 5.14 8 5.14" opacity="0.25"/>
+      </g>
+    </g>
+    <g id="Frame2" class="frame">
+      <g>
+        <polygon points="8 8.01 2.99 8.01 3.11 8.72 8 8.72 10.74 8.71 10.86 8.01 8 8.01" fill="#9f641c"/>
+        <path d="M3.11,8.72h.83l.48,3.58H3.7Z" fill="#b4701f"/>
+        <path d="M3.94,8.72h6.8l-.59,3.59H4.42Z" fill="#d08324"/>
+        <path d="M5.85,7.29H2.27L3,13h7.87l.72-5.73Zm4.3,5H3.7L3.17,8h7.51Z" fill="#463a2d"/>
+        <g>
+          <path d="M13,13H11.58l.09-.72h.72L12.92,8h-.71l.08-.72h1.44Z" fill="#2f261c"/>
+          <path d="M11.58,7.29h.71L11.58,13h-.71Z" fill="#30281f"/>
+          <path d="M11.76,11.59h.72l-.09.71h-.72Z" fill="#663e11"/>
+          <path d="M12.12,8.72h.71l-.35,2.87h-.72Z" fill="#714413"/>
+          <path d="M12.21,8h.71l-.09.71h-.71Z" fill="#663e11"/>
+        </g>
+      </g>
+      <g>
+        <path d="M3.7,4.43h6.45l.24.71H3.45Z" fill="#9f641c"/>
+        <path d="M3.45,5.14h.84L4,6.58h-.9Z" fill="#b4701f"/>
+        <path d="M4.26,5.14h6.13l.29,1.44H4Z" fill="#d08324"/>
+        <path d="M3,3.71,2.27,7.29h9.31l-.72-3.58Zm7.54,2.84-7.27,0L3.7,4.43h6.45Z" fill="#5a4b3a"/>
+        <g>
+          <path d="M10.86,3.71h.74l.69,3.58h-.71Z" fill="#3c3226"/>
+          <polygon points="12.16 6.58 12.29 7.29 13.73 7.29 13.03 3.71 11.6 3.71 11.74 4.43 12.45 4.43 12.87 6.58 12.16 6.58" fill="#2f261c"/>
+          <path d="M11.74,4.43h.71l.14.71h-.71Z" fill="#663e11"/>
+          <path d="M11.88,5.14h.71l.28,1.44h-.71Z" fill="#714413"/>
+        </g>
+      </g>
+      <g>
+        <path d="M5.85,5.86H7.28V7.29H6.57V6.58H5.85Z" fill="#dfdedb"/>
+        <path d="M7.28,5.86H8v.72H7.28Z" fill="#767676"/>
+        <path d="M5.85,6.58h.72v.71h.71V8.72H5.85Z" fill="#c2c2c2"/>
+        <path d="M7.28,6.58H8V8.72H7.28Z" fill="#606475"/>
+        <polygon points="8 5.86 8 8.72 5.85 8.72 5.85 9.44 8 9.44 8.71 9.44 8.71 5.86 8 5.86" opacity="0.25"/>
+      </g>
+    </g>
+    <g id="Frame3" class="frame">
+      <g>
+        <path d="M13,13H11.58V12.3h.71v-5h-.71V6.58H13Z" fill="#2f261c"/>
+        <path d="M5.85,6.58H3V13h7.87V6.58Zm4.3,5.72H3.7v-5h6.45Z" fill="#463a2d"/>
+        <path d="M10.86,6.58h.72V13h-.72Z" fill="#30281f"/>
+        <polygon points="8 7.29 3.7 7.29 3.7 8.01 8 8.01 10.15 8.01 10.15 7.29 8 7.29" fill="#9f641c"/>
+        <path d="M3.7,8h.72V12.3H3.7Z" fill="#b4701f"/>
+        <path d="M4.42,8h5.73V12.3H4.42Z" fill="#d08324"/>
+        <path d="M11.58,11.59h.71v.71h-.71Z" fill="#663e11"/>
+        <path d="M11.58,8h.71v3.58h-.71Z" fill="#714413"/>
+        <path d="M11.58,7.29h.71V8h-.71Z" fill="#663e11"/>
+      </g>
+      <g>
+        <path d="M3,3V6.58h7.87V3Zm7.16,2.86H3.7V3.71h6.45Z" fill="#5a4b3a"/>
+        <path d="M3.7,3.71h6.45v.72H3.7Z" fill="#9f641c"/>
+        <path d="M3.7,4.43h.72V5.86H3.7Z" fill="#b4701f"/>
+        <path d="M4.42,4.43h5.73V5.86H4.42Z" fill="#d08324"/>
+        <g>
+          <path d="M10.86,3h.72V6.58h-.72Z" fill="#3c3226"/>
+          <polygon points="11.58 5.86 11.58 6.58 13.01 6.58 13.01 3 11.58 3 11.58 3.71 12.29 3.71 12.29 5.86 11.58 5.86" fill="#2f261c"/>
+          <path d="M11.58,3.71h.71v.72h-.71Z" fill="#663e11"/>
+          <path d="M11.58,4.43h.71V5.86h-.71Z" fill="#714413"/>
+        </g>
+      </g>
+      <g>
+        <path d="M5.85,5.14H7.28V6.58H6.57V5.86H5.85Z" fill="#dfdedb"/>
+        <path d="M7.28,5.14H8v.72H7.28Z" fill="#767676"/>
+        <path d="M5.85,5.86h.72v.72h.71V8H5.85Z" fill="#c2c2c2"/>
+        <path d="M7.28,5.86H8V8H7.28Z" fill="#606475"/>
+        <polygon points="8 5.14 8 8.01 5.85 8.01 5.85 8.72 8 8.72 8.71 8.72 8.71 5.14 8 5.14" opacity="0.25"/>
+      </g>
+    </g>
+    <g id="Frame4" class="frame">
+      <g>
+        <path d="M13,13H11.58V12.3h.71v-5h-.71V6.58H13Z" fill="#2f261c"/>
+        <path d="M5.85,6.58H3V13h7.87V6.58Zm4.3,5.72H3.7v-5h6.45Z" fill="#463a2d"/>
+        <path d="M10.86,6.58h.72V13h-.72Z" fill="#30281f"/>
+        <polygon points="8 7.29 3.7 7.29 3.7 8.01 8 8.01 10.15 8.01 10.15 7.29 8 7.29" fill="#9f641c"/>
+        <path d="M3.7,8h.72V12.3H3.7Z" fill="#b4701f"/>
+        <path d="M4.42,8h5.73V12.3H4.42Z" fill="#d08324"/>
+        <path d="M11.58,11.59h.71v.71h-.71Z" fill="#663e11"/>
+        <path d="M11.58,8h.71v3.58h-.71Z" fill="#714413"/>
+        <path d="M11.58,7.29h.71V8h-.71Z" fill="#663e11"/>
+      </g>
+      <g>
+        <g>
+          <polygon points="10.86 5.86 2.99 5.86 3.7 6.12 5.13 6.58 13.01 6.58 11.58 6.12 10.86 5.86" fill="#2f261c"/>
+          <path d="M10.86,2.28l.72.26V6.12l-.72-.26Z" fill="#3c3226"/>
+          <polygon points="11.58 5.41 11.58 6.12 13.01 6.58 13.01 3 11.58 2.54 11.58 3.26 12.29 3.52 12.29 5.67 11.58 5.41" fill="#2f261c"/>
+          <path d="M11.58,3.26l.71.26v.71L11.58,4Z" fill="#663e11"/>
+          <path d="M11.58,4l.71.26V5.67l-.71-.26Z" fill="#714413"/>
+        </g>
+        <g>
+          <path d="M3,2.28V5.86h7.87V2.28Zm7.16,2.86H3.7V3h6.45Z" fill="#5a4b3a"/>
+          <path d="M3.7,3h6.45v.71H3.7Z" fill="#9f641c"/>
+          <path d="M3.7,3.71h.72V5.14H3.7Z" fill="#b4701f"/>
+          <path d="M4.42,3.71h5.73V5.14H4.42Z" fill="#d08324"/>
+        </g>
+      </g>
+      <g>
+        <path d="M5.85,4.43H7.28V5.86H6.57V5.14H5.85Z" fill="#dfdedb"/>
+        <path d="M7.28,4.43H8v.71H7.28Z" fill="#767676"/>
+        <path d="M5.85,5.14h.72v.72h.71V7.29H5.85Z" fill="#c2c2c2"/>
+        <path d="M7.28,5.14H8V7.29H7.28Z" fill="#606475"/>
+        <polygon points="8 4.43 8 7.29 5.85 7.29 5.85 8.01 8 8.01 8.71 8.01 8.71 4.43 8 4.43" opacity="0.25"/>
+      </g>
+    </g>
+    <g id="Frame5" class="frame">
+      <g>
+        <path d="M13,13H11.58V12.3h.71v-5h-.71V6.58H13Z" fill="#2f261c"/>
+        <path d="M5.85,6.58H3V13h7.87V6.58Zm4.3,5.72H3.7v-5h6.45Z" fill="#463a2d"/>
+        <path d="M10.86,6.58h.72V13h-.72Z" fill="#30281f"/>
+        <polygon points="8 7.29 3.7 7.29 3.7 8.01 8 8.01 10.15 8.01 10.15 7.29 8 7.29" fill="#9f641c"/>
+        <path d="M3.7,8h.72V12.3H3.7Z" fill="#b4701f"/>
+        <path d="M4.42,8h5.73V12.3H4.42Z" fill="#d08324"/>
+        <path d="M11.58,11.59h.71v.71h-.71Z" fill="#663e11"/>
+        <path d="M11.58,8h.71v3.58h-.71Z" fill="#714413"/>
+        <path d="M11.58,7.29h.71V8h-.71Z" fill="#663e11"/>
+      </g>
+      <g>
+        <polygon points="10.86 3 2.99 3 5.13 6.58 13.01 6.58 10.86 3"/>
+        <g>
+          <path d="M5.13.85,3,3h7.87L13,.85Zm5.45,1.72H4.13L5.42,1.28h6.45Z" fill="#5a4b3a"/>
+          <path d="M5.42,1.28h6.45l-.43.43H5Z" fill="#9f641c"/>
+          <path d="M5,1.71h.72l-.86.86H4.13Z" fill="#b4701f"/>
+          <path d="M5.71,1.71h5.73l-.86.86H4.85Z" fill="#d08324"/>
+        </g>
+        <g>
+          <polygon points="13.01 0.85 15.16 4.43 13.01 6.58 10.86 3 13.01 0.85" fill="#2f261c"/>
+          <polygon points="13.01 1.82 14.43 4.18 13.01 5.6 11.59 3.24 13.01 1.82" fill="#714413"/>
+        </g>
+      </g>
+      <g>
+        <path d="M7.22,1.16H8.33L7.22,2.27H6.66l.56-.56H6.66Z" fill="#dfdedb"/>
+        <path d="M6.66,1.71h.56l-.56.56h.56L6.11,3.38H5Z" fill="#c2c2c2"/>
+        <polygon points="8.73 1.77 8.23 2.27 7.83 1.65 8.33 1.15 8.73 1.77" fill="#767676"/>
+        <polygon points="6.5 4.01 6.1 3.39 7.83 1.65 8.24 2.28 6.5 4.01" fill="#606475"/>
+        <polygon points="4.99 3.38 5.37 3.98 6.5 4.01 6.1 3.39 4.99 3.38" fill="#4a4a4a"/>
+      </g>
+    </g>
+    <g id="Frame6" class="frame">
+      <g>
+        <path d="M13,13H11.58V12.3h.71v-5h-.71V6.58H13Z" fill="#2f261c"/>
+        <path d="M5.85,6.58H3V13h7.87V6.58Zm4.3,5.72H3.7v-5h6.45Z" fill="#463a2d"/>
+        <path d="M10.86,6.58h.72V13h-.72Z" fill="#30281f"/>
+        <polygon points="8 7.29 3.7 7.29 3.7 8.01 8 8.01 10.15 8.01 10.15 7.29 8 7.29" fill="#9f641c"/>
+        <path d="M3.7,8h.72V12.3H3.7Z" fill="#b4701f"/>
+        <path d="M4.42,8h5.73V12.3H4.42Z" fill="#d08324"/>
+        <path d="M11.58,11.59h.71v.71h-.71Z" fill="#663e11"/>
+        <path d="M11.58,8h.71v3.58h-.71Z" fill="#714413"/>
+        <path d="M11.58,7.29h.71V8h-.71Z" fill="#663e11"/>
+      </g>
+      <g>
+        <polygon points="15.16 5.86 7.28 5.86 5.13 6.58 13.01 6.58 15.16 5.86" fill="#2f261c"/>
+        <g>
+          <path d="M13,6.58l.72-.26V9.9l-.72.26Z" fill="#3c3226"/>
+          <polygon points="13.73 9.18 13.73 9.9 15.16 9.44 15.16 5.86 13.73 6.32 13.73 7.03 14.44 6.77 14.44 8.92 13.73 9.18" fill="#2f261c"/>
+          <path d="M13.73,7l.71-.26v.72l-.71.26Z" fill="#663e11"/>
+          <path d="M13.73,7.75l.71-.26V8.92l-.71.26Z" fill="#714413"/>
+        </g>
+      </g>
+      <g>
+        <path d="M9.79,5.14h1.43v.72H9.79Z" fill="#dfdedb"/>
+        <path d="M11.22,5.14h.72v.72h-.72Z" fill="#767676"/>
+      </g>
+    </g>
+    <g id="Frame7" class="frame">
+      <g>
+        <path d="M13.73,13H12.29V12.3H13V8h-.72V7.29h1.44Z" fill="#2f261c"/>
+        <path d="M6.21,7.29H2.27V13h9.31V7.29Zm4.65,5H3V8h7.87Z" fill="#463a2d"/>
+        <path d="M11.58,7.29h.71V13h-.71Z" fill="#30281f"/>
+        <polygon points="8.36 8.01 2.99 8.01 2.99 8.72 8.36 8.72 10.86 8.72 10.86 8.01 8.36 8.01" fill="#9f641c"/>
+        <path d="M3,8.72H3.7V12.3H3Z" fill="#b4701f"/>
+        <path d="M3.7,8.72h7.16V12.3H3.7Z" fill="#d08324"/>
+        <path d="M12.29,11.59H13v.71h-.72Z" fill="#663e11"/>
+        <path d="M12.29,8.72H13v2.87h-.72Z" fill="#714413"/>
+        <path d="M12.29,8H13v.71h-.72Z" fill="#663e11"/>
+      </g>
+      <g>
+        <path d="M13.73,7.29h.71v3.58h-.71Z" fill="#3c3226"/>
+        <polygon points="14.44 10.16 14.44 10.87 15.88 10.87 15.88 7.29 14.44 7.29 14.44 8.01 15.16 8.01 15.16 10.16 14.44 10.16" fill="#2f261c"/>
+        <path d="M14.44,8h.72v.71h-.72Z" fill="#663e11"/>
+        <path d="M14.44,8.72h.72v1.44h-.72Z" fill="#714413"/>
+      </g>
+      <g>
+        <path d="M10.86,6.58h1.43v.71H10.86Z" fill="#dfdedb"/>
+        <path d="M12.29,6.58H13v.71h-.72Z" fill="#767676"/>
+      </g>
+    </g>
+  </g>
+</svg>

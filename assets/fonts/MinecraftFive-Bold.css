@@ -1,0 +1,12 @@
+/* Webfont: MinecraftFive-Bold */@font-face {
+    font-family: 'MinecraftFive';
+    src: url('MinecraftFive-Bold.eot'); /* IE9 Compat Modes */
+    src: url('MinecraftFive-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('MinecraftFive-Bold.woff') format('woff'), /* Modern Browsers */
+         url('MinecraftFive-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('MinecraftFive-Bold.svg#MinecraftFive-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

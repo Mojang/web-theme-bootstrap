@@ -1,0 +1,35 @@
+$label-color: $scorpion;
+
+.form-group {
+  &.has-error {
+    .help-block {
+      color: $danger;
+    }
+  }
+}
+
+.form-control {
+  font-size: 14px;
+  height: 36px;
+  padding: 8px;
+  border-color: $senary-supportive;
+
+  &:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+  }
+}
+
+.form-control-plaintext {
+  width: 100%;
+  display: block;
+}
+
+label {
+  color: $label-color;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+select {
+  font-size: 16px;
+}

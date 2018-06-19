@@ -1,0 +1,72 @@
+.attribution {
+  width: 100%;
+  padding-bottom: 15px;
+
+  .attribution__avatar {
+    height: 140px;
+  }
+
+  img {
+    width: 82px;
+    float: left;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .attribution__details {
+    dt {
+      float: left;
+      clear: left;
+    }
+
+    dd {
+      float: left;
+    }
+  }
+}
+
+.attributed-quote {
+  position: relative;
+  border: 10px solid black;
+  padding: 20px;
+
+  &::before {
+    @extend %attributed-quote-glyph;
+
+    background-image: url(#{$freyja-asset-path}/svg/icons/pixel-begin-quote.svg);
+    top: -19px;
+    left: -19px;
+  }
+
+  &::after {
+    @extend %attributed-quote-glyph;
+
+    background-image: url(#{$freyja-asset-path}/svg/icons/pixel-end-quote.svg);
+    right: -19px;
+    bottom: -19px;
+  }
+
+  cite {
+    margin-top: 5px;
+    font-style: normal;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: block;
+  }
+}
+
+.attributed-quote__text {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.attributed-quote__image {
+  float: left;
+  max-height: 92px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-right: 7px;
+}

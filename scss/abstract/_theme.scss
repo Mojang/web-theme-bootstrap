@@ -1,0 +1,68 @@
+// Primary colors
+$primary: $grass;
+
+$primary-light-1: $harlequin;
+$primary-light-2: $bright-green;
+
+$primary-dark-1: $japanese-laurel;
+$primary-dark-2: $japanese-laurel-dark;
+
+$primary-supportive: $grass-supportive;
+
+$primary-hover: $soil;
+
+// Secondary colors
+$secondary: $gravel;
+$secondary-supportive: $tundora;
+
+// Tertiary colors
+$tertiary: $spring-grass;
+$tertiary-supportive: $spring-grass-supportive;
+
+// Quaternary colors
+$quaternary: $mud;
+$quaternary-supportive: $mud-supportive;
+
+// Quinary colors
+$quinary: $dirt;
+$quinary-supportive: $dirt-supportive;
+
+// Senary colors
+$senary: $soil;
+$senary-supportive: $soil-supportive;
+
+$default-shadow: 0 2px 0 rgba($black, 0.25);
+$default-box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.15);
+
+$gray-100: $hint-of-red;
+$gray-200: $ebb;
+$gray-300: $cloud;
+$gray-400: $dusty-gray;
+$gray-500: $boulder;
+$gray-600: $scorpion;
+$gray-700: $tundora;
+$gray-800: $soil;
+$gray-900: $shark;
+
+$theme-colors: (
+  "primary":      $primary,
+  "secondary":    $secondary,
+  "tertiary":     $tertiary,
+  "quaternary":   $quaternary,
+  "quinary":      $quinary,
+  "senary":       $senary,
+);
+
+$theme-colors-supportive: (
+  "primary-supportive":      $primary-supportive,
+  "secondary-supportive":    $secondary-supportive,
+  "tertiary-supportive":     $tertiary-supportive,
+  "quaternary-supportive":   $quaternary-supportive,
+  "quinary-supportive":      $quinary-supportive,
+  "senary-supportive":       $senary-supportive,
+);
+
+$gradients: (); // Returns a gradient value for use in sass. e.g. map-get($gradients, "secondary")
+
+$danger: $orange;
+$info: $light-blue;

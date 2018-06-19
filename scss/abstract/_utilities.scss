@@ -1,0 +1,62 @@
+$all-colors: map-merge(map-merge(map-merge(map-merge($colors, $theme-colors), $theme-colors-supportive), $grays), ("black": $black, "white": $white));
+
+// Create text-{#color} classes for full color palette
+@each $color, $value in $all-colors {
+  @include text-emphasis-variant(".text-#{$color}", $value);
+}
+
+.top,
+.top-left,
+.top-right {
+  top: 0;
+}
+
+.bottom,
+.bottom-left,
+.bottom-right {
+  bottom: 0;
+}
+
+.left,
+.top-left,
+.bottom-left {
+  left: 0;
+}
+
+.right,
+.top-right,
+.bottom-right {
+  right: 0;
+}
+
+.translate-up-50 {
+  transform: translateY(-50%);
+}
+
+.translate-down-50 {
+  transform: translateY(50%);
+}
+
+.translate-left-50 {
+  transform: translateX(-50%);
+}
+
+.translate-right-50 {
+  transform: translateX(50%);
+}
+
+.max-text-width {
+  max-width: $max-text-width;
+}
+
+.max-page-width {
+  max-width: $max-resolution-width;
+}
+
+.max-full-screen-height {
+  max-height: $max-resolution-height;
+}
+
+.z-index-0 {
+  z-index: 0;
+}

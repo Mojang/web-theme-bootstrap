@@ -1,0 +1,57 @@
+$page-section-vertical-padding: 4rem; // 64px;
+$page-section--article-top-padding: 2.75rem; // 44px;
+
+.page-section {
+  position: relative;
+  padding: $page-section-vertical-padding 0;
+
+  &--half-spacing {
+    padding: $page-section-vertical-padding / 2 0;
+  }
+
+  &--half-top-spacing {
+    padding-top: $page-section-vertical-padding / 2;
+  }
+
+  &--first {
+    padding-top: $page-section--article-top-padding;
+  }
+
+  &--double-spacing {
+    padding: 156px 0;
+  }
+
+  &--no-top-spacing {
+    padding-top: 0 !important;
+  }
+
+  &--no-bottom-spacing {
+    padding-bottom: 0;
+  }
+
+  &--no-overflow {
+    overflow: hidden;
+  }
+
+  &.text-white,
+  &.text-light {
+    @extend %antialiasing;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: 44px 0;
+
+    &--first {
+      padding-top: 28px;
+    }
+
+    &--no-bottom-spacing {
+      padding-bottom: 0;
+    }
+  }
+
+  h1,
+  > .container > .row:first-child > div > :first-child {
+    margin-top: 0;
+  }
+}

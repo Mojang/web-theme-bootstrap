@@ -1,0 +1,69 @@
+.ribbon {
+  transform-origin: left top;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 96px;
+  height: 96px;
+  transition: all 0.6s $custom-bezier-1;
+}
+
+.ribbon-icon {
+  fill: currentColor;
+  width: 96px;
+  height: 96px;
+
+  .top,
+  .left {
+    fill: transparent;
+  }
+
+  .corner {
+    fill: inherit;
+  }
+}
+
+.ribbon-icon--secondary {
+  fill: $quaternary-supportive;
+}
+
+.ribbon-label {
+  display: flex;
+  transform: translateY(-50%) translateX(-50%) rotate(-45deg);
+  transform-origin: 50%;
+  position: absolute;
+  top: 34%;
+  left: 34%;
+  width: 75%;
+  height: 75%;
+  white-space: normal;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  .ribbon-icon {
+    transition: fill 0.15s ease-in-out;
+    fill: $secondary-supportive;
+    filter: drop-shadow(0 3px 0 rgba(0, 0, 0, 0.25));
+
+    .top {
+      transition: fill 0.15s ease-in-out;
+      fill: rgba($white, 0.3);
+    }
+
+    .left {
+      transition: fill 0.15s ease-in-out;
+      fill: rgba($black, 0.25);
+    }
+  }
+
+  &:hover,
+  &:focus {
+    .ribbon-icon {
+      fill: $primary;
+    }
+  }
+}

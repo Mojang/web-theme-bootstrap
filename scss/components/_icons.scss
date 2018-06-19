@@ -1,0 +1,109 @@
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  overflow: unset !important;
+
+  use {
+    fill: currentColor;
+  }
+}
+
+p {
+  .svg-icon {
+    transform: translateY(calc(2em / 16));
+  }
+}
+
+.icon-15x {
+  font-size: 1.5rem;
+}
+
+@for $i from 2 through 5 {
+  .icon-#{$i}x {
+    font-size: #{$i}rem;
+  }
+}
+
+.icon-shadow {
+  filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.25));
+}
+
+.icon-outline {
+  display: inline-flex;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2px solid currentColor;
+
+  .svg-icon {
+    transform: none;
+  }
+}
+
+.icon-outline--circular {
+  border-radius: 50%;
+}
+
+.icon-outline--hexagon {
+  border-top: none;
+  border-bottom: none;
+  height: 26px;
+  width: 48px;
+  margin: 10px 0;
+
+  &::after,
+  &::before {
+    content: "";
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    border: 2px solid currentColor;
+    width: 27.2px;
+    height: 47.4px;
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-right: none;
+    border-left: none;
+    margin: 0 auto;
+    bottom: 0;
+  }
+
+  &::after {
+    transform: translateY(-50%) rotate(30deg);
+  }
+
+  &::before {
+    transform: translateY(-50%) rotate(-30deg);
+  }
+}
+
+.end-with-block {
+  h1 {
+    &:last-child::after {
+      width: $h1-font-size;
+      height: $h1-font-size;
+    }
+  }
+
+  p {
+    &:last-child::after {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+
+  p,
+  h1 {
+    &:last-child::after {
+      content: '';
+      background: url(#{$freyja-asset-path}/svg/icons/what-block.svg) no-repeat;
+      display: inline-block;
+      margin-left: 0.5rem;
+      margin-bottom: 2px;
+      vertical-align: text-bottom;
+    }
+  }
+}
