@@ -17,12 +17,12 @@ This package includes two parts:
 These file scan be found under the scss folder. In your main scss file, include the following to get started:
 
 ```scss
-$freyja-asset-path: "../theme/freyja";
+$freyja-asset-path: "[path_to_public_folder]";
 $master-head-height-lg: 112px;
 $master-head-height-md: 87px;
 $global-menu-height: 27px;
 
-@import "~@mojang/yggdrasil-web-freyja/scss/styles";
+@import "~@mojang/web-theme-bootstrap/scss/styles";
 ```
 
 Note that the theme takes care of including bootstrap the way it needs to be included so you do not need to include it.
