@@ -31,4 +31,4 @@ Note that the theme takes care of including bootstrap the way it needs to be inc
 
 In order to use the image assets and svg icons included in this package you need to have a build step in your build that copies the image assets to your public folder.
 
-The svg icons also needs to be converted into an [svg-sprite](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) using [svgstore](https://github.com/svgstore/svgstore) or similar tool.
+The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) using [svgstore](https://github.com/svgstore/svgstore) or similar tool.
