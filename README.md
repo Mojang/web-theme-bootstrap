@@ -14,7 +14,7 @@ This package includes two parts:
 
 ### 1. SCSS files needed to generate your minecraft.net look and feel.
 
-These file scan be found under the scss folder. In your main scss file, include the following to get started:
+These files can be found under the scss folder. In your main scss file, include the following to get started:
 
 ```scss
 $freyja-asset-path: "[path_to_public_folder]";
@@ -25,7 +25,7 @@ $global-menu-height: 27px;
 @import "~@mojang/web-theme-bootstrap/scss/styles";
 ```
 
-Note that the theme takes care of including bootstrap the way it needs to be included so you do not need to include it.
+Note that the theme takes care of including bootstrap the way it needs to be included so you do not need to @import it yourself.
 
 ### 2. Generic image assets used in several places, including an icon-set
 
