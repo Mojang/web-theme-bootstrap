@@ -38,3 +38,7 @@
 .bg-overlay {
   background-blend-mode: overlay;
 }
+
+.bg-gradient-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba($gray-800, 0.5));
+}
