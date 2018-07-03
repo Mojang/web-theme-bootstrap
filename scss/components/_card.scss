@@ -1,7 +1,7 @@
 .card {
   background-color: transparent;
 
-  .card-grow:focus {
+  &.card-grow:focus {
     outline: none !important;
     border: 3px solid #55a1f3;
   }
