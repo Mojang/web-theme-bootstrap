@@ -193,7 +193,7 @@ $btn-border-width: 4px;
   justify-content: center;
   width: 64px;
   height: 42px;
-  padding: unset;
+  padding: 0;
   transition: 0.625s cubic-bezier(0, 0.8, 0.25, 1);
   box-sizing: content-box;
   margin: 19px 0;
@@ -204,7 +204,7 @@ $btn-border-width: 4px;
     z-index: 1;
     position: relative;
     transform: perspective(500000000000px) translateZ(32px); // To prevent safari from hiding content under hexagon edges
-  }
+  } 
 
   &::before,
   &::after,
