@@ -2,15 +2,25 @@
   margin: 20px 0;
 
   .countdown {
-    display: grid;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-rows: repeat(2, 130px);
     grid-template-columns: repeat(2, 130px);
     justify-items: center;
     justify-content: center;
 
+    @include media-breakpoint-up(xs) {
+      width: 260px;
+    }
+
     @include media-breakpoint-up(sm) {
+      width: 100%;
       display: flex;
       justify-content: center;
+    }
+
+    .countdown__dimension {
+      display: inline-block;
     }
 
     .figures {
