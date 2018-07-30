@@ -191,3 +191,13 @@
     transform: rotate(45deg);
   }
 }
+
+@keyframes counter-digit-animation {
+  0% {
+    transform: translateY(-91%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
