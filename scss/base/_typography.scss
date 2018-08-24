@@ -125,3 +125,8 @@ $dark-hr-color: rgba(255, 255, 255, 0.1);
     border-color: $dark-hr-color;
   }
 }
+
+code {
+  padding: map-get($spacers, 1);
+  background-color: $gray-200;
+}
