@@ -377,13 +377,27 @@ $btn-border-width: 4px;
 }
 
 .btn-disabled-outline {
+  background-color: transparent;
   color: $gray-300;
   box-shadow: 0 0 0 4px currentColor inset;
-
+  
+  &::before {
+    box-shadow: none;
+  }
+  
+  &::after {
+    box-shadow: none;
+  }
+  
   &:hover,
   &:focus,
   &:active {
     color: $gray-300 !important;
     box-shadow: 0 0 0 4px currentColor inset;
+    
+    &::before {
+      background-color: transparent !important;
+      box-shadow: none;
+    }
   }
 }
