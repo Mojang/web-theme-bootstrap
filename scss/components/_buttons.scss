@@ -1,11 +1,11 @@
 $btn-border-width: 4px;
 
-@mixin border-box-shadow {
+@mixin disabled-border-box-shadow {
   box-shadow:
-    0 (-$btn-border-width) rgba($black, 0.3) inset,
-    0 $btn-border-width rgba($white, 0.5) inset,
-    (-$btn-border-width) 0 rgba($white, 0.5) inset,
-    $btn-border-width 0 rgba($black, 0.3) inset;
+    0 $btn-border-width rgba($white, 0.4) inset,
+    0 (-$btn-border-width) rgba($black, 0.05) inset,
+    $btn-border-width 0 rgba($black, 0.05) inset,
+    (-$btn-border-width) 0 rgba($white, 0.4) inset;
 }
 
 #btn-pseudo-element {
@@ -45,7 +45,11 @@ $btn-border-width: 4px;
   }
 
   &::before {
-    @include border-box-shadow;
+    box-shadow:
+      0 (-$btn-border-width) rgba($black, 0.3) inset,
+      0 $btn-border-width rgba($white, 0.5) inset,
+      (-$btn-border-width) 0 rgba($white, 0.5) inset,
+      $btn-border-width 0 rgba($black, 0.3) inset;
     z-index: -1;
   }
 
@@ -345,18 +349,41 @@ $btn-border-width: 4px;
 }
 
 .btn-disabled {
-  opacity: 0.25;
-  color: white;
-  background-color: $secondary;
+  color: $gray-600;
+  background-color: $gray-300;
+
+  &::before {
+    @include disabled-border-box-shadow;
+  }
+  
+  &::after {
+    box-shadow: none;
+  }
+  
+  &:hover,
+  &:focus,
+  &:active {
+    color: $gray-600 !important;
+    
+    &::before {
+      @include disabled-border-box-shadow;
+      background-color: $gray-300;
+    }
+
+    &::after {
+      box-shadow: none;
+    }
+  }
+}
+
+.btn-disabled-outline {
+  color: $gray-300;
+  box-shadow: 0 0 0 4px currentColor inset;
 
   &:hover,
   &:focus,
   &:active {
-    color: white !important;
-    
-    &::before {
-      @include border-box-shadow;
-      background-color: $secondary;
-    }
+    color: $gray-300 !important;
+    box-shadow: 0 0 0 4px currentColor inset;
   }
 }
