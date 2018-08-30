@@ -349,6 +349,7 @@ $btn-border-width: 4px;
 }
 
 .btn-disabled {
+  cursor: default !important;
   color: $gray-600;
   background-color: $gray-300;
 
@@ -377,6 +378,7 @@ $btn-border-width: 4px;
 }
 
 .btn-disabled-outline {
+  cursor: default !important;
   background-color: transparent;
   color: $gray-300;
   box-shadow: 0 0 0 4px currentColor inset;
