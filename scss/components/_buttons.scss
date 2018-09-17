@@ -148,6 +148,12 @@ $btn-border-width: 4px;
   }
 }
 
+@each $color, $value in $dungeons-theme-colors {
+  .btn-#{$color} {
+    color: color-yiq($value) !important;
+  }
+}
+
 .btn-secondary {
   &::before {
     background-color: $secondary;
@@ -214,7 +220,7 @@ $btn-border-width: 4px;
     z-index: 1;
     position: relative;
     transform: perspective(500000000000px) translateZ(32px); // To prevent safari from hiding content under hexagon edges
-  } 
+  }
 
   &::before,
   &::after,
@@ -287,6 +293,48 @@ $btn-border-width: 4px;
     }
   }
 
+  &.btn-dungeons-primary {
+    border-right-color: mix($dungeons-primary, $white, 75%);
+    border-left-color: mix($dungeons-primary, $black, 75%);
+
+    &,
+    &::after,
+    &::before {
+      background-color: $dungeons-primary;
+    }
+
+    &::before {
+      border-top-color: mix($dungeons-primary, $white);
+      border-left-color: mix($dungeons-primary, $white, 75%);
+    }
+
+    &::after {
+      border-bottom-color: mix($dungeons-primary, $black);
+      border-right-color: mix($dungeons-primary, $black, 75%);
+    }
+  }
+
+  &.btn-dungeons-secondary {
+    border-right-color: mix($dungeons-secondary, $white, 75%);
+    border-left-color: mix($dungeons-secondary, $black, 75%);
+
+    &,
+    &::after,
+    &::before {
+      background-color: $dungeons-secondary;
+    }
+
+    &::before {
+      border-top-color: mix($dungeons-secondary, $white);
+      border-left-color: mix($dungeons-secondary, $white, 75%);
+    }
+
+    &::after {
+      border-bottom-color: mix($dungeons-secondary, $black);
+      border-right-color: mix($dungeons-secondary, $black, 75%);
+    }
+  }
+
   &:hover,
   &:focus,
   &:active {
@@ -356,16 +404,16 @@ $btn-border-width: 4px;
   &::before {
     @include disabled-border-box-shadow;
   }
-  
+
   &::after {
     box-shadow: none;
   }
-  
+
   &:hover,
   &:focus,
   &:active {
     color: $gray-600 !important;
-    
+
     &::before {
       @include disabled-border-box-shadow;
       background-color: $gray-300;
@@ -382,21 +430,21 @@ $btn-border-width: 4px;
   background-color: transparent;
   color: $gray-300;
   box-shadow: 0 0 0 4px currentColor inset;
-  
+
   &::before {
     box-shadow: none;
   }
-  
+
   &::after {
     box-shadow: none;
   }
-  
+
   &:hover,
   &:focus,
   &:active {
     color: $gray-300 !important;
     box-shadow: 0 0 0 4px currentColor inset;
-    
+
     &::before {
       background-color: transparent !important;
       box-shadow: none;
