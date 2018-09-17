@@ -1,4 +1,4 @@
-$all-colors: map-merge(map-merge(map-merge(map-merge($colors, $theme-colors), $theme-colors-supportive), $grays), ("black": $black, "white": $white));
+$all-colors: map-merge(map-merge(map-merge(map-merge(map-merge($colors, $theme-colors), $theme-colors-supportive), $grays), ("black": $black, "white": $white)), $dungeons-theme-colors);
 
 // Create text-{#color} classes for full color palette
 @each $color, $value in $all-colors {
