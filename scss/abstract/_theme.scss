@@ -32,10 +32,10 @@ $senary: $soil;
 $senary-supportive: $soil-supportive;
 
 // Dungeons primary colors
-$dungeons-primary: map-get($dungeon-colors, "orange");
+$dungeons-primary: map-get($dungeons-colors, "orange");
 
 // Dungeons secondary colors
-$dungeons-secondary: map-get($dungeon-colors, "eucalyptus");
+$dungeons-secondary: map-get($dungeons-colors, "eucalyptus");
 
 $default-shadow: 0 2px 0 rgba($black, 0.25);
 $default-box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.15);
