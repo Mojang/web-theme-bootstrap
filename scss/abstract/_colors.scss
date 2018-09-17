@@ -49,6 +49,7 @@ $yellow: #e6b40b;
 
 // Orange
 $orange: #d4441a;
+$light-orange: #e67834;
 $brick: #be583f;
 
 // Greens
@@ -63,6 +64,7 @@ $forest-green: #5b813f;
 
 // Cyan
 $turquoise: #14837f;
+$eucalyptus: #299b6e;
 $cyan: #2ab8a6;
 
 // Light blue
@@ -103,4 +105,9 @@ $colors: (
   "white":        $white,
   "gray":         $dusty-gray,
   "gray-dark":    $tundora
+);
+
+$dungeons-colors: (
+  "orange": $light-orange,
+  "eucalyptus": $eucalyptus
 );
