@@ -1,4 +1,4 @@
 .border-dungeons {
-  border: 30px solid transparent;
+  border: 30px solid rgba($white 0.25);
   border-image: url(#{$freyja-asset-path}/img/border-dungeons-25.png) 30;
 }
