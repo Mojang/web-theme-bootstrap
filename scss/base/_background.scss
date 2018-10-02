@@ -42,3 +42,11 @@
 .bg-gradient-overlay {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba($gray-800, 0.5));
 }
+
+@each $opacity in $opacities {
+  @each $color, $value in ("black": $black, "white": $white) {
+    .bg-#{$color}-#{$opacity} {
+      background-color: rgba($value, $opacity / 100);
+    }
+  }
+}
