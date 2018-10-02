@@ -2,3 +2,18 @@
   border: 30px solid rgba($white, 0.25);
   border-image: url(#{$freyja-asset-path}/img/border-dungeons-25.png) 30;
 }
+
+@for $i from 1 through 5 {
+  .border-width-#{$i} {
+    border-width: #{$i}px!important;
+  }
+}
+
+@each $opacity in $opacities {
+  @each $color, $value in ("black": $black, "white": $white) {
+    
+    .border-#{$color}-#{$opacity} {
+      border-color: rgba($value, $opacity / 100)!important;
+    }
+  }
+}
