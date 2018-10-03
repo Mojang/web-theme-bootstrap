@@ -37,4 +37,4 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 
 ### 3. License
-[MIT] (https://github.com/Mojang/web-theme-bootstrap/blob/master/LICENSE)
+[MIT](https://github.com/Mojang/web-theme-bootstrap/blob/master/LICENSE)
