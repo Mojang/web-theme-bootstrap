@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Mojang/web-theme-bootstrap.svg?branch=master)](https://travis-ci.org/Mojang/web-theme-bootstrap)
 
-Contains the theme used on minecraft.net based on Boostrap 4
+Contains the theme used on minecraft.net based on Bootstrap 4
 
 ## Install
 
