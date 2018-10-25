@@ -7,7 +7,7 @@ Contains the theme used on minecraft.net based on Boostrap 4
 ## Install
 
 ```cli
-> npm i @mojang/web-theme-bootstrap --save
+> npm i @mojang/web-theme-bootstrap
 ```
 
 ## Included in the package
