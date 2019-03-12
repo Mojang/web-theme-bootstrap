@@ -193,6 +193,10 @@ $btn-border-width: 4px;
 
 .btn-link {
   color: currentColor;
+  font-size: 1rem;
+  letter-spacing: normal;
+  text-transform: none;
+  padding: 0;
 
   &:hover,
   &:focus {
