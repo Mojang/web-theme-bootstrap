@@ -42,3 +42,17 @@
   color: $white;
   text-shadow: $default-shadow;
 }
+
+.alert-fixed {
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: $zindex-popover;
+
+  @include media-breakpoint-up(lg) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
