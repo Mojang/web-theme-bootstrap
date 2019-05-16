@@ -93,10 +93,6 @@
   filter: progid:dximagetransform.microsoft.gradient(startColorstr=$left-color, endColorstr=$right-color, GradientType=1); /* IE6-9 */
 }
 
-@mixin default-outline() {
-  outline: -webkit-focus-ring-color auto 5px;
-}
-
 @mixin grow-animation($background-color, $scaleX, $scaleY : $scaleX, $initial-background-color: $background-color, $initial-background-opacity: 0) {
 
   // Force gpu rendering on Safari to prevent the font-smoothing antialised/subpixel-antialised switch

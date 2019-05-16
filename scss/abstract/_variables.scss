@@ -1,3 +1,7 @@
+// General
+$default-focus-color: mix($blue, $light-blue);
+$default-focus-box-shadow: 0 0 3px 1px $default-focus-color, 0 0 2px 1px $default-focus-color inset;
+
 // Bootstrap overrrides
 
 // Options
@@ -57,9 +61,9 @@ $modal-footer-border-color: transparent;
 
 // Forms
 $input-box-shadow: none;
-$input-focus-box-shadow: none;
 $input-border-color: transparent;
 $input-focus-border-color: $senary-supportive;
+$input-focus-box-shadow: $default-focus-box-shadow;
 
 // Links
 $link-color: $primary-supportive;
@@ -69,6 +73,7 @@ $link-hover-decoration: none;
 // Buttons
 $btn-font-weight: $font-weight-bold;
 $btn-disabled-opacity: 1;
+$btn-focus-box-shadow: $default-focus-box-shadow;
 
 // Custom
 $custom-bezier-1: cubic-bezier(0, 0.8, 0.2, 1);
