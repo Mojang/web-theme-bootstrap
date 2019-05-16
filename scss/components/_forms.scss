@@ -13,10 +13,6 @@ $label-color: $scorpion;
   height: 36px;
   padding: 8px;
   border-color: $senary-supportive;
-
-  &:focus {
-    outline: -webkit-focus-ring-color auto 5px;
-  }
 }
 
 .form-control-plaintext {
