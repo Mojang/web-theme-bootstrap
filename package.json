@@ -14,7 +14,7 @@
   "homepage": "https://github.com/Mojang/web-theme-bootstrap#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "popper.js": "^1.14.3"
   }
 }
