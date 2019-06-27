@@ -37,6 +37,9 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v2.1.0
+- Update primary and tertiary colors
+
 v2.0.0
 - Fix position of inline icons
 - Add 4 new monochrome SVG logos
