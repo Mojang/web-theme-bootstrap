@@ -2,8 +2,8 @@
 // http://chir.ag/projects/name-that-color/
 
 // Colors
-$grass: #36b030; // Primary
-$spring-grass: #84c94c; // Tertiary
+$fun-green: #008542; // Primary
+$malachite: #04ca67; // Tertiary
 $mud: #996a41; // Quaternary
 $dirt: #5a381e; // Quinary
 
@@ -16,8 +16,8 @@ $gravel: #757575; // Secondary
 $dusty-gray: #949494;
 
 // Supportive Colors
-$grass-supportive: darken($grass, 11.64%);
-$spring-grass-supportive: darken($spring-grass, 10%);
+$fun-green-supportive: darken($fun-green, 11.64%);
+$malachite-supportive: darken($malachite, 10%);
 
 $mud-supportive: darken($mud, 10%);
 $dirt-supportive: darken($dirt, 10%);
@@ -53,11 +53,13 @@ $light-orange: #e67834;
 $brick: #be583f;
 
 // Greens
+$grass: #36b030; // Old primary (don't use)
+$spring-grass: #84c94c; // Old tertiary (don't use)
 $bright-green: #64fd1f;
 $harlequin: #47d009;
 $japanese-laurel: #1e8c03;
 $japanese-laurel-dark: #156c00;
-$green: $grass;
+$green: $fun-green;
 
 $olive: #787a26;
 $forest-green: #5b813f;
