@@ -34,3 +34,11 @@ Note that the theme takes care of including bootstrap the way it needs to be inc
 In order to use the image assets and svg icons included in this package you need to have a build step in your build that copies the image assets to your public folder.
 
 The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) using [svgstore](https://github.com/svgstore/svgstore) or similar tool.
+
+### Changelog
+
+v2.0.0
+- Fix position of inline icons
+- Add 4 new monochrome SVG logos
+- Add a `.svg-logo` class that makes you able to control color through css
+- **BREAKING CHANGE**: `#microsoft` and `#mojang` logos now inherit their text color from `currentColor`. Use `.svg-logo` class and set text color to override.
