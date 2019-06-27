@@ -8,9 +8,15 @@
   }
 }
 
-p {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   .svg-icon {
-    transform: translateY(calc(2em / 16));
+    transform: translateY(calc(-2em / 16));
   }
 }
 
