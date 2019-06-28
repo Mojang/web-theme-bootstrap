@@ -44,7 +44,7 @@ button {
     &:hover,
     &:focus,
     &:active {
-      color: $primary-supportive;
+      color: $primary;
       background-color: transparent;
 
       .text-light & {
