@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Mojang/web-theme-bootstrap.svg?branch=master)](https://travis-ci.org/Mojang/web-theme-bootstrap)
 
-Contains the theme used on minecraft.net based on Boostrap 4
+Contains the theme used on minecraft.net based on Bootstrap 4
 
 ## Install
 
@@ -36,6 +36,10 @@ In order to use the image assets and svg icons included in this package you need
 The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) using [svgstore](https://github.com/svgstore/svgstore) or similar tool.
 
 ### Changelog
+
+v3.0.0
+- Update primary and tertiary color
+- **BREAKING CHANGE**: Remove `$primary-light-1`, `$primary-light-2`, `$primary-dark-1`, `$primary-dark-2`. Use `$primary-supportive` for dark and `$tertiary` for light.
 
 v2.0.0
 - Fix position of inline icons
