@@ -88,10 +88,10 @@ $dropdown-padding-y: 0;
 $dropdown-item-padding-x: 0.75rem;
 $dropdown-item-padding-y: 0.5rem;
 
-$dropdown-bg: $tertiary;
+$dropdown-bg: $black;
 $dropdown-link-color: $white;
-$dropdown-link-hover-color: $tertiary;
-$dropdown-link-hover-bg: $black;
+$dropdown-link-hover-color: $white;
+$dropdown-link-hover-bg: $primary;
 
 // Path to Freyja assets, to be used from the consumer
 $freyja-asset-path: "" !default;
