@@ -37,6 +37,9 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v3.1.1
+- Set link color to primary (was `$primary-supportive`)
+
 v3.1.0
 - Update inverted link hover color
 - Update `dropdown-menu` style
