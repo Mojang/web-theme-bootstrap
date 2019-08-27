@@ -1,8 +1,8 @@
-.radio {
+.checkbox {
   display: inline-block;
   position: relative;
 
-  input[type="radio"] {
+  input[type="checkbox"] {
     position: absolute;
     top: 0;
     left: 0;
@@ -12,18 +12,21 @@
 
     &:checked {
       & + label {
-        .radio-icon {
+        .checkbox-icon {
           border-color: $primary;
+          background-color: $primary;
 
           &::after {
-            background-color: $primary;
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
           }
         }
-
-        &.radio-selection {
-          border-color: $primary;
-          background-color: $ebb;
-          box-shadow: 3px 3px 0 rgba($black, 0.1) inset;
+        .svg-icon {
+          color: $white;
+          transform: scale(1);
         }
       }
     }
@@ -32,7 +35,7 @@
       outline: none;
 
       & + label {
-        .radio-icon {
+        .checkbox-icon {
           box-shadow: 0 0 5px 1px Highlight;
         }
       }
@@ -42,7 +45,7 @@
       & + label {
         color: $gray-500;
 
-        .radio-icon {
+        .checkbox-icon {
           border-color: $gray-400;
           background-color: $gray-300;
 
@@ -51,9 +54,9 @@
             display: block;
             position: absolute;
             background-color: $gray-400;
-            left: 0;
+            left: -4px;
             top: 50%;
-            width: 100%;
+            width: 24px;
             height: 2px;
             transform: translateY(-50%) rotate(45deg);
           }
@@ -63,53 +66,43 @@
 
     &:disabled:checked {
       & + label {
-        .radio-icon {
-          &::after {
-            background-color: $gray-400;
-          }
+        .checkbox-icon {
+          background-color: $gray-300;
         }
-
-        &.radio-selection {
-          border-color: $gray-400;
-          background-color: $ebb;
-          box-shadow: none;
+        .svg-icon {
+          color: $gray-400;
         }
       }
     }
   }
 
-  .radio-label {
+  .checkbox-label {
     display: inline-flex;
     align-items: center;
     transition: 0.3s;
   }
 
-  .radio-icon {
+  .checkbox-icon {
     display: inline-block;
     background-color: $white;
     border: 2px solid rgba($black, 0.5);
-    border-radius: 50%;
     margin-right: 0.25em;
     padding: 2px;
     transition: 0.3s;
     line-height: 0;
     position: relative;
+    width: 20px;
+    height: 20px;
+    color: transparent;
 
-    &::after {
-      content: "";
-      display: inline-block;
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
+    .svg-icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
       transition: 0.3s;
+      transform: scale(0);
     }
-  }
-
-  .radio-selection {
-    display: block;
-    border: 3px solid rgba($black, 0.1);
-    border-radius: 4px;
-    padding: $spacer;
-    transition: 0.3s;
   }
 }
