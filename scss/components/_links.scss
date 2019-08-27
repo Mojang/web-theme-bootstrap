@@ -2,7 +2,7 @@ td,
 li,
 p {
   a {
-    color: $primary;
+    color: $link-color;
     transition: color 0.025s linear, background-color 0.025s linear;
 
     &:hover,

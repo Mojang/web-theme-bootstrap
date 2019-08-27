@@ -1,6 +1,7 @@
 // General
 $default-focus-color: mix($blue, $light-blue);
-$default-focus-box-shadow: 0 0 3px 1px $default-focus-color, 0 0 2px 1px $default-focus-color inset;
+$default-focus-box-shadow: 0 0 3px 1px $default-focus-color,
+  0 0 2px 1px $default-focus-color inset;
 
 // Bootstrap overrrides
 
@@ -13,7 +14,7 @@ $body-color: $senary;
 $code-color: $purple;
 
 // Fonts
-$font-family-sans-serif: 'Noto Sans', sans-serif;
+$font-family-sans-serif: "Noto Sans", sans-serif;
 
 $h1-font-size: $font-size-base * 2.25; // 36px
 $h2-font-size: $font-size-base * 1.75; // 28px
@@ -66,8 +67,8 @@ $input-focus-border-color: $senary-supportive;
 $input-focus-box-shadow: $default-focus-box-shadow;
 
 // Links
-$link-color: $primary;
-$link-hover-color: $primary;
+$link-color: darken($primary, 5%);
+$link-hover-color: darken($primary, 10%);
 $link-hover-decoration: none;
 
 // Buttons
