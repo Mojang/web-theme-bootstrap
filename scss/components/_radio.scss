@@ -37,6 +37,45 @@
         }
       }
     }
+
+    &:disabled {
+      & + label {
+        color: $gray-500;
+
+        .radio-icon {
+          border-color: $gray-400;
+          background-color: $gray-300;
+
+          &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            background-color: $gray-400;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            height: 2px;
+            transform: translateY(-50%) rotate(45deg);
+          }
+        }
+      }
+    }
+
+    &:disabled:checked {
+      & + label {
+        .radio-icon {
+          &::after {
+            background-color: $gray-400;
+          }
+        }
+
+        &.radio-selection {
+          border-color: $gray-400;
+          background-color: $ebb;
+          box-shadow: none;
+        }
+      }
+    }
   }
 
   .radio-label {
@@ -54,12 +93,13 @@
     padding: 2px;
     transition: 0.3s;
     line-height: 0;
+    position: relative;
 
     &::after {
-      content: '';
+      content: "";
       display: inline-block;
-      width: 0.8em;
-      height: 0.8em;
+      width: 12px;
+      height: 12px;
       border-radius: 50%;
       transition: 0.3s;
     }
