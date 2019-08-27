@@ -37,19 +37,29 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v3.2.0
+
+- Darken link color 5%
+- Add support for disabled radio button
+- Add new checkbox
+
 v3.1.1
+
 - Set link color to primary (was `$primary-supportive`)
 
 v3.1.0
+
 - Update inverted link hover color
 - Update `dropdown-menu` style
 - Add Xbox Game Studios logo
 
 v3.0.0
+
 - Update primary and tertiary color
 - **BREAKING CHANGE**: Remove `$primary-light-1`, `$primary-light-2`, `$primary-dark-1`, `$primary-dark-2`. Use `$primary-supportive` for dark and `$tertiary` for light.
 
 v2.0.0
+
 - Fix position of inline icons
 - Add 4 new monochrome SVG logos
 - Add a `.svg-logo` class that makes you able to control color through css
