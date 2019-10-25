@@ -1,5 +1,3 @@
-$footer-menu-link-hover-color: darken($secondary, 10%);
-
 .mojang-footer {
   background: $black;
   color: $secondary;
@@ -9,13 +7,9 @@ $footer-menu-link-hover-color: darken($secondary, 10%);
     padding: 2.2rem 0 2rem;
   }
 
-  a {
-    text-decoration: none;
-  }
-
   .nav {
     a {
-      @include link($cloud, $footer-menu-link-hover-color, $cloud);
+      @include link($cloud, $cloud, $cloud);
 
       &:hover {
         background-color: transparent;
@@ -135,10 +129,15 @@ $footer-menu-link-hover-color: darken($secondary, 10%);
     }
 
     .ms-links__links--locale {
+      display: flex;
+      align-items: center;
+
+      .ms-links__links--locale-icon {
+        margin-right: 5px;
+      }
+
       .ms-links__links--locale-text {
         position: relative;
-        top: -6px;
-        left: 6px;
       }
     }
   }

@@ -68,7 +68,6 @@ $btn-border-width: 4px;
   }
 }
 
-
 .btn {
   display: inline-flex;
   align-items: center;
@@ -149,7 +148,7 @@ $btn-border-width: 4px;
 }
 
 .btn-link {
-  color: currentColor;
+  color: $primary;
   font-size: 1rem;
   letter-spacing: normal;
   text-transform: none;
@@ -157,7 +156,7 @@ $btn-border-width: 4px;
 
   &:hover,
   &:focus {
-    color: $primary;
+    color: $primary-supportive;
     text-decoration: underline;
   }
 }
