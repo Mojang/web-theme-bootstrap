@@ -37,6 +37,22 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v4.1.0
+
+- Add Minecraft Dungeons logo back
+
+v4.0.0
+
+- Remove Minecraft Dungeons logo
+
+v3.3.1
+
+- Namespace Minecraft Dungeons logo ids
+
+v3.3.0
+
+- Add Minecraft Dungeons logo
+
 v3.2.0
 
 - Darken link color 5%
