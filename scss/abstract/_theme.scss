@@ -30,6 +30,7 @@ $dungeons-primary: map-get($dungeons-colors, "orange");
 
 // Dungeons secondary colors
 $dungeons-secondary: map-get($dungeons-colors, "eucalyptus");
+$dungeons-tertiary: map-get($dungeons-colors, "golden-tainoi");
 
 $default-shadow: 0 2px 0 rgba($black, 0.25);
 $default-box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.15);
@@ -64,7 +65,9 @@ $theme-colors-supportive: (
 
 $dungeons-theme-colors: (
   "dungeons-primary": $dungeons-primary,
-  "dungeons-secondary": $dungeons-secondary
+  "dungeons-secondary": $dungeons-secondary,
+  "dungeons-tertiary": $dungeons-tertiary,
+
 );
 
 $gradients: (); // Returns a gradient value for use in sass. e.g. map-get($gradients, "secondary")
