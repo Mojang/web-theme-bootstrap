@@ -37,6 +37,11 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v4.2.0
+
+- Add Windows logo
+- Add new Minecraft Dungeons color
+
 v4.1.0
 
 - Add Minecraft Dungeons logo back
