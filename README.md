@@ -37,6 +37,10 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v4.3.1
+
+- Fix cart icon size
+
 v4.3.0
 
 - Add pixelated cart icon
