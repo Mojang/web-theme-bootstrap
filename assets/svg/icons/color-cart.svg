@@ -1,15 +1,14 @@
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 38">
-  <title>cart</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
   <g>
     <g>
-      <rect x="4" width="4" height="4" style="fill: #889597"/>
-      <rect x="14" y="34" width="4" height="4" style="fill: #889597"/>
-      <rect x="30" y="34" width="4" height="4" style="fill: #889597"/>
-      <polygon points="36 4 36 20 12 20 12 4 8 4 8 32 12 32 40 32 40 28 12 28 12 24 40 24 40 20 40 4 36 4" style="fill: #889597"/>
+      <rect x="127.57" y="93.05" width="32.05" height="32.05" style="fill: #889597"/>
+      <rect x="207.69" y="365.45" width="32.05" height="32.05" style="fill: #889597"/>
+      <rect x="335.88" y="365.45" width="32.05" height="32.05" style="fill: #889597"/>
+      <polygon points="383.95 125.1 383.95 253.29 191.67 253.29 191.67 125.1 159.62 125.1 159.62 349.43 191.67 349.43 416 349.43 416 317.38 191.67 317.38 191.67 285.33 416 285.33 416 253.29 416 125.1 383.95 125.1" style="fill: #889597"/>
     </g>
-    <rect width="4" height="4" style="fill: #fff"/>
-    <rect x="10" y="34" width="4" height="4" style="fill: #fff"/>
-    <rect x="26" y="34" width="4" height="4" style="fill: #fff"/>
-    <polygon points="32 4 32 20 8 20 8 4 4 4 4 32 8 32 36 32 36 28 8 28 8 24 36 24 36 20 36 4 32 4" style="fill: #fff"/>
+    <rect x="95.53" y="93.05" width="32.05" height="32.05" style="fill: #fdfcfb"/>
+    <rect x="175.64" y="365.45" width="32.05" height="32.05" style="fill: #fdfcfb"/>
+    <rect x="303.83" y="365.45" width="32.05" height="32.05" style="fill: #fdfcfb"/>
+    <polygon points="351.9 125.1 351.9 253.29 159.62 253.29 159.62 125.1 127.57 125.1 127.57 349.43 159.62 349.43 383.95 349.43 383.95 317.38 159.62 317.38 159.62 285.33 383.95 285.33 383.95 253.29 383.95 125.1 351.9 125.1" style="fill: #fdfcfb"/>
   </g>
 </svg>
