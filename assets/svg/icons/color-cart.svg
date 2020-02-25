@@ -1,0 +1,15 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 38">
+  <title>cart</title>
+  <g>
+    <g>
+      <rect x="4" width="4" height="4" style="fill: #889597"/>
+      <rect x="14" y="34" width="4" height="4" style="fill: #889597"/>
+      <rect x="30" y="34" width="4" height="4" style="fill: #889597"/>
+      <polygon points="36 4 36 20 12 20 12 4 8 4 8 32 12 32 40 32 40 28 12 28 12 24 40 24 40 20 40 4 36 4" style="fill: #889597"/>
+    </g>
+    <rect width="4" height="4" style="fill: #fff"/>
+    <rect x="10" y="34" width="4" height="4" style="fill: #fff"/>
+    <rect x="26" y="34" width="4" height="4" style="fill: #fff"/>
+    <polygon points="32 4 32 20 8 20 8 4 4 4 4 32 8 32 36 32 36 28 8 28 8 24 36 24 36 20 36 4 32 4" style="fill: #fff"/>
+  </g>
+</svg>
