@@ -29,6 +29,20 @@
 }
 
 @font-face {
+  font-family: 'MinecraftSeven';
+  src: url(#{$freyja-asset-path}/fonts/MinecraftSeven.eot); /* IE9 Compat Modes */
+  src:
+    url(#{$freyja-asset-path}/fonts/MinecraftSeven.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+    url(#{$freyja-asset-path}/fonts/MinecraftSeven.woff) format('woff'), /* Modern Browsers */
+    url(#{$freyja-asset-path}/fonts/MinecraftSeven.ttf) format('truetype'), /* Safari, Android, iOS */
+    url(#{$freyja-asset-path}/fonts/MinecraftSeven.svg#MinecraftSeven) format('svg'); /* Legacy iOS */
+
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
   font-family: 'MinecraftTen';
   src: url(#{$freyja-asset-path}/fonts/MinecraftTen.eot); /* IE9 Compat Modes */
   src:
@@ -70,6 +84,7 @@ h4 {
 }
 
 .font-mc-ten,
+.font-mc-seven,
 .font-mc-five {
   font-weight: normal !important;
 
@@ -78,6 +93,10 @@ h4 {
 
 .font-mc-ten {
   font-family: 'MinecraftTen', 'Noto Sans', sans-serif;
+}
+
+.font-mc-seven {
+  font-family: 'MinecraftSeven', 'Noto Sans', sans-serif;
 }
 
 .font-mc-five {
