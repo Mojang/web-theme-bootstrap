@@ -37,6 +37,10 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v4.5.0
+
+- Add xbox game studios color logo
+
 v4.4.0
 
 - Add `font-mc-seven`
