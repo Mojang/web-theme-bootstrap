@@ -37,6 +37,9 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v5.1.0
+- Add cero-a logo
+
 v5.0.0
 
 **BREAKING CHANGE**
