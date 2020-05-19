@@ -1,4 +1,4 @@
-.mojang-footer {
+.mojang-studios-footer {
   background: $black;
   color: $secondary;
   padding: 27px 0 25px;
@@ -42,14 +42,9 @@
     }
   }
 
-  .icon-microsoft-studios {
-    width: 50px;
-    height: 25px;
-
-    @include media-breakpoint-up(md) {
-      width: 70px;
-      height: 40px;
-    }
+  .icon-xbox-game-studios {
+    width: 90px;
+    height: 50px;
   }
 
   .icon-esrb {
@@ -57,14 +52,9 @@
     width: 120px;
   }
 
-  .icon-mojang {
-    width: 100px;
-    height: 15px;
-
-    @include media-breakpoint-up(md) {
-      width: 220px;
-      height: 35px;
-    }
+  .icon-mojang-studios {
+    width: 60px;
+    height: 50px;
   }
 
   .rating-container {
