@@ -37,6 +37,14 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v6.0.0
+
+**BREAKING CHANGE**
+- Rename following classes:
+    * `mojang-footer` -> `mojang-studios-footer`
+    * `icon-microsoft-studios` -> `icon-xbox-game-studios`
+    * `icon-mojang` -> `icon-mojang-studios`
+
 v5.1.0
 - Add cero-a logo
 
