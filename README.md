@@ -37,8 +37,10 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
-v6.0.0
+v6.1.0
+- Add `.icon-cero-a`
 
+v6.0.0
 **BREAKING CHANGE**
 - Rename following classes:
     * `mojang-footer` -> `mojang-studios-footer`
