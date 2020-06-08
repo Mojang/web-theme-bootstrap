@@ -37,6 +37,9 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v6.2.0
+- Add Minecraft Dungeons Launcher icons
+
 v6.1.0
 - Add `.icon-cero-a`
 
