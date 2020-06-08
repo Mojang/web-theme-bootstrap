@@ -1,0 +1,89 @@
+<svg fill="none" viewBox="0 0 256 256" height="256" width="256" xmlns="http://www.w3.org/2000/svg">
+  <path d="m32 223.9h32v32h-32z" fill="#a5a5a5" />
+  <path d="m32 32h32v32h-32z" fill="#be4500" />
+  <path d="m64 32h32v32h-32z" fill="#c76700" />
+  <path d="m96 32h32v32h-32z" fill="#c55d00" />
+  <path d="m128 32h32v32h-32z" fill="#d19014" />
+  <path d="m160 32h32v32h-32z" fill="#bc4000" />
+  <path d="m192 32h32v32h-32z" fill="#c86a00" />
+  <path d="m224 32h32v32h-32z" fill="#bd4300" />
+  <path d="m32 64h32v32h-32z" fill="#c35500" />
+  <path d="m64 64h32v32h-32z" fill="#686868" />
+  <path d="m96 64h32v32h-32z" fill="#c04c00" />
+  <path d="m128 64h32v32h-32z" fill="#c96e00" />
+  <path d="m160 64h32v32h-32z" fill="#c45b00" />
+  <path d="m192 64h32v32h-32z" fill="#797979" />
+  <path d="m224 64h32v32h-32z" fill="#bc4000" />
+  <path d="m256 0h-32v32h32z" fill="#c04c00" />
+  <path d="m224 0h-32v32h32z" fill="#c96e00" />
+  <path d="m192 0h-32v32h32z" fill="#c45b00" />
+  <path d="m128 0h-32v32h32z" fill="#bc4000" />
+  <path d="m96 0h-32v32h32z" fill="#bc4300" />
+  <path d="m32 32h32v-32h-32" fill="#c76700" />
+  <path d="m32 96h32v32h-32z" fill="#c96e00" />
+  <path d="m64 96h32v32h-32z" fill="#5c5c5c" />
+  <path d="m96 96h32v32h-32z" fill="#626262" />
+  <path d="m128 96h32v32h-32z" fill="#ba3e00" />
+  <path d="m160 96h32v32h-32z" fill="#515151" />
+  <path d="m192 96h32v32h-32z" fill="#656565" />
+  <path d="m224 96h32v32h-32z" fill="#5c5c5c" />
+  <path d="m32 128h32v32h-32z" fill="#6f6f6f" />
+  <path d="m64 128h32v32h-32z" fill="#888" />
+  <path d="m96 128h32v32h32v32h-64z" fill="#666" />
+  <path d="m128 128h32v32h-32z" fill="#585858" />
+  <path d="m160 128h32v32h-32z" fill="#6f6f6f" />
+  <path d="m192 128h32v32h-32z" fill="#545454" />
+  <path d="m224 128h32v32h-32z" fill="#767676" />
+  <path d="m32 160h32v32h-32z" fill="#7b7b7b" />
+  <path d="m64 160h32v32h-32z" fill="#545454" />
+  <path d="m160 160h32v32h-32z" fill="#9c9c9c" />
+  <path d="m192 160h32v32h-32z" fill="#7e7e7e" />
+  <path d="m224 160h32v32h-32z" fill="#545454" />
+  <path d="m32 192h32v32h-32z" fill="#5f5f5f" />
+  <path d="m64 192h32v32h-32z" fill="#a5a5a5" />
+  <path d="m96 192h32v32h-32z" fill="#7b7b7b" />
+  <path d="m128 192h32v32h-32z" fill="#888" />
+  <path d="m160 192h32v32h-32z" fill="#545454" />
+  <path d="m192 192h32v32h-32z" fill="#888" />
+  <path d="m224 192h32v32h-32z" fill="#a5a5a5" />
+  <path d="m64 224h32v32h-32z" fill="#6e6e6e" />
+  <path d="m96 224h32v32h-32z" fill="#545454" />
+  <path d="m128 224h32v32h-32z" fill="#707070" />
+  <path d="m160 224h32v32h-32z" fill="#606060" />
+  <path d="m192 224h32v32h-32z" fill="#9c9c9c" />
+  <path d="m224 224h32v32h-32z" fill="#757575" />
+  <path d="m192 96h-32v3.1h32z" fill="#9c132e" opacity=".3" />
+  <path d="m224 64h-32v3.1h32z" fill="#9c132e" opacity=".3" />
+  <path d="m160 128h-32v3.1h32z" fill="#9c132e" opacity=".3" />
+  <path d="m128 96h-32v3.1h32z" fill="#9c132e" opacity=".3" />
+  <path d="m64 127.97h-32v3.1h32z" fill="#9c132e" opacity=".3" />
+  <path d="m64 224h-32v3.1h32z" fill="#3f3f3f" opacity=".3" />
+  <path d="m96 64h-32v3.1h32z" fill="#9c132e" opacity=".3" />
+  <path d="m255.89 96h-31.88v3.1h31.88z" fill="#9c132e" opacity=".3" />
+  <g fill="#dcebc5">
+    <path d="m64 126.61h-32v1.39h32z" opacity=".5" />
+    <path d="m96 62.6099h-32v1.39h32z" opacity=".5" />
+    <path d="m128 94.6099h-32v1.39h32z" opacity=".5" />
+    <path d="m160 126.61h-32v1.39h32z" opacity=".5" />
+    <path d="m192 94.6099h-32v1.39h32z" opacity=".5" />
+    <path d="m224 62.6099h-32v1.39h32z" opacity=".5" />
+    <path d="m255.89 94.6099h-31.89v1.39h31.89z" opacity=".5" />
+  </g>
+  <path d="m128 0h32v32h-32z" fill="#b32900" />
+  <path d="m0 96h32v32h-32z" fill="#595959" />
+  <path d="m0 128h32v32h-32z" fill="#666" />
+  <path d="m0 192h32v32h-32z" fill="#888" />
+  <path d="m0 224h32v32h-32z" fill="#9c9c9c" />
+  <path d="m0 32h32v32h-32z" fill="#b32900" />
+  <path d="m0 64h32v32h-32z" fill="#bc4300" />
+  <path d="m32 32h-32v-32h32" fill="#b73400" />
+  <path d="m0 160h32v32h-32z" fill="#5f5f5f" />
+  <path d="m32 191.99h-32v3.1h32z" fill="#3f3f3f" opacity=".3" />
+  <path d="m32 96h-32v3.1h32z" fill="#9c132e" opacity=".3" />
+  <path d="m32 94.6099h-32v1.39h32z" fill="#dcebc5" opacity=".5" />
+  <path d="m192 192h-32v3.1h32z" fill="#3f3f3f" opacity=".3" />
+  <path d="m128 224h-32v3.1h32z" fill="#3f3f3f" opacity=".3" />
+  <path d="m256 160h-32v3.1h32z" fill="#3f3f3f" opacity=".3" />
+  <path d="m96 160h-32v3.1h32z" fill="#3f3f3f" opacity=".3" />
+  <path d="m224 128h-32v3.1h32z" fill="#3f3f3f" opacity=".3" />
+</svg>
