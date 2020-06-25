@@ -11,7 +11,7 @@
     width: 1.3em;
 
     &:checked {
-      & + label {
+      &+label {
         .radio-icon {
           border-color: $primary;
 
@@ -31,7 +31,7 @@
     &:focus {
       outline: none;
 
-      & + label {
+      &+label {
         .radio-icon {
           box-shadow: 0 0 5px 1px Highlight;
         }
@@ -39,7 +39,7 @@
     }
 
     &:disabled {
-      & + label {
+      &+label {
         color: $gray-500;
 
         .radio-icon {
@@ -62,7 +62,7 @@
     }
 
     &:disabled:checked {
-      & + label {
+      &+label {
         .radio-icon {
           &::after {
             background-color: $gray-400;
@@ -111,5 +111,17 @@
     border-radius: 4px;
     padding: $spacer;
     transition: 0.3s;
+  }
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .radio input[type="radio"]:checked+label .radio-icon::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='highlight' /%3E%3C/svg%3E");
+  }
+
+  .radio input[type="radio"]:checked+label .radio-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='4' stroke='highlight' stroke-width='1.5' /></svg>");
+    padding: 4px;
+    border: none;
   }
 }
