@@ -11,7 +11,7 @@
     width: 1.3em;
 
     &:checked {
-      &+label {
+      & + label {
         .radio-icon {
           border-color: $primary;
 
@@ -31,7 +31,7 @@
     &:focus {
       outline: none;
 
-      &+label {
+      & + label {
         .radio-icon {
           box-shadow: 0 0 5px 1px Highlight;
         }
@@ -39,7 +39,7 @@
     }
 
     &:disabled {
-      &+label {
+      & + label {
         color: $gray-500;
 
         .radio-icon {
@@ -62,7 +62,7 @@
     }
 
     &:disabled:checked {
-      &+label {
+      & + label {
         .radio-icon {
           &::after {
             background-color: $gray-400;
