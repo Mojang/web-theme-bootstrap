@@ -124,4 +124,14 @@
     padding: 4px;
     border: none;
   }
+
+  .radio input[type="radio"]:hover + label .radio-icon::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='4' fill='highlight' stroke='window' stroke-width='2' /%3E%3C/svg%3E");
+  }
+
+  .radio input[type="radio"]:hover + label .radio-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='4' stroke='highlight' stroke-width='1.5' /></svg>");
+    padding: 4px;
+    border: none;
+  }
 }
