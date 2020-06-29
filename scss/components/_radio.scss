@@ -15,8 +15,16 @@
         .radio-icon {
           border-color: $primary;
 
+          @media screen and (-ms-high-contrast: active) {
+            border-color: Highlight;
+          }
+
           &::after {
             background-color: $primary;
+            
+            @media screen and (-ms-high-contrast: active) {
+                background-color: Highlight;
+            }
           }
         }
 
@@ -24,6 +32,11 @@
           border-color: $primary;
           background-color: $ebb;
           box-shadow: 3px 3px 0 rgba($black, 0.1) inset;
+
+          @media screen and (-ms-high-contrast: active) {
+            border-color: Highlight;
+            background-color: Window;
+          }
         }
       }
     }
@@ -95,6 +108,11 @@
     line-height: 0;
     position: relative;
 
+    @media screen and (-ms-high-contrast: active) {
+      background-color: Window;
+      border-color: WindowText;
+    }
+
     &::after {
       content: "";
       display: inline-block;
@@ -111,27 +129,5 @@
     border-radius: 4px;
     padding: $spacer;
     transition: 0.3s;
-  }
-}
-
-@media screen and (-ms-high-contrast: active) {
-  .radio input[type="radio"]:checked+label .radio-icon::after {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='highlight' /%3E%3C/svg%3E");
-  }
-
-  .radio input[type="radio"]:checked+label .radio-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='4' stroke='highlight' stroke-width='1.5' /></svg>");
-    padding: 4px;
-    border: none;
-  }
-
-  .radio input[type="radio"]:hover + label .radio-icon::after {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='4' fill='highlight' stroke='window' stroke-width='2' /%3E%3C/svg%3E");
-  }
-
-  .radio input[type="radio"]:hover + label .radio-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='4' stroke='highlight' stroke-width='1.5' /></svg>");
-    padding: 4px;
-    border: none;
   }
 }
