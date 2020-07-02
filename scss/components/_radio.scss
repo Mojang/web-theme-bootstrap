@@ -17,7 +17,8 @@
 
           @media screen and (-ms-high-contrast: active) {
             border-color: Highlight;
-            background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='4' stroke='highlight' stroke-width='1.5' /></svg>");
+            border-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' rx='10' fill='Highlight'/></svg>");
+            border-image-slice: 12;
           }
 
           &::after {
@@ -25,7 +26,7 @@
             
             @media screen and (-ms-high-contrast: active) {
               background-color: Highlight;
-              background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='4' fill='highlight' stroke='window' stroke-width='2' /></svg>");
+              background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' fill='Highlight'/></svg>");
             }
           }
         }
@@ -49,14 +50,15 @@
 
           @media screen and (-ms-high-contrast: active) {
             border-color: Highlight;
-            background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='4' stroke='highlight' stroke-width='1.5' /></svg>");
+            border-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' rx='10' fill='Highlight'/></svg>");
+            border-image-slice: 12;
           }
 
           &::after {
             
             @media screen and (-ms-high-contrast: active) {
               background-color: Highlight;
-              background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='4' fill='highlight' stroke='window' stroke-width='2' /></svg>");
+              background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' fill='Highlight'/></svg>");
             }
           }
         }
