@@ -407,3 +407,9 @@ $btn-border-width: 4px;
     }
   }
 }
+
+@media screen and (-ms-high-contrast: active) {
+  .btn {
+    border: $btn-border-width solid;
+  }
+}
