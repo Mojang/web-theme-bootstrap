@@ -1,11 +1,11 @@
 <svg viewBox="0 0 125 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="CounterDigit">
-            <rect id="Rectangle" fill-opacity="0.15" fill="#000000" x="13" y="125" width="99" height="4"></rect>
-            <rect id="Rectangle-Copy" fill-opacity="0.15" fill="#000000" x="0" y="112" width="13" height="4"></rect>
+    <g id="Page-1-square-like-black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CounterDigit-square-like-black">
+            <rect id="Rectangle-square-like-black" fill-opacity="0.15" fill="#000000" x="13" y="125" width="99" height="4"></rect>
+            <rect id="Rectangle-Copy-square-like-black" fill-opacity="0.15" fill="#000000" x="0" y="112" width="13" height="4"></rect>
             <rect id="Rectangle-Copy-2" fill-opacity="0.15" fill="#000000" x="112" y="112" width="13" height="4"></rect>
-            <polygon id="Background" fill="#000000" fill-rule="nonzero" points="13 0 13 13 0 13 0 112 13 112 13 125 112 125 112 112 125 112 125 13 112 13 112 0"></polygon>
+            <polygon id="Background-square-like-black" fill="#000000" fill-rule="nonzero" points="13 0 13 13 0 13 0 112 13 112 13 125 112 125 112 112 125 112 125 13 112 13 112 0"></polygon>
         </g>
     </g>
 </svg>
