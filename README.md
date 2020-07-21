@@ -37,6 +37,9 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v6.2.3
+- Fix duplicate id in svg and add button high contrast style
+
 v6.2.2
 - Fix radio buttons in high contrast mode
 
