@@ -2,7 +2,8 @@ $btn-border-width: 4px;
 
 @mixin disabled-btn-before {
   &::before {
-    box-shadow: 0 $btn-border-width rgba($white, 0.4) inset,
+    box-shadow:
+      0 $btn-border-width rgba($white, 0.4) inset,
       0 (-$btn-border-width) rgba($black, 0.05) inset,
       $btn-border-width 0 rgba($black, 0.05) inset,
       (-$btn-border-width) 0 rgba($white, 0.4) inset;
@@ -24,7 +25,7 @@ $btn-border-width: 4px;
   display: block;
   width: 100%;
   height: 100%;
-  content: "";
+  content: '';
   transition: 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
 }
 
@@ -44,7 +45,8 @@ $btn-border-width: 4px;
     &::before,
     .grow {
       background-color: $primary-hover;
-      box-shadow: 0 (-$btn-border-width) rgba($black, 0.35) inset,
+      box-shadow:
+        0 (-$btn-border-width) rgba($black, 0.35) inset,
         0 $btn-border-width rgba($white, 0.25) inset,
         (-$btn-border-width) 0 rgba($white, 0.25) inset,
         $btn-border-width 0 rgba($black, 0.35) inset;
@@ -53,7 +55,8 @@ $btn-border-width: 4px;
 
   &::before,
   .grow {
-    box-shadow: 0 (-$btn-border-width) rgba($black, 0.25) inset,
+    box-shadow:
+      0 (-$btn-border-width) rgba($black, 0.25) inset,
       0 $btn-border-width rgba($white, 0.35) inset,
       (-$btn-border-width) 0 rgba($white, 0.35) inset,
       $btn-border-width 0 rgba($black, 0.25) inset;
@@ -381,7 +384,7 @@ $btn-border-width: 4px;
 }
 
 .btn-disabled-outline,
-[class*="btn-outline"]:disabled {
+[class*=btn-outline]:disabled {
   cursor: default !important;
   color: $gray-300 !important;
   background-color: transparent;
@@ -404,25 +407,32 @@ $btn-border-width: 4px;
     }
   }
 }
+
 @media screen and (-ms-high-contrast: active) {
   .btn {
     border: $btn-border-width solid;
     color: windowText !important;
   }
 
-  a.btn {
-    -ms-high-contrast-adjust: none;
-  }
+  a {
+    &.btn {
+      -ms-high-contrast-adjust: none;
 
-  a.btn::before {
-    background: Window !important;
-    box-shadow: none !important;
-    border-color: HighLight !important;
-  }
+      &::before {
+        background: Window !important;
+        box-shadow: none !important;
+        border-color: HighLight !important;
+      }
 
-  a.btn:hover {
-    border-color: HighLight !important;
-    box-shadow: none !important;
-    color: windowText !important;
+      &:hover {
+        border-color: HighLight !important;
+        box-shadow: none !important;
+        color: windowText !important;
+
+        &::before {
+          background-color: Window !important;
+        }
+      }
+    }
   }
 }
