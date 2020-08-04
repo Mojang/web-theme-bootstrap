@@ -1,0 +1,13 @@
+/* Webfont: NotoSans-Italic */@font-face {
+  font-family: 'Noto Sans';
+  src: url('NotoSans-Italic.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans Italic'), local('NotoSans-Italic'), /* locally installed */
+       url('NotoSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('NotoSans-Italic.woff2') format('woff2'), /* Modern Browsers */
+       url('NotoSans-Italic.woff') format('woff'), /* IE9-IE11 */
+       url('NotoSans-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('NotoSans-Italic.svg#NotoSans-Italic') format('svg'); /* Legacy iOS */
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
