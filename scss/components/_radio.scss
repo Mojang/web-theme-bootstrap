@@ -2,6 +2,10 @@
   display: inline-block;
   position: relative;
 
+  @media screen and (-ms-high-contrast: active) {
+    -ms-high-contrast-adjust: none;
+  }
+
   input[type="radio"] {
     position: absolute;
     top: 0;
@@ -129,5 +133,10 @@
     border-radius: 4px;
     padding: $spacer;
     transition: 0.3s;
+
+    @media screen and (-ms-high-contrast: active) {
+      border-color: windowText;
+      box-shadow: none !important;
+    }
   }
 }

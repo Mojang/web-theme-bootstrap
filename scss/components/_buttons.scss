@@ -411,5 +411,28 @@ $btn-border-width: 4px;
 @media screen and (-ms-high-contrast: active) {
   .btn {
     border: $btn-border-width solid;
+    color: windowText !important;
+  }
+
+  a {
+    &.btn {
+      -ms-high-contrast-adjust: none;
+
+      &::before {
+        background: Window !important;
+        box-shadow: none !important;
+        border-color: HighLight !important;
+      }
+
+      &:hover {
+        border-color: HighLight !important;
+        box-shadow: none !important;
+        color: windowText !important;
+
+        &::before {
+          background-color: Window !important;
+        }
+      }
+    }
   }
 }
