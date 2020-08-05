@@ -433,6 +433,12 @@ $btn-border-width: 4px;
           background-color: Window !important;
         }
       }
+
+      &:focus {
+        border-color: HighLight !important;
+        box-shadow: none !important;
+        color: windowText !important;
+      }
     }
   }
 }
