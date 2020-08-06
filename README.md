@@ -37,6 +37,9 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v6.2.6
+- Rerelease due to publish issue of 6.2.5
+
 v6.2.5
 - Add highlight color on focus for link button
 
