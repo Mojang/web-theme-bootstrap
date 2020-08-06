@@ -37,9 +37,12 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v6.2.5
+- Add highlight color on focus for link button
+
 v6.2.4
 - Add style for radio and link button on high contrast mode
-- Add noto sans font assests
+- Add noto sans font assets
 
 v6.2.3
 - Fix duplicate id in svg and add button high contrast style
