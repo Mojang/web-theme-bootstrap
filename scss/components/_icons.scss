@@ -104,7 +104,7 @@ h6 {
   p,
   h1 {
     &:last-child::after {
-      content: "";
+      content: '';
       background: url(#{$freyja-asset-path}/svg/icons/what-block.svg) no-repeat;
       display: inline-block;
       margin-left: 0.5rem;
