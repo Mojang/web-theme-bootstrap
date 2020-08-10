@@ -104,12 +104,27 @@ h6 {
   p,
   h1 {
     &:last-child::after {
-      content: '';
+      content: "";
       background: url(#{$freyja-asset-path}/svg/icons/what-block.svg) no-repeat;
       display: inline-block;
       margin-left: 0.5rem;
       margin-bottom: 2px;
       vertical-align: text-bottom;
+    }
+  }
+}
+@media screen and (-ms-high-contrast: active) {
+  .rounded-circle {
+    -ms-high-contrast-adjust: none;
+
+    &.bg-primary {
+      background-color: HighLight !important;
+    }
+    &.bg-300 {
+      background-color: WindowText !important;
+    }
+    .text-white {
+      color: window !important;
     }
   }
 }
