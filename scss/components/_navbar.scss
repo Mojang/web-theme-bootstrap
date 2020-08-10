@@ -85,6 +85,15 @@
       color: $nav-link-disabled-color !important;
     }
   }
+  @media screen and (-ms-high-contrast: active) {
+    -ms-high-contrast-adjust: none;
+    color: windowText !important;
+    &.active,
+    &:hover {
+      color: window !important;
+      background-color: HighLight !important;
+    }
+  }
 }
 
 .nav {
