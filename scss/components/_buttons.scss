@@ -381,6 +381,9 @@ $btn-border-width: 4px;
     @include disabled-btn-after;
     color: $gray-600 !important;
   }
+  &:focus{
+    box-shadow: $btn-focus-box-shadow;
+  }
 }
 
 .btn-disabled-outline,
