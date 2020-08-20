@@ -37,6 +37,10 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v6.2.7
+- Add box-shadow for disabled button
+- High contrast fix for nav bar
+
 v6.2.6
 - Rerelease due to publish issue of 6.2.5
 
