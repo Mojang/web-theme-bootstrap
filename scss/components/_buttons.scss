@@ -133,6 +133,10 @@ $btn-border-width: 4px;
     &::before,
     .grow {
       background-color: $value;
+      
+      @media screen and (-ms-high-contrast: active) {
+        background-color: window !important;
+      }
     }
   }
 }
@@ -420,28 +424,32 @@ $btn-border-width: 4px;
   a {
     &.btn {
       -ms-high-contrast-adjust: none;
-
+      
       &::before {
         background: Window !important;
         box-shadow: none !important;
         border-color: HighLight !important;
       }
-
+      
       &:hover {
         border-color: HighLight !important;
         box-shadow: none !important;
         color: windowText !important;
-
+        
         &::before {
           background-color: Window !important;
         }
       }
-
+      
       &:focus {
         border-color: HighLight !important;
         box-shadow: none !important;
         color: windowText !important;
       }
+    }
+    
+    &.btn-warning {
+      color: windowText !important;
     }
   }
 }
