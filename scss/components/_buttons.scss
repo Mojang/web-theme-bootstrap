@@ -133,6 +133,10 @@ $btn-border-width: 4px;
     &::before,
     .grow {
       background-color: $value;
+
+      @media screen and (-ms-high-contrast: active) {
+        background-color: window !important;
+      }
     }
   }
 }
@@ -442,6 +446,11 @@ $btn-border-width: 4px;
         box-shadow: none !important;
         color: windowText !important;
       }
+    }
+
+    &.btn-warning,
+    &.btn-primary {
+      color: windowText !important;
     }
   }
 }
