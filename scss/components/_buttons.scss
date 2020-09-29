@@ -424,11 +424,13 @@ $btn-border-width: 4px;
   a {
     &.btn {
       -ms-high-contrast-adjust: none;
+      
       &::before {
         background: Window !important;
         box-shadow: none !important;
         border-color: HighLight !important;
       }
+
       &:hover {
         border-color: HighLight !important;
         box-shadow: none !important;
@@ -437,6 +439,7 @@ $btn-border-width: 4px;
           background-color: Window !important;
         }
       }
+
       &:focus {
         border-color: HighLight !important;
         box-shadow: none !important;
@@ -444,7 +447,8 @@ $btn-border-width: 4px;
       }
     }
     
-    &.btn-warning {
+    &.btn-warning,
+    &.btn-primary {
       color: windowText !important;
     }
   }
