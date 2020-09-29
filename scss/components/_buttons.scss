@@ -133,7 +133,7 @@ $btn-border-width: 4px;
     &::before,
     .grow {
       background-color: $value;
-      
+
       @media screen and (-ms-high-contrast: active) {
         background-color: window !important;
       }
@@ -424,7 +424,7 @@ $btn-border-width: 4px;
   a {
     &.btn {
       -ms-high-contrast-adjust: none;
-      
+
       &::before {
         background: Window !important;
         box-shadow: none !important;
@@ -435,7 +435,7 @@ $btn-border-width: 4px;
         border-color: HighLight !important;
         box-shadow: none !important;
         color: windowText !important;
-        
+
         &::before {
           background-color: Window !important;
         }
@@ -447,7 +447,7 @@ $btn-border-width: 4px;
         color: windowText !important;
       }
     }
-    
+
     &.btn-warning,
     &.btn-primary {
       color: windowText !important;
