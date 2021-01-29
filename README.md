@@ -37,6 +37,9 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v6.2.9
+  - Remove use of `bg-variant` and `text-emphasis-variant` mixins, that are deprecated in bootstrap@4.4.0
+
 v6.2.8
 - High contrast fix for button
 
