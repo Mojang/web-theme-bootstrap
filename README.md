@@ -1,6 +1,6 @@
 # web-theme-bootstrap
 
-[![Build Status](https://travis-ci.org/Mojang/web-theme-bootstrap.svg?branch=master)](https://travis-ci.org/Mojang/web-theme-bootstrap)
+[![Build Status](https://travis-ci.org/Mojang/web-theme-bootstrap.svg?branch=main)](https://travis-ci.org/Mojang/web-theme-bootstrap)
 
 Contains the theme used on minecraft.net based on Bootstrap 4
 
@@ -36,6 +36,9 @@ In order to use the image assets and svg icons included in this package you need
 The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) using [svgstore](https://github.com/svgstore/svgstore) or similar tool.
 
 ### Changelog
+
+v6.2.9
+  - Remove use of `bg-variant` and `text-emphasis-variant` mixins, that are deprecated in bootstrap@4.4.0
 
 v6.2.8
 - High contrast fix for button
