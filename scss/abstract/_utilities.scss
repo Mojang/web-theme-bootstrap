@@ -2,7 +2,16 @@ $all-colors: map-merge(map-merge(map-merge(map-merge(map-merge($colors, $theme-c
 
 // Create text-{#color} classes for full color palette
 @each $color, $value in $all-colors {
-  @include text-emphasis-variant(".text-#{$color}", $value);
+  .text-#{$color} {
+    color: $value !important;
+  }
+  @if $emphasized-link-hover-darken-percentage != 0 {
+    a.text-#{$color} {
+      @include hover-focus {
+        color: darken($value, $emphasized-link-hover-darken-percentage) !important;
+      }
+    }
+  }
 }
 
 .top,
