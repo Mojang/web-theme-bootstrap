@@ -1,395 +1,591 @@
-<svg id="Logo_Outline_Background" data-name="Logo_Outline/Background" xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1518 444">
-    <defs>
-        <style>
-            .MCVB-1{fill:#3d3938;}.MCVB-2{fill:url(#Front_Face_Gradient);}.MCVB-3{fill:#998f8b;}.MCVB-4{fill:#262423;}.MCVB-5{fill:#6b6562;}.MCVB-6{fill:#171615;}.MCVB-7{fill:url(#Crack_Highlight_Gradient);}.MCVB-8{fill:url(#Crack_Highlight_Gradient-2);}.MCVB-9{fill:url(#Crack_Highlight_Gradient-3);}.MCVB-10{fill:url(#Crack_Highlight_Gradient-4);}.MCVB-11{fill:url(#Crack_Highlight_Gradient-5);}.MCVB-12{fill:url(#Crack_Highlight_Gradient-6);}.MCVB-13{fill:url(#Crack_Highlight_Gradient-7);}.MCVB-14{fill:url(#Crack_Highlight_Gradient-8);}.MCVB-15{fill:url(#Crack_Highlight_Gradient-9);}.MCVB-16{fill:url(#Crack_Highlight_Gradient-10);}.MCVB-17{fill:url(#Crack_Highlight_Gradient-11);}.MCVB-18{fill:url(#Crack_Highlight_Gradient-12);}.MCVB-19{fill:url(#Crack_Highlight_Gradient-13);}.MCVB-20{fill:url(#Crack_Highlight_Gradient-14);}.MCVB-21{fill:url(#Crack_Highlight_Gradient-15);}.MCVB-22{fill:url(#Crack_Highlight_Gradient-16);}.MCVB-23{fill:url(#Crack_Highlight_Gradient-17);}.MCVB-24{fill:url(#Crack_Highlight_Gradient-18);}.MCVB-25{fill:url(#Crack_Highlight_Gradient-19);}.MCVB-26{fill:url(#Crack_Highlight_Gradient-20);}.MCVB-27{fill:url(#Crack_Highlight_Gradient-21);}.MCVB-28{fill:url(#Crack_Highlight_Gradient-22);}.MCVB-29{fill:url(#Crack_Highlight_Gradient-23);}.MCVB-30{fill:url(#Crack_Highlight_Gradient-24);}.MCVB-31{fill:url(#Crack_Highlight_Gradient-25);}.MCVB-32{fill:url(#Crack_Highlight_Gradient-26);}.MCVB-33{fill:url(#Crack_Highlight_Gradient-27);}.MCVB-34{fill:url(#Crack_Highlight_Gradient-28);}.MCVB-35{fill:url(#Crack_Highlight_Gradient-29);}.MCVB-36{fill:url(#Crack_Highlight_Gradient-30);}.MCVB-37{fill:url(#Crack_Highlight_Gradient-31);}.MCVB-38{fill:url(#Crack_Highlight_Gradient-32);}.MCVB-39{fill:url(#Crack_Highlight_Gradient-33);}.MCVB-40{fill:url(#Crack_Highlight_Gradient-34);}.MCVB-41{fill:url(#Crack_Highlight_Gradient-35);}.MCVB-42{fill:url(#Crack_Highlight_Gradient-36);}.MCVB-43{fill:url(#Crack_Highlight_Gradient-37);}.MCVB-44{fill:url(#Crack_Highlight_Gradient-38);}.MCVB-45{fill:url(#Crack_Highlight_Gradient-39);}.MCVB-46{fill:url(#Crack_Highlight_Gradient-40);}.MCVB-47{fill:url(#Crack_Highlight_Gradient-41);}.MCVB-48{fill:url(#Crack_Highlight_Gradient-42);}.MCVB-49{fill:url(#Crack_Highlight_Gradient-43);}.MCVB-50{fill:url(#Crack_Highlight_Gradient-44);}.MCVB-51{fill:url(#Crack_Highlight_Gradient-45);}.MCVB-52{fill:url(#Crack_Highlight_Gradient-46);}.MCVB-53{fill:url(#Crack_Highlight_Gradient-47);}.MCVB-54{fill:url(#Crack_Highlight_Gradient-48);}.MCVB-55{fill:url(#Crack_Highlight_Gradient-49);}.MCVB-56{fill:url(#Crack_Highlight_Gradient-50);}.MCVB-57{fill:url(#Crack_Highlight_Gradient-51);}.MCVB-58{fill:url(#Crack_Highlight_Gradient-52);}.MCVB-59{fill:url(#Crack_Highlight_Gradient-53);}.MCVB-60{fill:url(#Crack_Highlight_Gradient-54);}.MCVB-61{fill:url(#Crack_Highlight_Gradient-55);}.MCVB-62{fill:url(#Crack_Highlight_Gradient-56);}.MCVB-63{fill:url(#Crack_Highlight_Gradient-57);}.MCVB-64{fill:url(#Crack_Highlight_Gradient-58);}.MCVB-65{fill:url(#Crack_Highlight_Gradient-59);}.MCVB-66{fill:url(#Crack_Highlight_Gradient-60);}.MCVB-67{fill:url(#Crack_Highlight_Gradient-61);}.MCVB-68{fill:url(#Crack_Highlight_Gradient-62);}.MCVB-69{fill:url(#Crack_Highlight_Gradient-63);}.MCVB-70{fill:url(#Crack_Highlight_Gradient-64);}.MCVB-71{fill:url(#Crack_Highlight_Gradient-65);}.MCVB-72{fill:url(#Crack_Highlight_Gradient-66);}.MCVB-73{fill:url(#Crack_Highlight_Gradient-67);}.MCVB-74{fill:url(#Crack_Highlight_Gradient-68);}.MCVB-75{fill:url(#Crack_Highlight_Gradient-69);}.MCVB-76{fill:url(#Crack_Highlight_Gradient-70);}.MCVB-77{fill:url(#Crack_Highlight_Gradient-71);}.MCVB-78{fill:url(#Crack_Highlight_Gradient-72);}.MCVB-79{fill:url(#Crack_Highlight_Gradient-73);}
-        </style>
-        <linearGradient id="Front_Face_Gradient" x1="759.06" y1="121.34" x2="759.06" y2="273.75"
-                        gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="#d0c5c0"/>
-            <stop offset="0.99" stop-color="#aba09c"/>
-        </linearGradient>
-        <linearGradient id="Crack_Highlight_Gradient" x1="723.54" y1="142.84" x2="723.54" y2="272.62"
-                        gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="#ede5e2"/>
-            <stop offset="1" stop-color="#d0c5c0"/>
-        </linearGradient>
-        <linearGradient id="Crack_Highlight_Gradient-2" x1="435.91" y1="142.84" x2="435.91" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-3" x1="507.81" y1="142.84" x2="507.81" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-4" x1="1352.72" y1="142.84" x2="1352.72" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-5" x1="151.96" y1="142.84" x2="151.96" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-6" x1="170.55" y1="142.83" x2="170.55" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-7" x1="175.2" y1="142.84" x2="175.2" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-8" x1="224.98" y1="142.84" x2="224.98" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-9" x1="280.74" y1="142.84" x2="280.74" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-10" x1="354.81" y1="142.84" x2="354.81" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-11" x1="424.55" y1="142.84" x2="424.55" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-12" x1="581.73" y1="143.09" x2="581.73" y2="272.51"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-13" x1="662.15" y1="142.84" x2="662.15" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-14" x1="900.94" y1="142.84" x2="900.94" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-15" x1="940.09" y1="142.84" x2="940.09" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-16" x1="1039.12" y1="142.84" x2="1039.12" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-17" x1="1103.54" y1="142.84" x2="1103.54" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-18" x1="1022.77" y1="142.84" x2="1022.77" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-19" x1="1053.43" y1="142.84" x2="1053.43" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-20" x1="1108.63" y1="142.84" x2="1108.63" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-21" x1="1182.22" y1="142.84" x2="1182.22" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-22" x1="1366.18" y1="142.84" x2="1366.18" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-23" x1="875.6" y1="142.84" x2="875.6" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-24" x1="906.25" y1="142.83" x2="906.25" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-25" x1="740.66" y1="142.84" x2="740.66" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-26" x1="808.15" y1="142.84" x2="808.15" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-27" x1="961.46" y1="142.84" x2="961.46" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-28" x1="575.1" y1="142.84" x2="575.1" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-29" x1="621.08" y1="142.84" x2="621.08" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-30" x1="676.28" y1="142.84" x2="676.28" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-31" x1="507.64" y1="142.84" x2="507.64" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-32" x1="538.31" y1="142.84" x2="538.31" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-33" x1="409.53" y1="142.84" x2="409.53" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-34" x1="440.19" y1="142.84" x2="440.19" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-35" x1="335.94" y1="142.84" x2="335.94" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-36" x1="366.6" y1="142.84" x2="366.6" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-37" x1="1007.66" y1="143.09" x2="1007.66" y2="272.22"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-38" x1="476.46" y1="142.84" x2="476.46" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-39" x1="190.12" y1="142.84" x2="190.12" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-40" x1="296.66" y1="142.84" x2="296.66" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-41" x1="315.81" y1="142.84" x2="315.81" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-42" x1="277.82" y1="142.84" x2="277.82" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-43" x1="394.55" y1="142.84" x2="394.55" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-44" x1="466.53" y1="142.84" x2="466.53" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-45" x1="535.61" y1="142.84" x2="535.61" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-46" x1="586.05" y1="142.84" x2="586.05" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-47" x1="742.56" y1="142.84" x2="742.56" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-48" x1="864.48" y1="142.84" x2="864.48" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-49" x1="916.01" y1="142.84" x2="916.01" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-50" x1="1288.32" y1="142.84" x2="1288.32" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-51" x1="1377.79" y1="142.84" x2="1377.79" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-52" x1="1200.48" y1="142.79" x2="1200.48" y2="271.98"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-53" x1="1198.85" y1="142.84" x2="1198.85" y2="272.61"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-54" x1="1236.37" y1="142.84" x2="1236.37" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-55" x1="885.58" y1="142.97" x2="885.58" y2="272.18"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-56" x1="1034.34" y1="142.84" x2="1034.34" y2="272.61"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-57" x1="1056.93" y1="142.84" x2="1056.93" y2="272.61"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-58" x1="1074.75" y1="142.84" x2="1074.75" y2="272.61"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-59" x1="1074.41" y1="142.84" x2="1074.41" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-60" x1="1042.23" y1="142.84" x2="1042.23" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-61" x1="664.89" y1="142.84" x2="664.89" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-62" x1="803.46" y1="142.84" x2="803.46" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-63" x1="970.8" y1="142.84" x2="970.8" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-64" x1="156.03" y1="142.84" x2="156.03" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-65" x1="206.58" y1="142.84" x2="206.58" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-66" x1="260.1" y1="142.84" x2="260.1" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-67" x1="1211.59" y1="142.84" x2="1211.59" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-68" x1="1250.25" y1="142.84" x2="1250.25" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-69" x1="1155.1" y1="142.84" x2="1155.1" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-70" x1="661.49" y1="142.84" x2="661.49" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-71" x1="771.38" y1="142.84" x2="771.38" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-72" x1="920.2" y1="142.84" x2="920.2" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-        <linearGradient id="Crack_Highlight_Gradient-73" x1="1065.09" y1="142.84" x2="1065.09" y2="272.62"
-                        xlink:href="#Crack_Highlight_Gradient"/>
-    </defs>
-    <path d="M1381.75,191.43l23.35-38.73-12.95-41.58H501.74l-4.16,30.35-8.26-30.35H281.81l-7.14,28.57H257.41l-4.09,15.8-22.9-44.37H162.79L111.25,276.55l41.07,56.33h67.54l8.26-31.25H255.4l18.29,31.25H482.16l5-36.25,11.53,36.25h696.49l28.2-58.43h25.5l23.68-46.35,25.29,104.78h70.11l38.82-56.42ZM780,230.68l.08-19.75H840l.61,19.75Z"/>
-    <polygon class="MCVB-1" points="381.68 274.45 326.45 274.45 350.07 321.38 402.4 321.38 381.68 274.45"/>
-    <polygon class="MCVB-1" points="400.09 274.45 419.85 321.38 472.18 321.38 455.31 274.45 400.09 274.45"/>
-    <polygon class="MCVB-1" points="565.77 274.45 576.85 321.38 698.97 321.38 694.63 274.45 565.77 274.45"/>
-    <polygon class="MCVB-1" points="841.9 274.45 838.53 321.38 716.41 321.38 713.04 274.45 841.9 274.45"/>
-    <polygon class="MCVB-1" points="860.31 274.45 915.54 274.45 908.31 321.38 855.98 321.38 860.31 274.45"/>
-    <polygon class="MCVB-1" points="933.95 274.45 925.75 321.38 978.09 321.38 989.17 274.45 933.95 274.45"/>
-    <polygon class="MCVB-1" points="1007.58 274.45 995.54 321.38 1047.87 321.38 1062.81 274.45 1007.58 274.45"/>
-    <polygon class="MCVB-1" points="1081.22 274.45 1065.32 321.38 1117.65 321.38 1136.44 274.45 1081.22 274.45"/>
-    <polygon class="MCVB-1" points="1154.85 274.45 1135.1 321.38 1187.43 321.38 1210.08 274.45 1154.85 274.45"/>
-    <polygon class="MCVB-1" points="1338.94 274.45 1309.55 321.38 1361.88 321.38 1394.17 274.45 1338.94 274.45"/>
-    <polygon class="MCVB-1" points="492.13 274.45 507.07 321.38 559.41 321.38 547.36 274.45 492.13 274.45"/>
-    <polygon class="MCVB-1" points="252.82 274.45 308.05 274.45 332.62 321.38 280.29 321.38 252.82 274.45"/>
-    <polygon class="MCVB-1" points="158.17 321.38 123.95 274.45 179.18 274.45 210.5 321.38 158.17 321.38"/>
-    <path class="MCVB-2"
-          d="M268.7,210.93H250.85l-8.09,31.25H206.51l8.64-31.25H197.3l-18.12,63.52H124l47.3-151.83h51.23l-8.15,28.57h17.33l-8.13,29.43H258.7l7.62-29.43h17.32l7.15-28.57H342l-34,151.83H252.82Zm90.4-88.31h51.23L381.68,274.45H326.45Zm222,0H700.63l-1.13,28.57H630.19L628,180.62h70.35l-1.2,30.31H625.73l-2.33,31.25h72.5l-1.27,32.27H565.77Zm136.61,0H837.24l.88,28.57H768.81l-.4,91h72.5l1,32.27H713Zm211.51,88.31H911.36l4.18,63.52H860.31l-6-151.83H973.85l5.85,58H962.12l1.38,15h17.72l7.95,78.79H934Zm-21.79-59.74,1.94,29.43H927l-2.2-29.43Zm220.12-28.57h119.53l6.9,28.57h-69.31l6.07,29.43h70.34l7.32,30.31H1197l13.1,63.52h-55.23ZM1306,151.19H1271.3l-7.15-28.57h119.54l8.9,28.57h-34.66l36.24,123.26h-55.23ZM498.66,226.43h-18l4.45-30.77H467.41l-12.1,78.79H400.09L427.4,122.62h51.23l-4.39,28.57h17.33l-4.26,29.43H504.9l7.88-58H564L547.36,274.45H492.13Zm611.8-103.81H990.93l16.65,151.83h55.23l-6.53-48h18l7,48h55.22Zm-40.26,55.51H1079l4.17,27.68h-11.87l-1.47-10.15h-17.72l1.38,10.15H1041.6l-3.6-27.68h8.78l-1-7.42h-20.41l-2.43-19.52H1046l2.32,17.06h17.48l-2.47-17.06h23.1l3.06,19.52h-20.42Z"/>
-    <polygon class="MCVB-3" points="357.56 242.18 351 274.45 344.86 274.45 351.52 242.18 357.56 242.18"/>
-    <polygon class="MCVB-3" points="1042.33 258.16 1044.4 274.45 1038.26 274.45 1036.24 258.16 1042.33 258.16"/>
-    <polygon class="MCVB-4" points="351 274.45 357.95 289.06 351.91 289.06 344.86 274.45 351 274.45"/>
-    <polygon class="MCVB-3" points="427.37 258.16 424.63 274.45 418.5 274.45 421.28 258.16 427.37 258.16"/>
-    <polygon class="MCVB-4" points="528.95 274.45 533 289.06 526.97 289.06 522.81 274.45 528.95 274.45"/>
-    <polygon class="MCVB-4" points="590.31 274.45 596.32 303.21 590.38 303.21 584.18 274.45 590.31 274.45"/>
-    <polygon class="MCVB-4" points="198.38 303.21 195.26 298.55 177.35 298.55 180.56 303.21 198.38 303.21"/>
-    <polygon class="MCVB-4" points="1162.62 298.55 1144.71 298.55 1142.75 303.21 1160.56 303.21 1162.62 298.55"/>
-    <polygon class="MCVB-4" points="947.65 298.55 929.74 298.55 928.93 303.21 946.73 303.21 947.65 298.55"/>
-    <polygon class="MCVB-4" points="653.73 289.06 659.76 289.06 657.81 274.45 651.68 274.45 653.73 289.06"/>
-    <polygon class="MCVB-4" points="1320.93 303.21 1323.85 298.55 1341.76 298.55 1338.74 303.21 1320.93 303.21"/>
-    <polygon class="MCVB-4" points="323.11 303.21 320.66 298.55 302.75 298.55 305.29 303.21 323.11 303.21"/>
-    <polygon class="MCVB-3" points="1017.26 200.72 1016.66 195.66 998.94 195.66 999.49 200.72 1017.26 200.72"/>
-    <polygon class="MCVB-3"
-             points="300.92 175.65 307.9 146.37 284.85 146.37 283.64 151.19 300.97 151.19 295.07 175.65 259.98 175.65 258.7 180.62 329.04 180.62 330.15 175.65 300.92 175.65"/>
-    <polygon class="MCVB-3" points="1355.22 122.62 1349.53 122.62 1357.93 151.19 1363.71 151.19 1355.22 122.62"/>
-    <polygon class="MCVB-3" points="1225.9 180.62 1220.04 180.62 1226.73 210.93 1232.68 210.93 1225.9 180.62"/>
-    <polygon class="MCVB-3"
-             points="913.41 242.18 913.07 236.9 888.96 236.9 890.99 274.45 897.13 274.45 895.29 242.18 913.41 242.18"/>
-    <polygon class="MCVB-3" points="163.85 146.37 215.71 146.37 214.34 151.19 162.35 151.19 163.85 146.37"/>
-    <polygon class="MCVB-3" points="407.79 231.66 408.73 226.44 462.69 226.44 461.89 231.66 407.79 231.66"/>
-    <polygon class="MCVB-3" points="1327.49 231.66 1326.09 226.44 1380.05 226.44 1381.59 231.66 1327.49 231.66"/>
-    <polygon class="MCVB-3" points="1077.31 247.48 1076.54 242.18 1130.92 242.18 1131.83 247.48 1077.31 247.48"/>
-    <polygon class="MCVB-3"
-             points="534.64 226.44 498.66 226.44 497.95 231.66 528.01 231.66 522.81 274.45 528.95 274.45 534.64 226.44"/>
-    <polygon class="MCVB-3"
-             points="891.78 180.62 891.49 175.65 879.8 175.65 877.08 122.62 871.39 122.62 873.24 160.9 855.83 160.9 856.02 165.79 873.48 165.79 874.19 180.62 891.78 180.62"/>
-    <polygon class="MCVB-3"
-             points="891.78 180.62 891.49 175.65 879.8 175.65 877.08 122.62 871.39 122.62 873.24 160.9 855.83 160.9 856.02 165.79 873.48 165.79 874.19 180.62 891.78 180.62"/>
-    <polygon class="MCVB-3"
-             points="188.38 242.18 189.89 236.9 159.76 236.9 167.54 210.93 143.74 210.93 142.14 216.07 160.04 216.07 147.29 258.16 153.38 258.16 183.82 258.16 185.35 252.81 154.99 252.81 158.18 242.18 188.38 242.18"/>
-    <polygon class="MCVB-3"
-             points="1219.32 151.19 1215.03 132.05 1186.43 132.05 1184.46 122.62 1178.77 122.62 1181.69 136.8 1210.36 136.8 1213.54 151.19 1219.32 151.19"/>
-    <polygon class="MCVB-3" points="577.23 160.9 594.64 160.9 594.19 165.79 576.73 165.79 577.23 160.9"/>
-    <polygon class="MCVB-3"
-             points="569.56 236.9 569.02 242.18 587.15 242.18 584.18 274.45 590.31 274.45 593.66 236.9 569.56 236.9"/>
-    <polygon class="MCVB-3" points="474.98 146.37 457.7 146.37 456.92 151.19 474.24 151.19 474.98 146.37"/>
-    <polygon class="MCVB-3" points="561.41 146.37 509.55 146.37 508.9 151.19 560.88 151.19 561.41 146.37"/>
-    <polygon class="MCVB-4" points="1044.4 274.45 1038.26 274.45 1029.89 303.21 1035.84 303.21 1044.4 274.45"/>
-    <polygon class="MCVB-3" points="931.14 236.9 931.54 242.18 949.66 242.18 949.23 236.9 931.14 236.9"/>
-    <polygon class="MCVB-3"
-             points="716.38 165.79 716.23 170.71 733.72 170.71 732.5 226.44 714.51 226.44 714.35 231.66 738.4 231.66 739.56 170.71 768.72 170.71 768.74 165.79 716.38 165.79"/>
-    <polygon class="MCVB-3"
-             points="1173.21 242.18 1167.23 210.93 1143.43 210.93 1144.35 216.07 1162.25 216.07 1167.17 242.18 1173.21 242.18"/>
-    <polygon class="MCVB-3" points="774.4 274.45 768.27 274.45 768.33 260.85 774.42 260.85 774.4 274.45"/>
-    <polygon class="MCVB-4" points="774.45 289.06 768.41 289.06 768.27 274.45 774.4 274.45 774.45 289.06"/>
-    <polygon class="MCVB-4" points="895.18 289.06 889.14 289.06 890.99 274.45 897.13 274.45 895.18 289.06"/>
-    <polygon class="MCVB-3"
-             points="382.8 146.37 378.9 165.79 384.72 165.79 387.61 151.19 404.93 151.19 405.84 146.37 382.8 146.37"/>
-    <polygon class="MCVB-3"
-             points="671.74 242.18 671.19 252.81 652.97 252.81 651.68 274.45 657.81 274.45 658.74 258.16 677.01 258.16 677.78 242.18 671.74 242.18"/>
-    <polygon class="MCVB-4" points="840 300.88 840.17 298.55 822.25 298.55 822.13 300.88 840 300.88"/>
-    <polygon class="MCVB-4" points="424.63 274.45 435.95 303.21 430.01 303.21 418.5 274.45 424.63 274.45"/>
-    <polygon class="MCVB-5" points="167.54 210.93 166.77 213.5 142.94 213.5 143.74 210.93 167.54 210.93"/>
-    <polygon class="MCVB-5" points="159.76 236.9 161.98 239.54 189.14 239.54 189.89 236.9 159.76 236.9"/>
-    <polygon class="MCVB-5" points="154.99 252.81 157.23 255.48 184.59 255.48 185.35 252.81 154.99 252.81"/>
-    <polygon class="MCVB-5" points="163.85 146.37 215.71 146.37 215.02 148.78 163.1 148.78 163.85 146.37"/>
-    <polygon class="MCVB-5" points="284.85 146.37 284.25 148.78 307.32 148.78 307.9 146.37 284.85 146.37"/>
-    <polygon class="MCVB-5"
-             points="300.97 151.19 303.28 153.61 297.4 178.13 259.34 178.13 259.98 175.65 295.07 175.65 300.97 151.19"/>
-    <polygon class="MCVB-5" points="300.92 175.65 303.25 178.13 329.6 178.13 330.15 175.65 300.92 175.65"/>
-    <polygon class="MCVB-5" points="160.04 216.07 162.24 218.65 150.34 258.16 147.29 258.16 160.04 216.07"/>
-    <polygon class="MCVB-5"
-             points="378.9 165.79 381.81 165.79 385.2 148.78 405.39 148.78 405.84 146.37 382.8 146.37 378.9 165.79"/>
-    <polygon class="MCVB-5"
-             points="357.56 242.18 357.02 244.82 354 244.82 347.93 274.45 344.86 274.45 351.52 242.18 357.56 242.18"/>
-    <polygon class="MCVB-5"
-             points="456.92 151.19 459.8 151.19 460.19 148.78 474.61 148.78 474.98 146.37 457.7 146.37 456.92 151.19"/>
-    <polygon class="MCVB-5" points="509.55 146.37 561.41 146.37 561.14 148.78 509.23 148.78 509.55 146.37"/>
-    <polygon class="MCVB-5" points="408.73 226.44 462.69 226.44 462.29 229.04 408.26 229.04 408.73 226.44"/>
-    <polygon class="MCVB-5"
-             points="427.37 258.16 421.28 258.16 418.5 274.45 421.56 274.45 423.87 260.85 426.92 260.85 427.37 258.16"/>
-    <polygon class="MCVB-5" points="498.66 226.44 498.31 229.04 534.33 229.04 534.64 226.44 498.66 226.44"/>
-    <polygon class="MCVB-5" points="528.01 231.66 530.7 234.28 525.88 274.45 522.81 274.45 528.01 231.66"/>
-    <polygon class="MCVB-5" points="577.23 160.9 576.98 163.35 594.41 163.35 594.64 160.9 577.23 160.9"/>
-    <polygon class="MCVB-5" points="569.56 236.9 569.29 239.54 593.43 239.54 593.66 236.9 569.56 236.9"/>
-    <polygon class="MCVB-5" points="587.15 242.18 589.93 244.82 587.24 274.45 584.18 274.45 587.15 242.18"/>
-    <polygon class="MCVB-5"
-             points="674.76 242.18 671.74 242.18 671.19 252.81 652.97 252.81 651.68 274.45 654.74 274.45 655.85 255.48 674.1 255.48 674.76 242.18"/>
-    <polygon class="MCVB-5" points="716.3 168.25 768.73 168.25 768.74 165.79 716.38 165.79 716.3 168.25"/>
-    <polygon class="MCVB-5"
-             points="733.72 170.71 736.59 173.18 735.45 229.04 714.43 229.04 714.51 226.44 732.5 226.44 733.72 170.71"/>
-    <polygon class="MCVB-5" points="873.24 160.9 855.83 160.9 855.92 163.35 870.45 163.35 873.24 160.9"/>
-    <polygon class="MCVB-5"
-             points="891.78 180.62 891.49 175.65 879.8 175.65 877.08 122.62 874.24 122.62 877 178.13 888.71 178.13 888.85 180.62 891.78 180.62"/>
-    <polygon class="MCVB-5" points="913.24 239.54 913.07 236.9 888.96 236.9 889.1 239.54 913.24 239.54"/>
-    <polygon class="MCVB-5" points="895.29 242.18 892.41 244.82 894.06 274.45 897.13 274.45 895.29 242.18"/>
-    <polyline class="MCVB-5"
-              points="931.14 236.9 931.34 239.54 946.43 239.54 946.64 242.18 949.66 242.18 949.23 236.9 931.14 236.9"/>
-    <polygon class="MCVB-5"
-             points="999.22 198.19 998.94 195.66 1016.66 195.66 1017.26 200.72 1014.3 200.72 1014 198.19 999.22 198.19"/>
-    <polygon class="MCVB-5" points="1076.54 242.18 1130.92 242.18 1131.38 244.82 1076.93 244.82 1076.54 242.18"/>
-    <polygon class="MCVB-5"
-             points="1036.57 260.85 1039.62 260.85 1041.33 274.45 1044.4 274.45 1042.33 258.16 1036.24 258.16 1036.57 260.85"/>
-    <polygon class="MCVB-5"
-             points="1143.89 213.5 1164.74 213.5 1170.19 242.18 1173.21 242.18 1167.23 210.93 1143.43 210.93 1143.89 213.5"/>
-    <polygon class="MCVB-5"
-             points="1184.46 122.62 1181.61 122.62 1184.07 134.42 1212.7 134.42 1216.43 151.19 1219.32 151.19 1215.03 132.05 1186.43 132.05 1184.46 122.62"/>
-    <polygon class="MCVB-5" points="1225.9 180.62 1222.97 180.62 1229.71 210.93 1232.68 210.93 1225.9 180.62"/>
-    <polygon class="MCVB-5" points="1326.09 226.44 1380.05 226.44 1380.82 229.04 1326.79 229.04 1326.09 226.44"/>
-    <polygon class="MCVB-5" points="1352.38 122.62 1360.82 151.19 1363.71 151.19 1355.22 122.62 1352.38 122.62"/>
-    <polygon class="MCVB-5" points="768.34 258.16 768.33 260.85 774.42 260.85 774.43 258.16 768.34 258.16"/>
-    <polygon class="MCVB-6"
-             points="305.29 303.21 302.75 298.55 305.73 298.55 307 300.88 321.88 300.87 323.11 303.21 305.29 303.21"/>
-    <polygon class="MCVB-6"
-             points="347.93 274.45 344.86 274.45 351.91 289.06 357.95 289.06 356.81 286.66 353.78 286.66 347.93 274.45"/>
-    <polygon class="MCVB-6"
-             points="525.88 274.45 529.31 286.66 532.34 286.66 533 289.06 526.97 289.06 522.81 274.45 525.88 274.45"/>
-    <polygon class="MCVB-6"
-             points="587.24 274.45 592.85 300.88 595.83 300.88 596.32 303.21 590.38 303.21 584.18 274.45 587.24 274.45"/>
-    <polygon class="MCVB-6"
-             points="654.74 274.45 656.42 286.66 659.44 286.66 659.76 289.06 653.73 289.06 651.68 274.45 654.74 274.45"/>
-    <polygon class="MCVB-6"
-             points="1041.33 274.45 1033.55 300.88 1030.57 300.88 1029.89 303.21 1035.84 303.21 1044.4 274.45 1041.33 274.45"/>
-    <polygon class="MCVB-6"
-             points="1160.56 303.21 1162.62 298.55 1159.64 298.55 1158.61 300.88 1143.72 300.88 1142.75 303.21 1160.56 303.21"/>
-    <polygon class="MCVB-6"
-             points="1322.38 300.88 1337.27 300.88 1338.78 298.55 1341.76 298.55 1338.74 303.21 1320.93 303.21 1322.38 300.88"/>
-    <polygon class="MCVB-6"
-             points="177.35 298.55 180.56 303.21 198.38 303.21 196.82 300.88 181.94 300.88 180.34 298.55 177.35 298.55"/>
-    <polygon class="MCVB-6"
-             points="894.06 274.45 892.47 286.66 889.45 286.66 889.14 289.06 895.18 289.06 897.13 274.45 894.06 274.45"/>
-    <polygon class="MCVB-6" points="768.39 286.66 768.41 289.06 774.45 289.06 774.44 286.66 768.39 286.66"/>
-    <polygon class="MCVB-6" points="822.13 300.88 822.01 303.21 839.84 303.21 840 300.88 822.13 300.88"/>
-    <polygon class="MCVB-6"
-             points="421.56 274.45 418.5 274.45 430.01 303.21 435.95 303.21 435.04 300.88 432.06 300.88 421.56 274.45"/>
-    <polygon class="MCVB-6"
-             points="929.33 300.88 928.93 303.21 946.73 303.21 947.65 298.55 944.67 298.55 944.22 300.88 929.33 300.88"/>
-    <polygon class="MCVB-5" points="180.56 303.21 182.15 305.52 199.92 305.52 198.38 303.21 180.56 303.21"/>
-    <polygon class="MCVB-5" points="305.29 303.21 323.11 303.21 324.32 305.52 306.55 305.52 305.29 303.21"/>
-    <polygon class="MCVB-5" points="351.91 289.06 353.07 291.45 359.09 291.45 357.95 289.06 351.91 289.06"/>
-    <polygon class="MCVB-5" points="526.97 289.06 527.64 291.45 533.66 291.45 533 289.06 526.97 289.06"/>
-    <polygon class="MCVB-5" points="590.38 303.21 590.88 305.52 596.8 305.52 596.32 303.21 590.38 303.21"/>
-    <polygon class="MCVB-5" points="653.73 289.06 654.06 291.45 660.08 291.45 659.76 289.06 653.73 289.06"/>
-    <polygon class="MCVB-5" points="928.93 303.21 946.73 303.21 946.29 305.52 928.52 305.52 928.93 303.21"/>
-    <polygon class="MCVB-5" points="1029.89 303.21 1029.22 305.52 1035.15 305.52 1035.84 303.21 1029.89 303.21"/>
-    <polygon class="MCVB-5" points="1160.56 303.21 1159.54 305.52 1141.77 305.52 1142.75 303.21 1160.56 303.21"/>
-    <polygon class="MCVB-5" points="1320.93 303.21 1319.48 305.52 1337.25 305.52 1338.74 303.21 1320.93 303.21"/>
-    <polygon class="MCVB-5" points="768.41 289.06 768.44 291.45 774.46 291.45 774.45 289.06 768.41 289.06"/>
-    <polygon class="MCVB-5" points="895.18 289.06 894.86 291.45 888.84 291.45 889.14 289.06 895.18 289.06"/>
-    <polygon class="MCVB-7" points="732.56 223.83 714.59 223.83 714.51 226.44 732.5 226.44 732.56 223.83"/>
-    <polygon class="MCVB-8" points="408.73 226.44 462.69 226.44 463.09 223.83 409.19 223.83 408.73 226.44"/>
-    <polygon class="MCVB-9" points="534.95 223.83 481.05 223.83 480.68 226.44 534.64 226.44 534.95 223.83"/>
-    <polygon class="MCVB-10" points="1379.29 223.83 1325.39 223.83 1326.09 226.44 1380.05 226.44 1379.29 223.83"/>
-    <polygon class="MCVB-11" points="123.95 274.45 179.18 274.45 179.97 271.68 124.82 271.68 123.95 274.45"/>
-    <polygon class="MCVB-12" points="154.99 252.81 185.35 252.81 186.11 250.14 155.79 250.14 154.99 252.81"/>
-    <polygon class="MCVB-13" points="159.76 236.9 189.89 236.9 190.64 234.28 160.54 234.28 159.76 236.9"/>
-    <polygon class="MCVB-14" points="206.51 242.18 242.76 242.18 243.44 239.54 207.24 239.54 206.51 242.18"/>
-    <polygon class="MCVB-15" points="252.82 274.45 308.05 274.45 308.67 271.68 253.51 271.68 252.82 274.45"/>
-    <polygon class="MCVB-16" points="358.1 239.54 352.06 239.54 351.52 242.18 357.56 242.18 358.1 239.54"/>
-    <polygon class="MCVB-17" points="427.82 255.48 421.74 255.48 421.28 258.16 427.37 258.16 427.82 255.48"/>
-    <polygon class="MCVB-18" points="593.9 234.28 569.82 234.28 569.56 236.9 593.66 236.9 593.9 234.28"/>
-    <polygon class="MCVB-19" points="671.33 250.14 653.13 250.14 652.97 252.81 671.19 252.81 671.33 250.14"/>
-    <polygon class="MCVB-20" points="888.96 236.9 913.07 236.9 912.89 234.28 888.82 234.28 888.96 236.9"/>
-    <polygon class="MCVB-21" points="949.01 234.28 930.95 234.28 931.14 236.9 949.23 236.9 949.01 234.28"/>
-    <polygon class="MCVB-22" points="1035.9 255.48 1036.24 258.16 1042.33 258.16 1041.99 255.48 1035.9 255.48"/>
-    <polygon class="MCVB-23" points="1130.47 239.54 1076.16 239.54 1076.54 242.18 1130.92 242.18 1130.47 239.54"/>
-    <polygon class="MCVB-24" points="1007.28 271.68 1007.58 274.45 1038.26 274.45 1037.92 271.68 1007.28 271.68"/>
-    <polygon class="MCVB-25" points="1044.06 271.68 1044.4 274.45 1062.81 274.45 1062.43 271.68 1044.06 271.68"/>
-    <polygon class="MCVB-26" points="1080.82 271.68 1081.22 274.45 1136.44 274.45 1135.97 271.68 1080.82 271.68"/>
-    <polygon class="MCVB-27" points="1154.35 271.68 1154.85 274.45 1210.08 274.45 1209.51 271.68 1154.35 271.68"/>
-    <polygon class="MCVB-28" points="1393.35 271.68 1338.2 271.68 1338.94 274.45 1394.17 274.45 1393.35 271.68"/>
-    <polygon class="MCVB-29" points="860.2 271.68 860.31 274.45 890.99 274.45 890.84 271.68 860.2 271.68"/>
-    <polygon class="MCVB-30" points="896.97 271.68 897.13 274.45 915.54 274.45 915.35 271.67 896.97 271.68"/>
-    <polygon class="MCVB-31" points="713.04 274.45 768.27 274.45 768.28 271.68 713.12 271.68 713.04 274.45"/>
-    <polygon class="MCVB-32" points="774.41 271.68 774.4 274.45 841.9 274.45 841.82 271.68 774.41 271.68"/>
-    <polygon class="MCVB-33" points="933.74 271.68 933.95 274.45 989.17 274.45 988.89 271.68 933.74 271.68"/>
-    <polygon class="MCVB-34" points="565.77 274.45 584.18 274.45 584.43 271.68 566.05 271.68 565.77 274.45"/>
-    <polygon class="MCVB-35" points="590.31 274.45 651.68 274.45 651.84 271.68 590.56 271.68 590.31 274.45"/>
-    <polygon class="MCVB-36" points="657.81 274.45 694.63 274.45 694.74 271.68 657.97 271.68 657.81 274.45"/>
-    <polygon class="MCVB-37" points="492.13 274.45 522.81 274.45 523.15 271.68 492.51 271.68 492.13 274.45"/>
-    <polygon class="MCVB-38" points="528.95 274.45 547.36 274.45 547.66 271.68 529.28 271.68 528.95 274.45"/>
-    <polygon class="MCVB-39" points="400.09 274.45 418.5 274.45 418.97 271.68 400.59 271.68 400.09 274.45"/>
-    <polygon class="MCVB-40" points="424.63 274.45 455.31 274.45 455.74 271.68 425.1 271.68 424.63 274.45"/>
-    <polygon class="MCVB-41" points="326.45 274.45 344.86 274.45 345.43 271.68 327.05 271.68 326.45 274.45"/>
-    <polygon class="MCVB-42" points="351 274.45 381.68 274.45 382.2 271.68 351.56 271.68 351 274.45"/>
-    <polygon class="MCVB-43" points="1016.36 193.14 998.66 193.14 998.94 195.66 1016.66 195.66 1016.36 193.14"/>
-    <polygon class="MCVB-44" points="485.5 193.14 467.8 193.14 467.41 195.66 485.13 195.66 485.5 193.14"/>
-    <polygon class="MCVB-45" points="216.39 143.97 164.6 143.97 163.85 146.37 215.71 146.37 216.39 143.97"/>
-    <polygon class="MCVB-46" points="308.47 143.97 285.45 143.97 284.85 146.37 307.9 146.37 308.47 143.97"/>
-    <polygon class="MCVB-47" points="300.92 175.65 330.15 175.65 330.71 173.18 301.5 173.18 300.92 175.65"/>
-    <polygon class="MCVB-48" points="295.67 173.18 260.62 173.18 259.98 175.65 295.07 175.65 295.67 173.18"/>
-    <polygon class="MCVB-49" points="406.3 143.97 383.28 143.97 382.8 146.37 405.84 146.37 406.3 143.97"/>
-    <polygon class="MCVB-50" points="475.35 143.97 458.09 143.97 457.7 146.37 474.98 146.37 475.35 143.97"/>
-    <polygon class="MCVB-51" points="509.55 146.37 561.41 146.37 561.67 143.97 509.88 143.97 509.55 146.37"/>
-    <polygon class="MCVB-52" points="594.86 158.47 577.47 158.47 577.23 160.9 594.64 160.9 594.86 158.47"/>
-    <polygon class="MCVB-53" points="768.75 163.35 716.45 163.35 716.38 165.79 768.74 165.79 768.75 163.35"/>
-    <polygon class="MCVB-54" points="873.12 158.47 855.73 158.47 855.83 160.9 873.24 160.9 873.12 158.47"/>
-    <polygon class="MCVB-55" points="924.75 151.19 924.57 148.78 907.27 148.78 907.42 151.19 924.75 151.19"/>
-    <polygon class="MCVB-56" points="1270.69 148.78 1271.3 151.19 1305.95 151.19 1305.31 148.78 1270.69 148.78"/>
-    <polygon class="MCVB-57" points="1392.59 151.19 1391.84 148.78 1362.99 148.78 1363.71 151.19 1392.59 151.19"/>
-    <polygon class="MCVB-58" points="1215.03 132.05 1214.5 129.68 1185.94 129.68 1186.43 132.05 1215.03 132.05"/>
-    <polygon class="MCVB-59" points="1213.54 151.19 1213.01 148.78 1184.16 148.78 1184.66 151.19 1213.54 151.19"/>
-    <polygon class="MCVB-60" points="1253.97 151.19 1253.39 148.78 1218.78 148.78 1219.32 151.19 1253.97 151.19"/>
-    <polygon class="MCVB-61" points="891.49 175.65 891.35 173.18 879.67 173.18 879.8 175.65 891.49 175.65"/>
-    <polygon class="MCVB-62" points="1046.04 151.19 1045.71 148.78 1022.64 148.78 1022.94 151.19 1046.04 151.19"/>
-    <polygon class="MCVB-63" points="1065.84 168.25 1065.48 165.79 1048.03 165.79 1048.36 168.25 1065.84 168.25"/>
-    <polygon class="MCVB-64" points="1086.47 151.19 1086.1 148.78 1063.02 148.78 1063.37 151.19 1086.47 151.19"/>
-    <polygon class="MCVB-65" points="1070.2 178.13 1078.98 178.13 1078.61 175.65 1069.84 175.65 1070.2 178.13"/>
-    <polygon class="MCVB-66" points="1038 178.13 1046.78 178.13 1046.45 175.65 1037.67 175.65 1038 178.13"/>
-    <polygon class="MCVB-67" points="630.19 151.19 699.5 151.19 699.59 148.78 630.37 148.78 630.19 151.19"/>
-    <polygon class="MCVB-68" points="838.04 148.78 768.82 148.78 768.81 151.19 838.12 151.19 838.04 148.78"/>
-    <polygon class="MCVB-69" points="979.7 180.62 979.45 178.13 961.89 178.13 962.12 180.62 979.7 180.62"/>
-    <polygon class="MCVB-70" points="168.31 208.37 144.54 208.37 143.74 210.93 167.54 210.93 168.31 208.37"/>
-    <polygon class="MCVB-71" points="215.86 208.37 198.03 208.37 197.3 210.93 215.15 210.93 215.86 208.37"/>
-    <polygon class="MCVB-72" points="269.34 208.37 251.51 208.37 250.85 210.93 268.7 210.93 269.34 208.37"/>
-    <polygon class="MCVB-73" points="1196.45 208.37 1196.98 210.93 1226.73 210.93 1226.17 208.37 1196.45 208.37"/>
-    <polygon class="MCVB-74" points="1232.11 208.37 1232.68 210.93 1268.39 210.93 1267.77 208.37 1232.11 208.37"/>
-    <polygon class="MCVB-75" points="1166.74 208.37 1142.96 208.37 1143.43 210.93 1167.23 210.93 1166.74 208.37"/>
-    <polygon class="MCVB-76" points="625.73 210.93 697.14 210.93 697.24 208.37 625.92 208.37 625.73 210.93"/>
-    <polygon class="MCVB-77" points="774.43 255.48 768.35 255.48 768.34 258.16 774.43 258.16 774.43 255.48"/>
-    <polygon class="MCVB-78" points="911.19 208.37 911.36 210.93 929.21 210.93 929.02 208.37 911.19 208.37"/>
-    <polygon class="MCVB-79" points="1055.92 223.83 1056.28 226.44 1074.27 226.44 1073.89 223.83 1055.92 223.83"/>
-    <polygon class="MCVB-5" points="822.01 303.21 821.9 305.52 839.67 305.52 839.84 303.21 822.01 303.21"/>
-    <polygon class="MCVB-5" points="430.01 303.21 430.94 305.52 436.86 305.52 435.95 303.21 430.01 303.21"/>
-    <polygon class="MCVB-1" points="198.38 303.21 199.92 305.52 203.4 292.72 201.87 290.38 198.38 303.21"/>
-    <polygon class="MCVB-1" points="1320.93 303.21 1319.48 305.53 1316 291.86 1317.43 289.53 1320.93 303.21"/>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Logo_Outline_Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     x="0px" y="0px" viewBox="0 0 1295.5 221.8" style="enable-background:new 0 0 1295.5 221.8;" xml:space="preserve">
+<style type="text/css">
+	.MCVB-0{fill:#3D3938;}
+	.MCVB-1{fill:url(#SVGIDMCVB_1_);}
+	.MCVB-2{fill:#998F8B;}
+	.MCVB-3{fill:#262423;}
+	.MCVB-4{fill:#6B6562;}
+	.MCVB-5{fill:#171615;}
+	.MCVB-6{fill:url(#SVGIDMCVB_2_);}
+	.MCVB-7{fill:url(#SVGIDMCVB_3_);}
+	.MCVB-8{fill:url(#SVGIDMCVB_4_);}
+	.MCVB-9{fill:url(#SVGIDMCVB_5_);}
+	.MCVB-10{fill:url(#SVGIDMCVB_6_);}
+	.MCVB-11{fill:url(#SVGIDMCVB_7_);}
+	.MCVB-12{fill:url(#SVGIDMCVB_8_);}
+	.MCVB-13{fill:url(#SVGIDMCVB_9_);}
+	.MCVB-14{fill:url(#SVGIDMCVB_10_);}
+	.MCVB-15{fill:url(#SVGIDMCVB_11_);}
+	.MCVB-16{fill:url(#SVGIDMCVB_12_);}
+	.MCVB-17{fill:url(#SVGIDMCVB_13_);}
+	.MCVB-18{fill:url(#SVGIDMCVB_14_);}
+	.MCVB-19{fill:url(#SVGIDMCVB_15_);}
+	.MCVB-20{fill:url(#SVGIDMCVB_16_);}
+	.MCVB-21{fill:url(#SVGIDMCVB_17_);}
+	.MCVB-22{fill:url(#SVGIDMCVB_18_);}
+	.MCVB-23{fill:url(#SVGIDMCVB_19_);}
+	.MCVB-24{fill:url(#SVGIDMCVB_20_);}
+	.MCVB-25{fill:url(#SVGIDMCVB_21_);}
+	.MCVB-26{fill:url(#SVGIDMCVB_22_);}
+	.MCVB-27{fill:url(#SVGIDMCVB_23_);}
+	.MCVB-28{fill:url(#SVGIDMCVB_24_);}
+	.MCVB-29{fill:url(#SVGIDMCVB_25_);}
+	.MCVB-30{fill:url(#SVGIDMCVB_26_);}
+	.MCVB-31{fill:url(#SVGIDMCVB_27_);}
+	.MCVB-32{fill:url(#SVGIDMCVB_28_);}
+	.MCVB-33{fill:url(#SVGIDMCVB_29_);}
+	.MCVB-34{fill:url(#SVGIDMCVB_30_);}
+	.MCVB-35{fill:url(#SVGIDMCVB_31_);}
+	.MCVB-36{fill:url(#SVGIDMCVB_32_);}
+	.MCVB-37{fill:url(#SVGIDMCVB_33_);}
+	.MCVB-38{fill:url(#SVGIDMCVB_34_);}
+	.MCVB-39{fill:url(#SVGIDMCVB_35_);}
+	.MCVB-40{fill:url(#SVGIDMCVB_36_);}
+	.MCVB-41{fill:url(#SVGIDMCVB_37_);}
+	.MCVB-42{fill:url(#SVGIDMCVB_38_);}
+	.MCVB-43{fill:url(#SVGIDMCVB_39_);}
+	.MCVB-44{fill:url(#SVGIDMCVB_40_);}
+	.MCVB-45{fill:url(#SVGIDMCVB_41_);}
+	.MCVB-46{fill:url(#SVGIDMCVB_42_);}
+	.MCVB-47{fill:url(#SVGIDMCVB_43_);}
+	.MCVB-48{fill:url(#SVGIDMCVB_44_);}
+	.MCVB-49{fill:url(#SVGIDMCVB_45_);}
+	.MCVB-50{fill:url(#SVGIDMCVB_46_);}
+	.MCVB-51{fill:url(#SVGIDMCVB_47_);}
+	.MCVB-52{fill:url(#SVGIDMCVB_48_);}
+	.MCVB-53{fill:url(#SVGIDMCVB_49_);}
+	.MCVB-54{fill:url(#SVGIDMCVB_50_);}
+	.MCVB-55{fill:url(#SVGIDMCVB_51_);}
+	.MCVB-56{fill:url(#SVGIDMCVB_52_);}
+	.MCVB-57{fill:url(#SVGIDMCVB_53_);}
+	.MCVB-58{fill:url(#SVGIDMCVB_54_);}
+	.MCVB-59{fill:url(#SVGIDMCVB_55_);}
+	.MCVB-60{fill:url(#SVGIDMCVB_56_);}
+	.MCVB-61{fill:url(#SVGIDMCVB_57_);}
+	.MCVB-62{fill:url(#SVGIDMCVB_58_);}
+	.MCVB-63{fill:url(#SVGIDMCVB_59_);}
+	.MCVB-64{fill:url(#SVGIDMCVB_60_);}
+	.MCVB-65{fill:url(#SVGIDMCVB_61_);}
+	.MCVB-66{fill:url(#SVGIDMCVB_62_);}
+	.MCVB-67{fill:url(#SVGIDMCVB_63_);}
+	.MCVB-68{fill:url(#SVGIDMCVB_64_);}
+	.MCVB-69{fill:url(#SVGIDMCVB_65_);}
+	.MCVB-70{fill:url(#SVGIDMCVB_66_);}
+	.MCVB-71{fill:url(#SVGIDMCVB_67_);}
+	.MCVB-72{fill:url(#SVGIDMCVB_68_);}
+	.MCVB-73{fill:url(#SVGIDMCVB_69_);}
+	.MCVB-74{fill:url(#SVGIDMCVB_70_);}
+	.MCVB-75{fill:url(#SVGIDMCVB_71_);}
+	.MCVB-76{fill:url(#SVGIDMCVB_72_);}
+	.MCVB-77{fill:url(#SVGIDMCVB_73_);}
+	.MCVB-78{fill:url(#SVGIDMCVB_74_);}
+</style>
+    <path d="M1270.5,80.3l23.3-38.7L1280.9,0H390.5l-4.2,30.4L378.1,0H170.6l-7.1,28.6h-17.3l-4.1,15.8L119.2,0H51.5L0,165.4l41.1,56.3
+	h67.5l8.3-31.2h27.3l18.3,31.2h208.5l5-36.2l11.5,36.2h696.5l28.2-58.4h25.5l23.7-46.4l25.3,104.8h70.1l38.8-56.4L1270.5,80.3z
+	 M668.8,119.6l0.1-19.8h59.9l0.6,19.8H668.8z"/>
+    <polygon class="MCVB-0" points="270.4,163.3 215.2,163.3 238.8,210.3 291.1,210.3 "/>
+    <polygon class="MCVB-0" points="288.8,163.3 308.6,210.3 360.9,210.3 344.1,163.3 "/>
+    <polygon class="MCVB-0" points="454.5,163.3 465.6,210.3 587.7,210.3 583.4,163.3 "/>
+    <polygon class="MCVB-0" points="730.7,163.3 727.3,210.3 605.2,210.3 601.8,163.3 "/>
+    <polygon class="MCVB-0" points="749.1,163.3 804.3,163.3 797.1,210.3 744.7,210.3 "/>
+    <polygon class="MCVB-0" points="822.7,163.3 814.5,210.3 866.8,210.3 877.9,163.3 "/>
+    <polygon class="MCVB-0" points="896.3,163.3 884.3,210.3 936.6,210.3 951.6,163.3 "/>
+    <polygon class="MCVB-0" points="970,163.3 954.1,210.3 1006.4,210.3 1025.2,163.3 "/>
+    <polygon class="MCVB-0" points="1043.6,163.3 1023.8,210.3 1076.2,210.3 1098.8,163.3 "/>
+    <polygon class="MCVB-0" points="1227.7,163.3 1198.3,210.3 1250.6,210.3 1282.9,163.3 "/>
+    <polygon class="MCVB-0" points="380.9,163.3 395.8,210.3 448.2,210.3 436.1,163.3 "/>
+    <polygon class="MCVB-0" points="141.6,163.3 196.8,163.3 221.4,210.3 169,210.3 "/>
+    <polygon class="MCVB-0" points="46.9,210.3 12.7,163.3 67.9,163.3 99.2,210.3 "/>
+    <linearGradient id="SVGIDMCVB_1_" gradientUnits="userSpaceOnUse" x1="647.835" y1="213.54" x2="647.835" y2="61.13" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#D0C5C0"/>
+        <stop  offset="0.99" style="stop-color:#ABA09C"/>
+</linearGradient>
+    <path class="MCVB-1" d="M157.5,99.8h-17.9l-8.1,31.2H95.3l8.6-31.2H86.1l-18.1,63.5H12.8L60.1,11.5h51.2l-8.1,28.6h17.3l-8.1,29.4h35.1
+	l7.6-29.4h17.3l7.1-28.6h51.2l-34,151.8h-55.2L157.5,99.8z M247.9,11.5h51.2l-28.7,151.8h-55.2L247.9,11.5z M469.8,11.5h119.5
+	l-1.1,28.6h-69.3l-2.2,29.4h70.3l-1.2,30.3h-71.4l-2.3,31.2h72.5l-1.3,32.3H454.5L469.8,11.5z M606.5,11.5H726l0.9,28.6h-69.3
+	l-0.4,91h72.5l1,32.3H601.8L606.5,11.5z M818,99.8h-17.9l4.2,63.5h-55.2l-6-151.8h119.5l5.8,58h-17.6l1.4,15H870l8,78.8h-55.2
+	L818,99.8z M796.2,40.1l1.9,29.4h17.6l-2.2-29.4L796.2,40.1z M1016.3,11.5h119.5l6.9,28.6h-69.3l6.1,29.4h70.3l7.3,30.3h-71.4
+	l13.1,63.5h-55.2L1016.3,11.5z M1194.8,40.1h-34.7l-7.2-28.6h119.5l8.9,28.6h-34.7l36.2,123.3h-55.2L1194.8,40.1z M387.4,115.3h-18
+	l4.5-30.8h-17.7l-12.1,78.8h-55.2l27.3-151.8h51.2L363,40.1h17.3l-4.3,29.4h17.6l7.9-58h51.2l-16.6,151.8h-55.2L387.4,115.3z
+	 M999.2,11.5H879.7l16.7,151.8h55.2l-6.5-48h18l7,48h55.2L999.2,11.5z M958.9,67h8.8l4.2,27.7h-11.9l-1.5-10.1h-17.7l1.4,10.1h-11.9
+	L926.8,67h8.8l-1-7.4h-20.4l-2.4-19.5h23.1l2.3,17.1h17.5l-2.5-17.1h23.1l3.1,19.5h-20.4L958.9,67z"/>
+    <polygon class="MCVB-2" points="246.3,131.1 239.8,163.3 233.6,163.3 240.3,131.1 "/>
+    <polygon class="MCVB-2" points="931.1,147 933.2,163.3 927,163.3 925,147 "/>
+    <polygon class="MCVB-3" points="239.8,163.3 246.7,177.9 240.7,177.9 233.6,163.3 "/>
+    <polygon class="MCVB-2" points="316.1,147 313.4,163.3 307.2,163.3 310,147 "/>
+    <polygon class="MCVB-3" points="417.7,163.3 421.8,177.9 415.7,177.9 411.6,163.3 "/>
+    <polygon class="MCVB-3" points="479.1,163.3 485.1,192.1 479.1,192.1 472.9,163.3 "/>
+    <polygon class="MCVB-3" points="87.1,192.1 84,187.4 66.1,187.4 69.3,192.1 "/>
+    <polygon class="MCVB-3" points="1051.4,187.4 1033.5,187.4 1031.5,192.1 1049.3,192.1 "/>
+    <polygon class="MCVB-3" points="836.4,187.4 818.5,187.4 817.7,192.1 835.5,192.1 "/>
+    <polygon class="MCVB-3" points="542.5,177.9 548.5,177.9 546.6,163.3 540.4,163.3 "/>
+    <polygon class="MCVB-3" points="1209.7,192.1 1212.6,187.4 1230.5,187.4 1227.5,192.1 "/>
+    <polygon class="MCVB-3" points="211.9,192.1 209.4,187.4 191.5,187.4 194,192.1 "/>
+    <polygon class="MCVB-2" points="906,89.6 905.4,84.5 887.7,84.5 888.2,89.6 "/>
+    <polygon class="MCVB-2" points="189.7,64.5 196.6,35.2 173.6,35.2 172.4,40.1 189.7,40.1 183.8,64.5 148.7,64.5 147.5,69.5 217.8,69.5
+	218.9,64.5 "/>
+    <polygon class="MCVB-2" points="1244,11.5 1238.3,11.5 1246.7,40.1 1252.5,40.1 "/>
+    <polygon class="MCVB-2" points="1114.7,69.5 1108.8,69.5 1115.5,99.8 1121.4,99.8 "/>
+    <polygon class="MCVB-2" points="802.2,131.1 801.8,125.8 777.7,125.8 779.7,163.3 785.9,163.3 784,131.1 "/>
+    <polygon class="MCVB-2" points="52.6,35.2 104.5,35.2 103.1,40.1 51.1,40.1 "/>
+    <polygon class="MCVB-2" points="296.5,120.5 297.5,115.3 351.4,115.3 350.6,120.5 "/>
+    <polygon class="MCVB-2" points="1216.2,120.5 1214.8,115.3 1268.8,115.3 1270.3,120.5 "/>
+    <polygon class="MCVB-2" points="966.1,136.4 965.3,131.1 1019.7,131.1 1020.6,136.4 "/>
+    <polygon class="MCVB-2" points="423.4,115.3 387.4,115.3 386.7,120.5 416.8,120.5 411.6,163.3 417.7,163.3 "/>
+    <polygon class="MCVB-2" points="780.5,69.5 780.2,64.5 768.5,64.5 765.8,11.5 760.1,11.5 762,49.8 744.6,49.8 744.8,54.7 762.2,54.7
+	762.9,69.5 "/>
+    <polygon class="MCVB-2" points="780.5,69.5 780.2,64.5 768.5,64.5 765.8,11.5 760.1,11.5 762,49.8 744.6,49.8 744.8,54.7 762.2,54.7
+	762.9,69.5 "/>
+    <polygon class="MCVB-2" points="77.1,131.1 78.6,125.8 48.5,125.8 56.3,99.8 32.5,99.8 30.9,105 48.8,105 36,147 42.1,147 72.6,147
+	74.1,141.7 43.7,141.7 46.9,131.1 "/>
+    <polygon class="MCVB-2" points="1108.1,40.1 1103.8,20.9 1075.2,20.9 1073.2,11.5 1067.5,11.5 1070.4,25.7 1099.1,25.7 1102.3,40.1 "/>
+    <polygon class="MCVB-2" points="466,49.8 483.4,49.8 482.9,54.7 465.5,54.7 "/>
+    <polygon class="MCVB-2" points="458.3,125.8 457.8,131.1 475.9,131.1 472.9,163.3 479.1,163.3 482.4,125.8 "/>
+    <polygon class="MCVB-2" points="363.7,35.2 346.5,35.2 345.7,40.1 363,40.1 "/>
+    <polygon class="MCVB-2" points="450.2,35.2 398.3,35.2 397.6,40.1 449.6,40.1 "/>
+    <polygon class="MCVB-3" points="933.2,163.3 927,163.3 918.6,192.1 924.6,192.1 "/>
+    <polygon class="MCVB-2" points="819.9,125.8 820.3,131.1 838.4,131.1 838,125.8 "/>
+    <polygon class="MCVB-2" points="605.1,54.7 605,59.6 622.5,59.6 621.2,115.3 603.3,115.3 603.1,120.5 627.2,120.5 628.3,59.6
+	657.5,59.6 657.5,54.7 "/>
+    <polygon class="MCVB-2" points="1062,131.1 1056,99.8 1032.2,99.8 1033.1,105 1051,105 1055.9,131.1 "/>
+    <polygon class="MCVB-2" points="663.2,163.3 657,163.3 657.1,149.7 663.2,149.7 "/>
+    <polygon class="MCVB-3" points="663.2,177.9 657.2,177.9 657,163.3 663.2,163.3 "/>
+    <polygon class="MCVB-3" points="783.9,177.9 777.9,177.9 779.7,163.3 785.9,163.3 "/>
+    <polygon class="MCVB-2" points="271.5,35.2 267.6,54.7 273.5,54.7 276.4,40.1 293.7,40.1 294.6,35.2 "/>
+    <polygon class="MCVB-2" points="560.5,131.1 559.9,141.7 541.7,141.7 540.4,163.3 546.6,163.3 547.5,147 565.8,147 566.5,131.1 "/>
+    <polygon class="MCVB-3" points="728.8,189.8 728.9,187.4 711,187.4 710.9,189.8 "/>
+    <polygon class="MCVB-3" points="313.4,163.3 324.7,192.1 318.8,192.1 307.2,163.3 "/>
+    <polygon class="MCVB-4" points="56.3,99.8 55.5,102.4 31.7,102.4 32.5,99.8 "/>
+    <polygon class="MCVB-4" points="48.5,125.8 50.7,128.4 77.9,128.4 78.6,125.8 "/>
+    <polygon class="MCVB-4" points="43.7,141.7 46,144.4 73.3,144.4 74.1,141.7 "/>
+    <polygon class="MCVB-4" points="52.6,35.2 104.5,35.2 103.8,37.7 51.9,37.7 "/>
+    <polygon class="MCVB-4" points="173.6,35.2 173,37.7 196.1,37.7 196.6,35.2 "/>
+    <polygon class="MCVB-4" points="189.7,40.1 192,42.5 186.1,67 148.1,67 148.7,64.5 183.8,64.5 "/>
+    <polygon class="MCVB-4" points="189.7,64.5 192,67 218.4,67 218.9,64.5 "/>
+    <polygon class="MCVB-4" points="48.8,105 51,107.5 39.1,147 36,147 "/>
+    <polygon class="MCVB-4" points="267.6,54.7 270.6,54.7 274,37.7 294.1,37.7 294.6,35.2 271.5,35.2 "/>
+    <polygon class="MCVB-4" points="246.3,131.1 245.8,133.7 242.8,133.7 236.7,163.3 233.6,163.3 240.3,131.1 "/>
+    <polygon class="MCVB-4" points="345.7,40.1 348.5,40.1 348.9,37.7 363.4,37.7 363.7,35.2 346.5,35.2 "/>
+    <polygon class="MCVB-4" points="398.3,35.2 450.2,35.2 449.9,37.7 398,37.7 "/>
+    <polygon class="MCVB-4" points="297.5,115.3 351.4,115.3 351,117.9 297,117.9 "/>
+    <polygon class="MCVB-4" points="316.1,147 310,147 307.2,163.3 310.3,163.3 312.6,149.7 315.7,149.7 "/>
+    <polygon class="MCVB-4" points="387.4,115.3 387.1,117.9 423.1,117.9 423.4,115.3 "/>
+    <polygon class="MCVB-4" points="416.8,120.5 419.5,123.2 414.6,163.3 411.6,163.3 "/>
+    <polygon class="MCVB-4" points="466,49.8 465.7,52.2 483.2,52.2 483.4,49.8 "/>
+    <polygon class="MCVB-4" points="458.3,125.8 458,128.4 482.2,128.4 482.4,125.8 "/>
+    <polygon class="MCVB-4" points="475.9,131.1 478.7,133.7 476,163.3 472.9,163.3 "/>
+    <polygon class="MCVB-4" points="563.5,131.1 560.5,131.1 559.9,141.7 541.7,141.7 540.4,163.3 543.5,163.3 544.6,144.4 562.8,144.4 "/>
+    <polygon class="MCVB-4" points="605,57.1 657.5,57.1 657.5,54.7 605.1,54.7 "/>
+    <polygon class="MCVB-4" points="622.5,59.6 625.3,62.1 624.2,117.9 603.2,117.9 603.3,115.3 621.2,115.3 "/>
+    <polygon class="MCVB-4" points="762,49.8 744.6,49.8 744.7,52.2 759.2,52.2 "/>
+    <polygon class="MCVB-4" points="780.5,69.5 780.2,64.5 768.5,64.5 765.8,11.5 763,11.5 765.8,67 777.5,67 777.6,69.5 "/>
+    <polygon class="MCVB-4" points="802,128.4 801.8,125.8 777.7,125.8 777.8,128.4 "/>
+    <polygon class="MCVB-4" points="784,131.1 781.2,133.7 782.8,163.3 785.9,163.3 "/>
+    <polyline class="MCVB-4" points="819.9,125.8 820.1,128.4 835.2,128.4 835.4,131.1 838.4,131.1 838,125.8 819.9,125.8 "/>
+    <polygon class="MCVB-4" points="888,87.1 887.7,84.5 905.4,84.5 906,89.6 903,89.6 902.8,87.1 "/>
+    <polygon class="MCVB-4" points="965.3,131.1 1019.7,131.1 1020.1,133.7 965.7,133.7 "/>
+    <polygon class="MCVB-4" points="925.3,149.7 928.4,149.7 930.1,163.3 933.2,163.3 931.1,147 925,147 "/>
+    <polygon class="MCVB-4" points="1032.6,102.4 1053.5,102.4 1058.9,131.1 1062,131.1 1056,99.8 1032.2,99.8 "/>
+    <polygon class="MCVB-4" points="1073.2,11.5 1070.4,11.5 1072.8,23.3 1101.4,23.3 1105.2,40.1 1108.1,40.1 1103.8,20.9 1075.2,20.9 "/>
+    <polygon class="MCVB-4" points="1114.7,69.5 1111.7,69.5 1118.5,99.8 1121.4,99.8 "/>
+    <polygon class="MCVB-4" points="1214.8,115.3 1268.8,115.3 1269.6,117.9 1215.5,117.9 "/>
+    <polygon class="MCVB-4" points="1241.1,11.5 1249.6,40.1 1252.5,40.1 1244,11.5 "/>
+    <polygon class="MCVB-4" points="657.1,147 657.1,149.7 663.2,149.7 663.2,147 "/>
+    <polygon class="MCVB-5" points="194,192.1 191.5,187.4 194.5,187.4 195.8,189.8 210.6,189.8 211.9,192.1 "/>
+    <polygon class="MCVB-5" points="236.7,163.3 233.6,163.3 240.7,177.9 246.7,177.9 245.6,175.5 242.5,175.5 "/>
+    <polygon class="MCVB-5" points="414.6,163.3 418.1,175.5 421.1,175.5 421.8,177.9 415.7,177.9 411.6,163.3 "/>
+    <polygon class="MCVB-5" points="476,163.3 481.6,189.8 484.6,189.8 485.1,192.1 479.1,192.1 472.9,163.3 "/>
+    <polygon class="MCVB-5" points="543.5,163.3 545.2,175.5 548.2,175.5 548.5,177.9 542.5,177.9 540.4,163.3 "/>
+    <polygon class="MCVB-5" points="930.1,163.3 922.3,189.8 919.3,189.8 918.6,192.1 924.6,192.1 933.2,163.3 "/>
+    <polygon class="MCVB-5" points="1049.3,192.1 1051.4,187.4 1048.4,187.4 1047.4,189.8 1032.5,189.8 1031.5,192.1 "/>
+    <polygon class="MCVB-5" points="1211.1,189.8 1226,189.8 1227.5,187.4 1230.5,187.4 1227.5,192.1 1209.7,192.1 "/>
+    <polygon class="MCVB-5" points="66.1,187.4 69.3,192.1 87.1,192.1 85.6,189.8 70.7,189.8 69.1,187.4 "/>
+    <polygon class="MCVB-5" points="782.8,163.3 781.2,175.5 778.2,175.5 777.9,177.9 783.9,177.9 785.9,163.3 "/>
+    <polygon class="MCVB-5" points="657.1,175.5 657.2,177.9 663.2,177.9 663.2,175.5 "/>
+    <polygon class="MCVB-5" points="710.9,189.8 710.8,192.1 728.6,192.1 728.8,189.8 "/>
+    <polygon class="MCVB-5" points="310.3,163.3 307.2,163.3 318.8,192.1 324.7,192.1 323.8,189.8 320.8,189.8 "/>
+    <polygon class="MCVB-5" points="818.1,189.8 817.7,192.1 835.5,192.1 836.4,187.4 833.4,187.4 833,189.8 "/>
+    <polygon class="MCVB-4" points="69.3,192.1 70.9,194.4 88.7,194.4 87.1,192.1 "/>
+    <polygon class="MCVB-4" points="194,192.1 211.9,192.1 213.1,194.4 195.3,194.4 "/>
+    <polygon class="MCVB-4" points="240.7,177.9 241.8,180.3 247.8,180.3 246.7,177.9 "/>
+    <polygon class="MCVB-4" points="415.7,177.9 416.4,180.3 422.4,180.3 421.8,177.9 "/>
+    <polygon class="MCVB-4" points="479.1,192.1 479.6,194.4 485.5,194.4 485.1,192.1 "/>
+    <polygon class="MCVB-4" points="542.5,177.9 542.8,180.3 548.8,180.3 548.5,177.9 "/>
+    <polygon class="MCVB-4" points="817.7,192.1 835.5,192.1 835,194.4 817.3,194.4 "/>
+    <polygon class="MCVB-4" points="918.6,192.1 918,194.4 923.9,194.4 924.6,192.1 "/>
+    <polygon class="MCVB-4" points="1049.3,192.1 1048.3,194.4 1030.5,194.4 1031.5,192.1 "/>
+    <polygon class="MCVB-4" points="1209.7,192.1 1208.2,194.4 1226,194.4 1227.5,192.1 "/>
+    <polygon class="MCVB-4" points="657.2,177.9 657.2,180.3 663.2,180.3 663.2,177.9 "/>
+    <polygon class="MCVB-4" points="783.9,177.9 783.6,180.3 777.6,180.3 777.9,177.9 "/>
+    <linearGradient id="SVGIDMCVB_2_" gradientUnits="userSpaceOnUse" x1="612.285" y1="192.04" x2="612.285" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-6" points="621.3,112.7 603.3,112.7 603.3,115.3 621.2,115.3 "/>
+    <linearGradient id="SVGIDMCVB_3_" gradientUnits="userSpaceOnUse" x1="324.66" y1="192.04" x2="324.66" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-7" points="297.5,115.3 351.4,115.3 351.8,112.7 297.9,112.7 "/>
+    <linearGradient id="SVGIDMCVB_4_" gradientUnits="userSpaceOnUse" x1="396.565" y1="192.04" x2="396.565" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-8" points="423.7,112.7 369.8,112.7 369.4,115.3 423.4,115.3 "/>
+    <linearGradient id="SVGIDMCVB_5_" gradientUnits="userSpaceOnUse" x1="1241.4701" y1="192.04" x2="1241.4701" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-9" points="1268,112.7 1214.1,112.7 1214.8,115.3 1268.8,115.3 "/>
+    <linearGradient id="SVGIDMCVB_6_" gradientUnits="userSpaceOnUse" x1="40.71" y1="192.04" x2="40.71" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-10" points="12.7,163.3 67.9,163.3 68.7,160.6 13.6,160.6 "/>
+    <linearGradient id="SVGIDMCVB_7_" gradientUnits="userSpaceOnUse" x1="59.3" y1="192.05" x2="59.3" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-11" points="43.7,141.7 74.1,141.7 74.9,139 44.5,139 "/>
+    <linearGradient id="SVGIDMCVB_8_" gradientUnits="userSpaceOnUse" x1="63.95" y1="192.04" x2="63.95" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-12" points="48.5,125.8 78.6,125.8 79.4,123.2 49.3,123.2 "/>
+    <linearGradient id="SVGIDMCVB_9_" gradientUnits="userSpaceOnUse" x1="113.725" y1="192.04" x2="113.725" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-13" points="95.3,131.1 131.5,131.1 132.2,128.4 96,128.4 "/>
+    <linearGradient id="SVGIDMCVB_10_" gradientUnits="userSpaceOnUse" x1="169.495" y1="192.04" x2="169.495" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-14" points="141.6,163.3 196.8,163.3 197.4,160.6 142.3,160.6 "/>
+    <linearGradient id="SVGIDMCVB_11_" gradientUnits="userSpaceOnUse" x1="243.56" y1="192.04" x2="243.56" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-15" points="246.9,128.4 240.8,128.4 240.3,131.1 246.3,131.1 "/>
+    <linearGradient id="SVGIDMCVB_12_" gradientUnits="userSpaceOnUse" x1="313.3" y1="192.04" x2="313.3" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-16" points="316.6,144.4 310.5,144.4 310,147 316.1,147 "/>
+    <linearGradient id="SVGIDMCVB_13_" gradientUnits="userSpaceOnUse" x1="470.48" y1="191.79" x2="470.48" y2="62.37" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-17" points="482.7,123.2 458.6,123.2 458.3,125.8 482.4,125.8 "/>
+    <linearGradient id="SVGIDMCVB_14_" gradientUnits="userSpaceOnUse" x1="550.9" y1="192.04" x2="550.9" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-18" points="560.1,139 541.9,139 541.7,141.7 559.9,141.7 "/>
+    <linearGradient id="SVGIDMCVB_15_" gradientUnits="userSpaceOnUse" x1="789.695" y1="192.04" x2="789.695" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-19" points="777.7,125.8 801.8,125.8 801.6,123.2 777.6,123.2 "/>
+    <linearGradient id="SVGIDMCVB_16_" gradientUnits="userSpaceOnUse" x1="828.84" y1="192.04" x2="828.84" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-20" points="837.8,123.2 819.7,123.2 819.9,125.8 838,125.8 "/>
+    <linearGradient id="SVGIDMCVB_17_" gradientUnits="userSpaceOnUse" x1="927.865" y1="192.04" x2="927.865" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-21" points="924.7,144.4 925,147 931.1,147 930.7,144.4 "/>
+    <linearGradient id="SVGIDMCVB_18_" gradientUnits="userSpaceOnUse" x1="992.29" y1="192.04" x2="992.29" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-22" points="1019.2,128.4 964.9,128.4 965.3,131.1 1019.7,131.1 "/>
+    <linearGradient id="SVGIDMCVB_19_" gradientUnits="userSpaceOnUse" x1="911.52" y1="192.04" x2="911.52" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-23" points="896,160.6 896.3,163.3 927,163.3 926.7,160.6 "/>
+    <linearGradient id="SVGIDMCVB_20_" gradientUnits="userSpaceOnUse" x1="942.1851" y1="192.04" x2="942.1851" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-24" points="932.8,160.6 933.2,163.3 951.6,163.3 951.2,160.6 "/>
+    <linearGradient id="SVGIDMCVB_21_" gradientUnits="userSpaceOnUse" x1="997.3799" y1="192.04" x2="997.3799" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-25" points="969.6,160.6 970,163.3 1025.2,163.3 1024.7,160.6 "/>
+    <linearGradient id="SVGIDMCVB_22_" gradientUnits="userSpaceOnUse" x1="1070.965" y1="192.04" x2="1070.965" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-26" points="1043.1,160.6 1043.6,163.3 1098.8,163.3 1098.3,160.6 "/>
+    <linearGradient id="SVGIDMCVB_23_" gradientUnits="userSpaceOnUse" x1="1254.9351" y1="192.04" x2="1254.9351" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-27" points="1282.1,160.6 1226.9,160.6 1227.7,163.3 1282.9,163.3 "/>
+    <linearGradient id="SVGIDMCVB_24_" gradientUnits="userSpaceOnUse" x1="764.345" y1="192.04" x2="764.345" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-28" points="749,160.6 749.1,163.3 779.7,163.3 779.6,160.6 "/>
+    <linearGradient id="SVGIDMCVB_25_" gradientUnits="userSpaceOnUse" x1="795.005" y1="192.05" x2="795.005" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-29" points="785.7,160.6 785.9,163.3 804.3,163.3 804.1,160.6 "/>
+    <linearGradient id="SVGIDMCVB_26_" gradientUnits="userSpaceOnUse" x1="629.41" y1="192.04" x2="629.41" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-30" points="601.8,163.3 657,163.3 657,160.6 601.9,160.6 "/>
+    <linearGradient id="SVGIDMCVB_27_" gradientUnits="userSpaceOnUse" x1="696.9" y1="192.04" x2="696.9" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-31" points="663.2,160.6 663.2,163.3 730.7,163.3 730.6,160.6 "/>
+    <linearGradient id="SVGIDMCVB_28_" gradientUnits="userSpaceOnUse" x1="850.205" y1="192.04" x2="850.205" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-32" points="822.5,160.6 822.7,163.3 877.9,163.3 877.6,160.6 "/>
+    <linearGradient id="SVGIDMCVB_29_" gradientUnits="userSpaceOnUse" x1="463.85" y1="192.04" x2="463.85" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-33" points="454.5,163.3 472.9,163.3 473.2,160.6 454.8,160.6 "/>
+    <linearGradient id="SVGIDMCVB_30_" gradientUnits="userSpaceOnUse" x1="509.825" y1="192.04" x2="509.825" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-34" points="479.1,163.3 540.4,163.3 540.6,160.6 479.3,160.6 "/>
+    <linearGradient id="SVGIDMCVB_31_" gradientUnits="userSpaceOnUse" x1="565.025" y1="192.04" x2="565.025" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-35" points="546.6,163.3 583.4,163.3 583.5,160.6 546.7,160.6 "/>
+    <linearGradient id="SVGIDMCVB_32_" gradientUnits="userSpaceOnUse" x1="396.39" y1="192.04" x2="396.39" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-36" points="380.9,163.3 411.6,163.3 411.9,160.6 381.3,160.6 "/>
+    <linearGradient id="SVGIDMCVB_33_" gradientUnits="userSpaceOnUse" x1="427.055" y1="192.04" x2="427.055" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-37" points="417.7,163.3 436.1,163.3 436.4,160.6 418,160.6 "/>
+    <linearGradient id="SVGIDMCVB_34_" gradientUnits="userSpaceOnUse" x1="298.28" y1="192.04" x2="298.28" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-38" points="288.8,163.3 307.2,163.3 307.7,160.6 289.3,160.6 "/>
+    <linearGradient id="SVGIDMCVB_35_" gradientUnits="userSpaceOnUse" x1="328.935" y1="192.04" x2="328.935" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-39" points="313.4,163.3 344.1,163.3 344.5,160.6 313.9,160.6 "/>
+    <linearGradient id="SVGIDMCVB_36_" gradientUnits="userSpaceOnUse" x1="224.69" y1="192.04" x2="224.69" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-40" points="215.2,163.3 233.6,163.3 234.2,160.6 215.8,160.6 "/>
+    <linearGradient id="SVGIDMCVB_37_" gradientUnits="userSpaceOnUse" x1="255.35" y1="192.04" x2="255.35" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-41" points="239.8,163.3 270.4,163.3 271,160.6 240.3,160.6 "/>
+    <linearGradient id="SVGIDMCVB_38_" gradientUnits="userSpaceOnUse" x1="896.41" y1="191.79" x2="896.41" y2="62.66" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-42" points="905.1,82 887.4,82 887.7,84.5 905.4,84.5 "/>
+    <linearGradient id="SVGIDMCVB_39_" gradientUnits="userSpaceOnUse" x1="365.205" y1="192.04" x2="365.205" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-43" points="374.2,82 356.5,82 356.2,84.5 373.9,84.5 "/>
+    <linearGradient id="SVGIDMCVB_40_" gradientUnits="userSpaceOnUse" x1="78.87" y1="192.04" x2="78.87" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-44" points="105.1,32.9 53.4,32.9 52.6,35.2 104.5,35.2 "/>
+    <linearGradient id="SVGIDMCVB_41_" gradientUnits="userSpaceOnUse" x1="185.41" y1="192.04" x2="185.41" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-45" points="197.2,32.9 174.2,32.9 173.6,35.2 196.6,35.2 "/>
+    <linearGradient id="SVGIDMCVB_42_" gradientUnits="userSpaceOnUse" x1="204.565" y1="192.04" x2="204.565" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-46" points="189.7,64.5 218.9,64.5 219.5,62.1 190.2,62.1 "/>
+    <linearGradient id="SVGIDMCVB_43_" gradientUnits="userSpaceOnUse" x1="166.575" y1="192.04" x2="166.575" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-47" points="184.4,62.1 149.4,62.1 148.7,64.5 183.8,64.5 "/>
+    <linearGradient id="SVGIDMCVB_44_" gradientUnits="userSpaceOnUse" x1="283.3" y1="192.04" x2="283.3" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-48" points="295,32.9 272,32.9 271.5,35.2 294.6,35.2 "/>
+    <linearGradient id="SVGIDMCVB_45_" gradientUnits="userSpaceOnUse" x1="355.275" y1="192.04" x2="355.275" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-49" points="364.1,32.9 346.8,32.9 346.5,35.2 363.7,35.2 "/>
+    <linearGradient id="SVGIDMCVB_46_" gradientUnits="userSpaceOnUse" x1="424.36" y1="192.04" x2="424.36" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-50" points="398.3,35.2 450.2,35.2 450.4,32.9 398.6,32.9 "/>
+    <linearGradient id="SVGIDMCVB_47_" gradientUnits="userSpaceOnUse" x1="474.795" y1="192.04" x2="474.795" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-51" points="483.6,47.4 466.2,47.4 466,49.8 483.4,49.8 "/>
+    <linearGradient id="SVGIDMCVB_48_" gradientUnits="userSpaceOnUse" x1="631.315" y1="192.04" x2="631.315" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-52" points="657.5,52.2 605.2,52.2 605.1,54.7 657.5,54.7 "/>
+    <linearGradient id="SVGIDMCVB_49_" gradientUnits="userSpaceOnUse" x1="753.235" y1="192.04" x2="753.235" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-53" points="761.9,47.4 744.5,47.4 744.6,49.8 762,49.8 "/>
+    <linearGradient id="SVGIDMCVB_50_" gradientUnits="userSpaceOnUse" x1="804.76" y1="192.04" x2="804.76" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-54" points="813.5,40.1 813.3,37.7 796,37.7 796.2,40.1 "/>
+    <linearGradient id="SVGIDMCVB_51_" gradientUnits="userSpaceOnUse" x1="1177.0699" y1="192.04" x2="1177.0699" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-55" points="1159.4,37.7 1160.1,40.1 1194.7,40.1 1194.1,37.7 "/>
+    <linearGradient id="SVGIDMCVB_52_" gradientUnits="userSpaceOnUse" x1="1266.54" y1="192.04" x2="1266.54" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-56" points="1281.3,40.1 1280.6,37.7 1251.7,37.7 1252.5,40.1 "/>
+    <linearGradient id="SVGIDMCVB_53_" gradientUnits="userSpaceOnUse" x1="1089.235" y1="192.09" x2="1089.235" y2="62.9" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-57" points="1103.8,20.9 1103.2,18.6 1074.7,18.6 1075.2,20.9 "/>
+    <linearGradient id="SVGIDMCVB_54_" gradientUnits="userSpaceOnUse" x1="1087.6001" y1="192.04" x2="1087.6001" y2="62.27" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-58" points="1102.3,40.1 1101.8,37.7 1072.9,37.7 1073.4,40.1 "/>
+    <linearGradient id="SVGIDMCVB_55_" gradientUnits="userSpaceOnUse" x1="1125.125" y1="192.04" x2="1125.125" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-59" points="1142.7,40.1 1142.1,37.7 1107.5,37.7 1108.1,40.1 "/>
+    <linearGradient id="SVGIDMCVB_56_" gradientUnits="userSpaceOnUse" x1="774.33" y1="191.91" x2="774.33" y2="62.7" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-60" points="780.2,64.5 780.1,62.1 768.4,62.1 768.5,64.5 "/>
+    <linearGradient id="SVGIDMCVB_57_" gradientUnits="userSpaceOnUse" x1="923.09" y1="192.04" x2="923.09" y2="62.27" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-61" points="934.8,40.1 934.5,37.7 911.4,37.7 911.7,40.1 "/>
+    <linearGradient id="SVGIDMCVB_58_" gradientUnits="userSpaceOnUse" x1="945.685" y1="192.04" x2="945.685" y2="62.27" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-62" points="954.6,57.1 954.2,54.7 936.8,54.7 937.1,57.1 "/>
+    <linearGradient id="SVGIDMCVB_59_" gradientUnits="userSpaceOnUse" x1="963.495" y1="192.04" x2="963.495" y2="62.27" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-63" points="975.2,40.1 974.8,37.7 951.8,37.7 952.1,40.1 "/>
+    <linearGradient id="SVGIDMCVB_60_" gradientUnits="userSpaceOnUse" x1="963.16" y1="192.04" x2="963.16" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-64" points="958.9,67 967.7,67 967.4,64.5 958.6,64.5 "/>
+    <linearGradient id="SVGIDMCVB_61_" gradientUnits="userSpaceOnUse" x1="930.975" y1="192.04" x2="930.975" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-65" points="926.8,67 935.5,67 935.2,64.5 926.4,64.5 "/>
+    <linearGradient id="SVGIDMCVB_62_" gradientUnits="userSpaceOnUse" x1="553.64" y1="192.04" x2="553.64" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-66" points="518.9,40.1 588.2,40.1 588.3,37.7 519.1,37.7 "/>
+    <linearGradient id="SVGIDMCVB_63_" gradientUnits="userSpaceOnUse" x1="692.215" y1="192.04" x2="692.215" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-67" points="726.8,37.7 657.6,37.7 657.6,40.1 726.9,40.1 "/>
+    <linearGradient id="SVGIDMCVB_64_" gradientUnits="userSpaceOnUse" x1="859.545" y1="192.04" x2="859.545" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-68" points="868.5,69.5 868.2,67 850.6,67 850.9,69.5 "/>
+    <linearGradient id="SVGIDMCVB_65_" gradientUnits="userSpaceOnUse" x1="44.775" y1="192.04" x2="44.775" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-69" points="57.1,97.2 33.3,97.2 32.5,99.8 56.3,99.8 "/>
+    <linearGradient id="SVGIDMCVB_66_" gradientUnits="userSpaceOnUse" x1="95.33" y1="192.04" x2="95.33" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-70" points="104.6,97.2 86.8,97.2 86.1,99.8 103.9,99.8 "/>
+    <linearGradient id="SVGIDMCVB_67_" gradientUnits="userSpaceOnUse" x1="148.845" y1="192.04" x2="148.845" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-71" points="158.1,97.2 140.3,97.2 139.6,99.8 157.5,99.8 "/>
+    <linearGradient id="SVGIDMCVB_68_" gradientUnits="userSpaceOnUse" x1="1100.34" y1="192.04" x2="1100.34" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-72" points="1085.2,97.2 1085.7,99.8 1115.5,99.8 1114.9,97.2 "/>
+    <linearGradient id="SVGIDMCVB_69_" gradientUnits="userSpaceOnUse" x1="1139" y1="192.04" x2="1139" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-73" points="1120.9,97.2 1121.4,99.8 1157.1,99.8 1156.5,97.2 "/>
+    <linearGradient id="SVGIDMCVB_70_" gradientUnits="userSpaceOnUse" x1="1043.845" y1="192.04" x2="1043.845" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-74" points="1055.5,97.2 1031.7,97.2 1032.2,99.8 1056,99.8 "/>
+    <linearGradient id="SVGIDMCVB_71_" gradientUnits="userSpaceOnUse" x1="550.235" y1="192.04" x2="550.235" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-75" points="514.5,99.8 585.9,99.8 586,97.2 514.7,97.2 "/>
+    <linearGradient id="SVGIDMCVB_72_" gradientUnits="userSpaceOnUse" x1="660.135" y1="192.04" x2="660.135" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-76" points="663.2,144.4 657.1,144.4 657.1,147 663.2,147 "/>
+    <linearGradient id="SVGIDMCVB_73_" gradientUnits="userSpaceOnUse" x1="808.95" y1="192.04" x2="808.95" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-77" points="799.9,97.2 800.1,99.8 818,99.8 817.8,97.2 "/>
+    <linearGradient id="SVGIDMCVB_74_" gradientUnits="userSpaceOnUse" x1="953.845" y1="192.04" x2="953.845" y2="62.26" gradientTransform="matrix(1 0 0 -1 0 223.76)">
+	<stop  offset="0" style="stop-color:#EDE5E2"/>
+        <stop  offset="1" style="stop-color:#D0C5C0"/>
+</linearGradient>
+    <polygon class="MCVB-78" points="944.7,112.7 945,115.3 963,115.3 962.6,112.7 "/>
+    <polygon class="MCVB-4" points="710.8,192.1 710.7,194.4 728.4,194.4 728.6,192.1 "/>
+    <polygon class="MCVB-4" points="318.8,192.1 319.7,194.4 325.6,194.4 324.7,192.1 "/>
+    <polygon class="MCVB-0" points="87.1,192.1 88.7,194.4 92.1,181.6 90.6,179.3 "/>
+    <polygon class="MCVB-0" points="1209.7,192.1 1208.2,194.4 1204.8,180.7 1206.2,178.4 "/>
 </svg>
