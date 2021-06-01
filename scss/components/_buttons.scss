@@ -36,8 +36,7 @@ $btn-border-width: 4px;
   }
 
   &:hover,
-  &:focus,
-  &:active {
+  &:focus {
     outline: none;
     box-shadow: none;
     color: $white !important;
@@ -45,21 +44,27 @@ $btn-border-width: 4px;
     &::before,
     .grow {
       background-color: $primary-hover;
-      box-shadow:
-        0 (-$btn-border-width) rgba($black, 0.35) inset,
-        0 $btn-border-width rgba($white, 0.25) inset,
-        (-$btn-border-width) 0 rgba($white, 0.25) inset,
-        $btn-border-width 0 rgba($black, 0.35) inset;
+      box-shadow: none;
     }
   }
+  &:active {
+    outline: none;
+    box-shadow: none;
+    color: $white !important;
 
+    &::before,
+    .grow {
+      background-color: $primary-active;
+      box-shadow:  inset 0px -2px 0px $dark-grayish-blue, inset 0px 2px 0px $black;
+    }
+  }
   &::before,
   .grow {
     box-shadow:
       0 (-$btn-border-width) rgba($black, 0.25) inset,
       0 $btn-border-width rgba($white, 0.35) inset,
-      (-$btn-border-width) 0 rgba($white, 0.35) inset,
-      $btn-border-width 0 rgba($black, 0.25) inset;
+      0 0 rgba($white, 0.35) inset,
+      0 0 rgba($black, 0.25) inset;
     z-index: -1;
   }
 
