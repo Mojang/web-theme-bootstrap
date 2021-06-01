@@ -17,6 +17,9 @@
     .text-light & {
       background: #000;
       box-shadow: 0 0 0 3px rgba($white, 0.35) inset;
+      .square {
+        background: $tertiary;
+      }
     }
   }
 }
@@ -54,7 +57,7 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
     position: absolute;
     width: 20px;
     height: 20px;
-    background: $tertiary;
+    background: $primary;
   }
 
   .first {
