@@ -37,6 +37,9 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v6.5.0
+- Add a new footer option. `mojang-studios-tall-footer`
+
 v6.4.0
 - Added Minecraft Core Brand Logo
   
