@@ -71,6 +71,71 @@
   }
 }
 
+.mojang-studios-tall-footer {
+  .icon-xbox-game-studios {
+    max-width: 140px;
+    height: 110px;
+  }
+
+  .icon-esrb {
+    max-height: 90px;
+    max-width: 170px;
+  }
+
+  .icon-mojang-studios {
+    height: 110px;
+    max-width: 140px;
+  }
+
+  @include media-breakpoint-up(md) {
+    .footer-container {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      grid-template-rows: repeat(2, auto);
+      grid-column-gap: 2em;
+    }
+
+    .footer-studio-logos {
+      grid-column: 1;
+      grid-row: 1;
+      flex-direction: column;
+    }
+
+    .footer-links {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    .footer-copyright {
+      grid-column: 2;
+      grid-row: 2;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    .footer-container {
+      grid-template-columns: 2fr 3fr;
+    }
+
+    .footer-copyright {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    .footer-studio-logos {
+      flex-direction: row;
+    }
+
+    .footer-links {
+      grid-row: 1 / span 2;
+    }
+
+    .icon-xbox-game-studios {
+      max-width: 180px;
+    }
+  }
+}
+
 .ms-footer {
   font-family: 'Segoe UI', sans-serif;
   background-color: $senary;
