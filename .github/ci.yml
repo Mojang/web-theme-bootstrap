@@ -1,0 +1,2 @@
+uses: actions/setup-node@v2
+sudo: false
