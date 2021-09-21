@@ -37,6 +37,11 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v6.2.11
+  - Added media query `@media (forced-colors: active)` for `.form-control:focus`
+  - Added new class `.required:after`
+  - Added svg `vector`
+
 v6.2.10
   - Add Minecraft Java Logo Edition
 
