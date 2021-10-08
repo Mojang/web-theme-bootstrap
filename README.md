@@ -36,6 +36,11 @@ In order to use the image assets and svg icons included in this package you need
 The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) using [svgstore](https://github.com/svgstore/svgstore) or similar tool.
 
 ### Changelog
+v6.7.0
+- Added new class `.form-tooltip`, `form-tooltip-text` 
+- Added svg `line-vector-export` and `line-vector-help` followed naming convention.
+- Removed svg `vector`
+
 v6.6.0
 - Added media query `@media (forced-colors: active)` for `.form-control:focus`
 - Added new class `.required:after`
