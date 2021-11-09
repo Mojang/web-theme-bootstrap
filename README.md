@@ -36,9 +36,31 @@ In order to use the image assets and svg icons included in this package you need
 The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) using [svgstore](https://github.com/svgstore/svgstore) or similar tool.
 
 ### Changelog
+v6.7.0
+- Added new class `.form-tooltip`, `form-tooltip-text` 
+- Added svg `line-vector-export` and `line-vector-help` followed naming convention.
+- Removed svg `vector`
+
+v6.6.0
+- Added media query `@media (forced-colors: active)` for `.form-control:focus`
+- Added new class `.required:after`
+- Added svg `vector`
+
+
+v6.5.0
+- Add a new footer option. `mojang-studios-tall-footer`
+
+v6.4.0
+- Added Minecraft Core Brand Logo
+  
+v6.3.1
+- Fixes README Changelog
+
+v6.3.0
+- New primary color (buttons & links are based out of primary). New secondary and tertiary colors. Loader now uses tertiary colors on dark backgrounds. 
 
 v6.2.10
-  - Add Minecraft Java Logo Edition
+  - Add Minecraft Java Edition Logo
 
 v6.2.9
   - Remove use of `bg-variant` and `text-emphasis-variant` mixins, that are deprecated in bootstrap@4.4.0
