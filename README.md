@@ -36,8 +36,8 @@ In order to use the image assets and svg icons included in this package you need
 The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) using [svgstore](https://github.com/svgstore/svgstore) or similar tool.
 
 ### Changelog
-v7.1.0
-- Added new class `.java-edition-image`, `.migration-header` 
+v7.2.0
+- Reverting changes of v7.1.0
 
 v7.0.0
 - Update Minecraft, Minecraft Java, Realms & Minecraft Dungeons logos
