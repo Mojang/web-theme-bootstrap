@@ -1,6 +1,6 @@
 {
   "name": "@mojang/web-theme-bootstrap",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "description": "Contains the theme used on minecraft.net based on Boostrap 4",
   "repository": {
     "type": "git",
