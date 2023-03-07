@@ -118,6 +118,32 @@
   text-rendering: optimizeLegibility;
 }
 
+@font-face {
+  font-family: 'MinecraftSevenV2';
+  src: url(#{$freyja-asset-path}/fonts/Minecraft-Seven_v2.otf);
+  src: 
+    url(#{$freyja-asset-path}/fonts/Minecraft-Seven_v2.woff) format('woff'), 
+    url(#{$freyja-asset-path}/fonts/Minecraft-Seven_v2.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: MinecraftTenV2;
+  src: url(#{$freyja-asset-path}/fonts/Minecraft-Tenv2.eot);
+  src: 
+    url(#{$freyja-asset-path}/fonts/Minecraft-Tenv2.eot?#iefix) format('embedded-opentype'), 
+    url(#{$freyja-asset-path}/fonts/Minecraft-Tenv2.woff) format('woff'),
+    url(#{$freyja-asset-path}/fonts/Minecraft-Tenv2.ttf) format('truetype'), 
+    url(#{$freyja-asset-path}/fonts/Minecraft-Tenv2.woff2) format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
