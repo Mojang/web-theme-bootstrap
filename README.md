@@ -37,6 +37,9 @@ The svg icons also needs to be converted into a [svg-sprite](https://css-tricks.
 
 ### Changelog
 
+v7.3.0 & v7.3.1
+- Added fonts: Minecraft Ten V2 & Minecraft Seven V2
+
 v7.0.0
 - Update Minecraft, Minecraft Java, Realms & Minecraft Dungeons logos
 
